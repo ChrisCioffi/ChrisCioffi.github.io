@@ -1,46 +1,46 @@
 /* affects headers, and name*/
 
-
 body {
   font-size: 12px;
-
 }
 
 h1, h2, h3, h4, h5, h6, p, ul {
-
   font-family: "open sans", Arial, sans-serif;
   font-size: 12px;
   color: #444;
   font-weight: 300;
 }
+
 h1 {
   font-size: 4em;
   text-align: center;
-
 }
+
 h2 {
   font-size: 2em;
   text-transform: uppercase;
   background-color: #d1d1d1;
   color: rgba(255,255,255,1);
-
-
 }
+
 h3 {
   font-weight:600;
   font-size: 150%;
 }
+
 h4 {
   font-size: 133%;
 }
+
 h5 {
   font-style: italic;
   font-size: 100%
-
 }
+
 p {
-
+  font-size: 100%;
 }
+
 ul {
   font-size: 110%
 }
