@@ -26,10 +26,16 @@ h2 {
 
 
 }
+h3 {
+  font-weight:600;
+  font-size: 150%;
+}
 h4 {
-
+  font-size: 133%;
 }
 h5 {
+  font-style: italic;
+  font-size: 100%
 
 }
 p {
