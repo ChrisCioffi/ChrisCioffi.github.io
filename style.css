@@ -26,32 +26,63 @@ div, p, ul , li {
   text-align: center;
 }
 
-
+/* changed h2 to sectionheader and tinkered with margins, etc */
 .sectionheader {
+  border-color: #FDB020;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
   font-size: 2em;
+  margin: 0px 0px 10px 0px;
+  text-align: center;
+  width: 30%;
+  min-width: 150px;
+
   text-transform: uppercase;
   background-color: #d1d1d1;
   color: rgba(255,255,255,1);
 }
-
+/* changed to div, left the same */
 .jobtitle {
   font-weight:600;
   font-size: 150%;
 }
+/* changed to div, left the same */
 
  .organization {
   font-size: 133%;
 }
+/* changed to div, set top margin to 2 px */
 
 .date {
+  margin: 2px 0px 0px 0px;
   font-style: italic;
   font-size: 100%;
 }
+/* changed to div, set top margin to 10 px */
 
-.jobdescription {
+.description {
+  margin: 10px 0px 0px 0px;
   font-size: 100%;
 }
-
+/* created menu, added padding and margins */
+.menu
  {
-  font-size: 110%;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  }
+
+/* finds all li in .menu, displays them inline */
+.menu li {
+  display: inline;
+}
+
+/* added margins*/
+.degrees {
+  margin: 5px 0px 0px 0px;
+}
+/* added margins*/
+
+.do {
+  margin: 5px 0px 0px 0px;
 }
