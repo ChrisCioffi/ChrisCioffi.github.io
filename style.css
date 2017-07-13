@@ -3,16 +3,26 @@
 body {
   font-size: 12px;
 }
+/* created universal selector with div instead of h1, etc */
 
 div, p, ul , li {
+  box-sizing: border-box;
+  font-weight: 300;
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 12px;
   color: #444;
   font-weight: 300;
 }
+/* changed h1 to name and added solid border with color and added margins  */
 
 #name  {
   font-size: 4em;
+  border-color: #FDB020;
+  border-width: 0px 0px 1px 0px;
+  margin: 5px auto;
+  width: 60%;
+  min-width: 300px ;
+  border-style: solid;
   text-align: center;
 }
 
@@ -24,24 +34,24 @@ div, p, ul , li {
   color: rgba(255,255,255,1);
 }
 
-.organization {
+.jobtitle {
   font-weight:600;
   font-size: 150%;
 }
 
- {
+ .organization {
   font-size: 133%;
 }
 
-date {
+.date {
   font-style: italic;
   font-size: 100%;
 }
 
-p {
+.jobdescription {
   font-size: 100%;
 }
 
-ul {
+ {
   font-size: 110%;
 }
