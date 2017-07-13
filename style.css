@@ -4,19 +4,20 @@ body {
   font-size: 12px;
 }
 
-h1, h2, h3, h4, h5, p, h6, ul {
+div, p, ul , li {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 12px;
   color: #444;
   font-weight: 300;
 }
 
-h1 {
+#name  {
   font-size: 4em;
   text-align: center;
 }
 
-h2 {
+
+.jobtitle {
   font-size: 2em;
   text-transform: uppercase;
   background-color: #d1d1d1;
