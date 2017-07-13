@@ -26,6 +26,31 @@ div, p, ul , li {
   text-align: center;
 }
 
+.job {
+  margin: 0px 0px 15px 0px;
+}
+
+#experience {
+  margin: 0px 0px 20px 0px;
+}
+
+#education {
+  margin: 0px 0px 20px 0px;
+}
+
+#skills {
+  margin: 0px 0px 20px 0px;
+}
+
+#top {
+  margin: 0px 0px 35px 0px;
+}
+
+#bottom {
+  margin: 0px 0px 0px 10px;
+}
+
+
 /* changed h2 to sectionheader and tinkered with margins, etc */
 .sectionheader {
   border-color: #FDB020;
