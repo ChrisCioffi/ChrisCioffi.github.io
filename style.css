@@ -17,23 +17,23 @@ div, p, ul , li {
 }
 
 
-.jobtitle {
+.sectionheader {
   font-size: 2em;
   text-transform: uppercase;
   background-color: #d1d1d1;
   color: rgba(255,255,255,1);
 }
 
-h3 {
+.organization {
   font-weight:600;
   font-size: 150%;
 }
 
-h4 {
+ {
   font-size: 133%;
 }
 
-h5 {
+date {
   font-style: italic;
   font-size: 100%;
 }
