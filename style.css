@@ -15,6 +15,12 @@ div, p, ul , li {
   font-size: 12px;
   color: #444;
   font-weight: 300;
+
+}
+
+a:link {
+  color: #444;
+  text-decoration: none;
 }
 /* changed h1 to name and added solid border with color and added margins  */
 
