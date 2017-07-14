@@ -1,5 +1,6 @@
 /* affects headers, and name*/
 
+
 body {
   font-size: 12px;
   margin: 0px 0px 0px 0px;
@@ -32,16 +33,15 @@ div, p, ul , li {
   margin: 0px 0px 15px 0px;
 }
 
-#experience {
-  margin: 0px 0px 20px 0px;
-}
-
-#education {
-  margin: 0px 0px 20px 0px;
-}
-
-#skills {
-  margin: 0px 0px 20px 0px;
+#experience, #education , #skills {
+  margin: 0px auto 20px auto;
+  padding: 10px;
+  height: auto;
+  overflow: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f2f2f2;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
 }
 
 #top {
@@ -63,6 +63,15 @@ div, p, ul , li {
   overflow: auto;
 }
 
+.alljobs {
+  width: 65%;
+  float: left;
+  margin: 0px 0px 0px 4%;
+  border-style: solid;
+  border-width: 0px 0px 0px 1px;
+  border-color: rgba(254, 203, 108, 0.3);
+  padding: 0px 0px 0px 20px;
+}
 
 /* changed h2 to sectionheader and tinkered with margins, etc */
 .sectionheader {
