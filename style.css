@@ -33,7 +33,7 @@ div, p, ul , li {
   margin: 0px 0px 15px 0px;
 }
 
-#experience, #education , #skills {
+#experience, #education, #skills {
   margin: 0px auto 20px auto;
   padding: 10px;
   height: auto;
@@ -125,11 +125,16 @@ div, p, ul , li {
 }
 
 /* added margins*/
-.degrees {
-  margin: 5px 0px 0px 0px;
-}
-/* added margins*/
+.degrees , .do {
+  margin: 0px 0px 0px 4%;
+  width: 65%;
+  float: left;
+  list-style-type: none;
+  -webkit-padding-start: 21px;
+  border-width: 0px 0px 0px 1px;
 
-.do {
-  margin: 5px 0px 0px 0px;
+}
+
+.degrees li, .do li{
+  margin-top: 3px;
 }
