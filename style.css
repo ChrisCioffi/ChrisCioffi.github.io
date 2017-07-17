@@ -30,7 +30,7 @@ a:link {
   margin: 5px auto;
   width: 60%;
   min-width: 300px ;
-    text-align: center;
+  text-align: center;
 }
 
 .job {
@@ -51,7 +51,7 @@ a:link {
   padding:0px 0px 10px 0px;
   background: #FFFFFF;
   width: 100%;
-  position: absolute;
+  position: fixed;
   z-index: 1;
   box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
 }
@@ -134,6 +134,65 @@ a:link {
   border-left: 1px solid rgba(254, 203, 108, 0.4);
 }
 
-.degrees li, .do li{
+.do li, .degrees li {
   margin-top: 3px;
 }
+
+.bolding {
+  font-weight: 600;
+}
+
+/*this is x-small devices, mobile devices */
+
+@media only screen and (max-width: 767px){
+  #top {
+    position: absolute;
+  }
+  #bottom {
+    margin-top: 0px;
+  }
+  #name {
+    font-size: 3em;
+  }
+  .alljobs{
+    width: 100%;
+    margin: 0px;
+    border-left: 0px;
+    padding: 10px;
+  }
+  .sectionheader{
+    margin: 10px auto 15px auto;
+    padding: 5px 10px;
+    width: 97%;
+    min-width: 0px;
+    text-align: center;
+    float: none;
+  }
+  .degrees li, .do li {
+    margin: 15px, 2%, 0px, 2%;
+    padding: 0px, 20px;
+    width: 100%;
+    float: none;
+  }
+}
+/* for small devices, tablets */
+
+@@media only screen and (max-width: 991px) and (min-width:768px) {
+  #top {
+    background-color: red;
+  }
+}
+
+/* for medium range devices, tablets */
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* for large desktops */
+
+
+ @@media only screen and (min-width: 1200px) {
+
+ }
