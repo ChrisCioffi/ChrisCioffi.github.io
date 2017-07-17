@@ -144,7 +144,7 @@ a:link {
 
 /*this is x-small devices, mobile devices */
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
   #top {
     position: absolute;
   }
@@ -168,18 +168,19 @@ a:link {
     text-align: center;
     float: none;
   }
-  .degrees li, .do li {
+  .degrees, .do {
     margin: 15px, 2%, 0px, 2%;
     padding: 0px, 20px;
     width: 100%;
     float: none;
+    border: 0px solid blue;
   }
 }
 /* for small devices, tablets */
 
-@@media only screen and (max-width: 991px) and (min-width:768px) {
-  #top {
-    background-color: red;
+@media only screen and (min-width:768px) and (max-width: 991px) {
+  #name {
+    font-size: 3.6em;
   }
 }
 
@@ -187,12 +188,43 @@ a:link {
 
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-
+  #name {
+    font-size: 3.9em;
+  }
 }
 
 /* for large desktops */
 
 
- @@media only screen and (min-width: 1200px) {
-
+@media only screen and (min-width: 1200px) {
+  #experience {
+    width: 60%;
+    float: right;
+    }
+  #education, #skills {
+    width: 38.5%;
+    float: left;
+    overflow-x: hidden;
+  }
+  .degrees, .do {
+    margin: 15px 0 0 0;
+    width: 100%;
+    float: none;
+    -webkit-padding-start: 0px;
+    border: 0px solid blue;
+  }
+  .sectionheader {
+    margin: 7px auto 15px auto;
+    padding: 5px 10px;
+    width: 97%;
+    min-width: 0px
+    border: 0px
+  }
+  .alljobs {
+    width: 100%;
+    float: none;
+    margin: 0px;
+    border: 0px;
+    padding: 0px 10px 10px 10px;
+  }
  }
