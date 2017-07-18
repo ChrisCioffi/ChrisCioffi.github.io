@@ -1,0 +1,43 @@
+/* No CSS Reset with Bootstrap */
+/*These initial styles come from here: http://getbootstrap.com/examples/starter-template/starter-template.css*/
+
+* {
+  border: 1px solid purple;
+}
+body {
+  padding-top: 100px;
+  font-size: 12px;
+}
+
+.hi {
+  font-size: 6em;
+  text-align: center;
+}
+
+.about
+{
+  font-size: 2em;
+  text-align: center;
+
+}
+
+.everything {
+
+}
+
+.tophalf {
+
+}
+
+.experience {
+
+}
+.skills{
+
+}
+.date {
+  border: 10px solid black;
+}
+.education_skills {
+
+}
