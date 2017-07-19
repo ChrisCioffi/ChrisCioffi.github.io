@@ -12,12 +12,14 @@ body {
 .hi {
   font-size: 6em;
   text-align: center;
+  font-family: 'Roboto Condensed', arial, sans-serif;
 }
 
 .about
 {
   font-size: 2em;
   text-align: center;
+  font-family: "EB Garamond", times, serif;
 
 }
 
@@ -29,25 +31,34 @@ body {
 
 }
 
+.education, .skills {
+  font-family: "EB Garamond", times, serif;
+}
+
 .experience {
+
 
 }
 .skills{
 
 }
 .date {
-  border: 10px solid black;
+  font-family: "EB Garamond", times, serif;
+  font-style: italic;
 }
-.education_skills {
 
-}
+
 .jobtitle {
   font-weight: bold;
+  font-size: 1.75em;
+  font-family: "EB Garamond", times, serif;
 }
 
 .employer {
-  font-size: 23px;
+  font-size: 1.25em;
+  font-family: 'Roboto Condensed', arial, sans-serif;
 }
 .duties{
-
+  font-size: 1em;
+  font-family: "EB Garamond", times, serif;
 }
