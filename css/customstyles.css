@@ -94,6 +94,10 @@ body {
 
 }
 
+.navbar-header {
+  font-family: 'Roboto Condensed', arial, sans-serif;
+}
+
 
 /* for x-small devices, tablets */
 @media only screen and (min-width:480px) {
