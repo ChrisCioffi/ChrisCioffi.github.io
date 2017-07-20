@@ -112,6 +112,7 @@ body {
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   .welcome {
       font-size: 3.5em;
       text-align: center;
@@ -159,6 +160,11 @@ body {
 /* for small devices, tablets */
 @media only screen and (min-width: 768px) {
 >>>>>>> parent of ed61d7b... Formatting
+=======
+}
+/* for small devices, tablets */
+@media only screen and (min-width: 768px) {
+>>>>>>> parent of ed61d7b... Formatting
 
     .list-group{
     font-size: 1em;
@@ -181,6 +187,9 @@ body {
        top: 60%;
        color: rgba(255, 255, 255, 0.85);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of ed61d7b... Formatting
+=======
 >>>>>>> parent of ed61d7b... Formatting
 =======
 >>>>>>> parent of ed61d7b... Formatting
@@ -191,9 +200,12 @@ body {
 @media only screen and (min-width: 991px) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   .skills, .education {
     font-size: 1.3em;
 =======
+=======
+>>>>>>> parent of ed61d7b... Formatting
 =======
 >>>>>>> parent of ed61d7b... Formatting
 
@@ -207,6 +219,7 @@ body {
   .hi {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: 0px 0px 0px 0px;
   background-position:top;
   background-size:98%;
@@ -214,6 +227,8 @@ body {
   height: 480px;
   font-weight: 100;
 =======
+=======
+>>>>>>> parent of ed61d7b... Formatting
 =======
 >>>>>>> parent of ed61d7b... Formatting
     margin: 0px 0px 0px 0px;
@@ -225,6 +240,9 @@ body {
     font-weight: 100;
     font-family: "EB Garamond", times, serif;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of ed61d7b... Formatting
+=======
 >>>>>>> parent of ed61d7b... Formatting
 =======
 >>>>>>> parent of ed61d7b... Formatting
@@ -254,7 +272,11 @@ body {
     background-repeat:no-repeat;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 550px;
+=======
+    height: 480px;
+>>>>>>> parent of ed61d7b... Formatting
 =======
     height: 480px;
 >>>>>>> parent of ed61d7b... Formatting
