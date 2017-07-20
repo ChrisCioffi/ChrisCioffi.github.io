@@ -65,11 +65,12 @@ body {
 .education, .skills {
   font-family: Garamond, times, serif;
   justify-content: center;
+  background-color: #fff;
 }
 
 /* sets the font for the navbar  */
 .navbar-brand{
-  font-family: helvetica, arial, sans-serif;
+  font-family: "Roboto", arial, sans-serif;
 }
 .experience {
 
@@ -95,7 +96,7 @@ background-color: #fff;
 .employer {
   font-size: 1.25em;
   margin-bottom: 10px;
-  font-family: helvetica, arial, sans-serif;
+  font-family: "Roboto", arial, sans-serif;
 }
 .duties{
   font-size: 1.4em;
@@ -137,15 +138,26 @@ background-color: #fff;
 /*makes the welcome background banner smaller for smaller screens*/
 
   .welcome {
-      font-size: 3.5em;
-      text-align: center;
-      vertical-align: text-bottom;
-      position: relative;
-      top: 65%;
-      color: rgba(255, 255, 255, 0.85);
-      text-shadow: 2px 2px black;
-    }
-
+    font-size: 3.5em;
+    text-align: center;
+    vertical-align: text-bottom;
+    position: relative;
+    top: 65%;
+    color: rgba(255, 255, 255, 0.85);
+    text-shadow: 2px 2px black;
+  }
+  .fa-twitter {
+    color: #9932CC;
+  }
+  .fa-linkedin-square{
+    color: #9932CC;
+  }
+  .fa-github-square{
+    color: #9932CC;
+  }
+  .fa-envelope{
+    color: #9932CC;
+  }
   /* again changes the height of my text, Chris Cioffi, reporter smaller moves it a skootch */
     .hi {
       margin: 0px 0px 0px 0px;
@@ -208,6 +220,16 @@ background-color: #fff;
      position: relative;
      top: 65%;
      color: rgba(255, 255, 255, 0.85);
+   }
+   .smallhead
+   {
+     font-size: 2.25em;
+     font-family: "roboto", arial, sans-serif;
+   }
+   .list-group-one , .list-group-two{
+     float: left;
+     list-style-type: none;
+
    }
  }
 /* for large screens*/
