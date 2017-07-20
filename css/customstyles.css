@@ -34,7 +34,7 @@ body {
 .about {
   font-size: 2em;
   text-align: center;
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Roboto', arial, sans-serif;
 
 }
 .font_awesome li {
@@ -83,7 +83,7 @@ body {
   font-family: helvetica, arial, sans-serif;
 }
 .duties{
-  font-size: 1em;
+  font-size: 1.1em;
   font-family: Garamond, times, serif;
 }
 
@@ -95,7 +95,12 @@ body {
 
 }
 
-
+.footer {
+  font-family: Garamond, times, serif;
+  font-size: 1.3em;
+  text-align: center;
+  margin-top:60px;
+}
 
 /* for x-small devices, tablets */
 @media only screen and (min-width:480px) {
