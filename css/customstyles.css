@@ -1,12 +1,11 @@
 /* No CSS Reset with Bootstrap */
 /*These initial styles come from here: http://getbootstrap.com/examples/starter-template/starter-template.css*/
 
-* {
-  border: 1px solid purple;
-}
+
 body {
   padding-top: 100px;
   font-size: 12px;
+  background-color: rgba(234, 200, 234, 0.5)
 }
 
 .hi {
@@ -22,7 +21,6 @@ body {
 }
 
 .welcome {
-  border: 1px solid white;
   font-size: 5em;
   text-align: center;
   vertical-align: text-bottom;
@@ -97,9 +95,6 @@ body {
 
 }
 
-.navbar-brand {
-  font-family: 'Roboto Condensed', arial, sans-serif;
-}
 
 
 /* for x-small devices, tablets */
@@ -110,9 +105,6 @@ body {
   .expheadline{
     font-size: 2em;
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   .welcome {
       font-size: 3.5em;
       text-align: center;
@@ -151,108 +143,31 @@ body {
      position: relative;
      top: 70%;
      color: rgba(255, 255, 255, 0.85);
-=======
-}
-/* for small devices, tablets */
-@media only screen and (min-width: 768px) {
-=======
-}
-/* for small devices, tablets */
-@media only screen and (min-width: 768px) {
->>>>>>> parent of ed61d7b... Formatting
-=======
-}
-/* for small devices, tablets */
-@media only screen and (min-width: 768px) {
->>>>>>> parent of ed61d7b... Formatting
-
-    .list-group{
-    font-size: 1em;
-    }
-    .hi {
-      margin: 0px 0px 0px 0px;
-      background:url('https://cdn.pixabay.com/photo/2016/01/22/23/08/typewriter-1156827_960_720.jpg');
-      background-position:top;
-      background-size:95%;
-      background-repeat:no-repeat;
-      height: 280px;
-      font-weight: 100;
-      font-family: "EB Garamond", times, serif;
-   }
-   .welcome {
-       font-size: 5em;
-       text-align: center;
-       vertical-align: text-bottom;
-       position: relative;
-       top: 60%;
-       color: rgba(255, 255, 255, 0.85);
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of ed61d7b... Formatting
-=======
->>>>>>> parent of ed61d7b... Formatting
-=======
->>>>>>> parent of ed61d7b... Formatting
      }
    }
-}
 /* for medium tablets */
+
 @media only screen and (min-width: 991px) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   .skills, .education {
     font-size: 1.3em;
-=======
-=======
->>>>>>> parent of ed61d7b... Formatting
-=======
->>>>>>> parent of ed61d7b... Formatting
-
-  .list-group {
-    font-size: 1.5em;
->>>>>>> parent of ed61d7b... Formatting
   }
   .expheadline{
     font-size: 3em;
   }
   .hi {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   margin: 0px 0px 0px 0px;
   background-position:top;
   background-size:98%;
   background-repeat:no-repeat;
   height: 480px;
   font-weight: 100;
-=======
-=======
->>>>>>> parent of ed61d7b... Formatting
-=======
->>>>>>> parent of ed61d7b... Formatting
-    margin: 0px 0px 0px 0px;
-    background:url('https://cdn.pixabay.com/photo/2016/01/22/23/08/typewriter-1156827_960_720.jpg');
-    background-position:top;
-    background-size:95%;
-    background-repeat:no-repeat;
-    height: 480px;
-    font-weight: 100;
-    font-family: "EB Garamond", times, serif;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of ed61d7b... Formatting
-=======
->>>>>>> parent of ed61d7b... Formatting
-=======
->>>>>>> parent of ed61d7b... Formatting
   }
  .welcome {
      font-size: 5em;
      text-align: center;
      vertical-align: text-bottom;
      position: relative;
-     top: 60%;
+     top: 65%;
      color: rgba(255, 255, 255, 0.85);
    }
  }
@@ -268,21 +183,9 @@ body {
   .hi {
     margin: 0px 0px 0px 0px;
     background-position:top;
-    background-size:95%;
+    background-size:98%;
     background-repeat:no-repeat;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     height: 550px;
-=======
-    height: 480px;
->>>>>>> parent of ed61d7b... Formatting
-=======
-    height: 480px;
->>>>>>> parent of ed61d7b... Formatting
-=======
-    height: 480px;
->>>>>>> parent of ed61d7b... Formatting
     font-weight: 100;
   }
   .welcome {
