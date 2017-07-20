@@ -10,13 +10,13 @@ body {
 
 .hi {
   margin: 0px 0px 0px 0px;
-  background:url('https://cdn.pixabay.com/photo/2016/01/22/23/08/typewriter-1156827_960_720.jpg');
+  background:url('../img/typewriter.jpg');
   background-position:top;
   background-size:95%;
   background-repeat:no-repeat;
   height: 250px;
   font-weight: 100;
-  font-family: "EB Garamond", times, serif;
+  font-family: Garamond, times, serif;
 
 }
 
@@ -34,7 +34,7 @@ body {
 .about {
   font-size: 2em;
   text-align: center;
-  font-family: 'Roboto Condensed', arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
 
 }
 .font_awesome li {
@@ -48,11 +48,17 @@ body {
 
 }
 
-.education, .skills {
-  font-family: "EB Garamond", times, serif;
-  justify-content: center;
+.bolding{
+  font-weight: bolder;
 }
 
+.education, .skills {
+  font-family: Garamond, times, serif;
+  justify-content: center;
+}
+.navbar-brand{
+  font-family: helvetica, arial, sans-serif;
+}
 .experience {
 
 
@@ -61,7 +67,7 @@ body {
 
 }
 .date {
-  font-family: "EB Garamond", times, serif;
+  font-family: Garamond, times, serif;
   font-style: italic;
 }
 
@@ -69,21 +75,18 @@ body {
 .jobtitle {
   font-weight: bold;
   font-size: 1.75em;
-  font-family: "EB Garamond", times, serif;
+  font-family: Garamond, times, serif;
 }
 
 .employer {
   font-size: 1.25em;
-  font-family: 'Roboto Condensed', arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
 }
 .duties{
   font-size: 1em;
-  font-family: "EB Garamond", times, serif;
+  font-family: Garamond, times, serif;
 }
 
-.bolding {
-  font-weight: 900;
-}
 
 .education{
   font-size: .9em;
@@ -97,7 +100,7 @@ body {
 /* for x-small devices, tablets */
 @media only screen and (min-width:480px) {
   .list-group{
-  font-size: .6em
+  font-size: 1.1em
   }
   .expheadline{
     font-size: 2em;
@@ -111,21 +114,27 @@ body {
       color: rgba(255, 255, 255, 0.85);
       text-shadow: 2px 2px black;
     }
+    .hi {
+      margin: 0px 0px 0px 0px;
+      background-position:top;
+      background-size:98%;
+      background-repeat:no-repeat;
+      height: 340px;
+      font-weight: 100;
+    }
 }
 /* for small devices, tablets */
 @media only screen and (min-width: 768px) {
-  .list-group{
-  font-size: 1em;
+  .skills, .education {
+  font-size: 1.2em;
   }
   .hi {
     margin: 0px 0px 0px 0px;
-    background:url('https://cdn.pixabay.com/photo/2016/01/22/23/08/typewriter-1156827_960_720.jpg');
     background-position:top;
     background-size:98%;
     background-repeat:no-repeat;
     height: 350px;
     font-weight: 100;
-    font-family: "EB Garamond", times, serif;
   }
   .welcome {
      font-size: 4em;
@@ -139,21 +148,19 @@ body {
 /* for medium tablets */
 
 @media only screen and (min-width: 991px) {
-  .list-group {
-    font-size: 1.5em;
+  .skills, .education {
+    font-size: 1.3em;
   }
   .expheadline{
     font-size: 3em;
   }
   .hi {
   margin: 0px 0px 0px 0px;
-  background:url('https://cdn.pixabay.com/photo/2016/01/22/23/08/typewriter-1156827_960_720.jpg');
   background-position:top;
   background-size:98%;
   background-repeat:no-repeat;
   height: 480px;
   font-weight: 100;
-  font-family: "EB Garamond", times, serif;
   }
  .welcome {
      font-size: 5em;
@@ -167,21 +174,19 @@ body {
 /* for large screens*/
 
 @media only screen and (min-width:1200px) {
-  .list-group {
-  font-size: 1em;
+  .skills, .education {
+  font-size: 1.4em;
   }
   .expheadline{
   font-size: 3em;
   }
   .hi {
     margin: 0px 0px 0px 0px;
-    background:url('https://cdn.pixabay.com/photo/2016/01/22/23/08/typewriter-1156827_960_720.jpg');
     background-position:top;
     background-size:98%;
     background-repeat:no-repeat;
-    height: 490px;
+    height: 550px;
     font-weight: 100;
-    font-family: "EB Garamond", times, serif;
   }
   .welcome {
       font-size: 5em;
