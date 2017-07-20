@@ -111,6 +111,7 @@ body {
     font-size: 2em;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .welcome {
       font-size: 3.5em;
       text-align: center;
@@ -153,6 +154,11 @@ body {
 }
 /* for small devices, tablets */
 @media only screen and (min-width: 768px) {
+=======
+}
+/* for small devices, tablets */
+@media only screen and (min-width: 768px) {
+>>>>>>> parent of ed61d7b... Formatting
 
     .list-group{
     font-size: 1em;
@@ -174,6 +180,9 @@ body {
        position: relative;
        top: 60%;
        color: rgba(255, 255, 255, 0.85);
+<<<<<<< HEAD
+>>>>>>> parent of ed61d7b... Formatting
+=======
 >>>>>>> parent of ed61d7b... Formatting
      }
    }
@@ -181,9 +190,12 @@ body {
 /* for medium tablets */
 @media only screen and (min-width: 991px) {
 <<<<<<< HEAD
+<<<<<<< HEAD
   .skills, .education {
     font-size: 1.3em;
 =======
+=======
+>>>>>>> parent of ed61d7b... Formatting
 
   .list-group {
     font-size: 1.5em;
@@ -194,6 +206,7 @@ body {
   }
   .hi {
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: 0px 0px 0px 0px;
   background-position:top;
   background-size:98%;
@@ -201,6 +214,8 @@ body {
   height: 480px;
   font-weight: 100;
 =======
+=======
+>>>>>>> parent of ed61d7b... Formatting
     margin: 0px 0px 0px 0px;
     background:url('https://cdn.pixabay.com/photo/2016/01/22/23/08/typewriter-1156827_960_720.jpg');
     background-position:top;
@@ -209,6 +224,9 @@ body {
     height: 480px;
     font-weight: 100;
     font-family: "EB Garamond", times, serif;
+<<<<<<< HEAD
+>>>>>>> parent of ed61d7b... Formatting
+=======
 >>>>>>> parent of ed61d7b... Formatting
   }
  .welcome {
@@ -235,7 +253,11 @@ body {
     background-size:95%;
     background-repeat:no-repeat;
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 550px;
+=======
+    height: 480px;
+>>>>>>> parent of ed61d7b... Formatting
 =======
     height: 480px;
 >>>>>>> parent of ed61d7b... Formatting
