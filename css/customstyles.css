@@ -94,7 +94,7 @@ body {
 
 }
 
-.navbar-header {
+.navbar-brand {
   font-family: 'Roboto Condensed', arial, sans-serif;
 }
 
@@ -114,9 +114,29 @@ body {
     .list-group{
     font-size: 1em;
     }
+    .hi {
+      margin: 0px 0px 0px 0px;
+      background:url('https://cdn.pixabay.com/photo/2016/01/22/23/08/typewriter-1156827_960_720.jpg');
+      background-position:top;
+      background-size:95%;
+      background-repeat:no-repeat;
+      height: 280px;
+      font-weight: 100;
+      font-family: "EB Garamond", times, serif;
+   }
+   .welcome {
+       font-size: 5em;
+       text-align: center;
+       vertical-align: text-bottom;
+       position: relative;
+       top: 60%;
+       color: rgba(255, 255, 255, 0.85);
+     }
+   }
 }
 /* for medium tablets */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 991px) {
+
   .list-group {
     font-size: 1.5em;
   }
@@ -129,10 +149,10 @@ body {
     background-position:top;
     background-size:95%;
     background-repeat:no-repeat;
-    height: 600px;
+    height: 480px;
     font-weight: 100;
     font-family: "EB Garamond", times, serif;
- }
+  }
  .welcome {
      font-size: 5em;
      text-align: center;
@@ -157,7 +177,7 @@ body {
     background-position:top;
     background-size:95%;
     background-repeat:no-repeat;
-    height: 640px;
+    height: 480px;
     font-weight: 100;
     font-family: "EB Garamond", times, serif;
   }
