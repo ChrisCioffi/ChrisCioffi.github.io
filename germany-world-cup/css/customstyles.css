@@ -1,7 +1,14 @@
 /* No CSS Reset with Bootstrap */
 /*These initial styles come from here: http://getbootstrap.com/examples/starter-template/starter-template.css*/
 
+
 body {
-  padding-top: 100px;
-  
+  padding-top: 50px;
+  font-family: "Open Sans", Helvetica, sams-serif;
+}
+.byline{
+  text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
 }
