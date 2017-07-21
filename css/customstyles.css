@@ -45,10 +45,11 @@ body {
 .font_awesome li {
   display: inline;
 }
-/* similarly to .tophalf this controls the whole page, but nothing was needed here. */
+/* similarly to .tophalf this controls the whole page */
 
 .everything {
-
+padding-bottom: 10px;
+margin-bottom: 10px;
 }
 /* the master controller for everything above the experience and skills and education. But I didn't really want to have anything be globally controlled. So I left it blank. */
 
@@ -66,6 +67,9 @@ body {
   font-family: Garamond, times, serif;
   justify-content: center;
   background-color: #fff;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+  padding-top: 10px;
 }
 
 /* sets the font for the navbar  */
@@ -123,12 +127,25 @@ background-color: #fff;
   text-align: center;
   margin-top:60px;
 }
+.smallhead
+{
+  font-size: 2.25em;
+  font-family: "roboto", arial, sans-serif;
+
+}
 
 /* for x-small devices, tablets */
 @media only screen and (min-width:480px) {
-  .list-group{
-  font-size: 1.1em
+.education, .skills {
+  font-family: Garamond, times, serif;
+  justify-content: center;
+  background-color: #fff;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+  padding-top: 20px;
+  ;
   }
+
 /* drops down the headline text further */
 
   .expheadline{
@@ -160,52 +177,53 @@ background-color: #fff;
   }
   /* again changes the height of my text, Chris Cioffi, reporter smaller moves it a skootch */
     .hi {
-      margin: 0px 0px 0px 0px;
-      background-position:top;
-      background-size:98%;
-      background-repeat:no-repeat;
-      height: 340px;
-      font-weight: 100;
+  margin: 0px 0px 0px 0px;
+  background-position:top;
+  background-size:98%;
+  background-repeat:no-repeat;
+  height: 340px;
+  font-weight: 100;
     }
 }
 /* for small devices, tablets */
 @media only screen and (min-width: 768px) {
-  .skills, .education {
+.skills, .education {
   font-size: 1.2em;
+
   }
-  .hi {
-    margin: 0px 0px 0px 0px;
-    background-position:top;
-    background-size:98%;
-    background-repeat:no-repeat;
-    height: 350px;
-    font-weight: 100;
+.hi {
+  margin: 0px 0px 0px 0px;
+  background-position:top;
+  background-size:98%;
+  background-repeat:no-repeat;
+  height: 350px;
+  font-weight: 100;
   }
-  .welcome {
-     font-size: 4em;
-     text-align: center;
-     vertical-align: text-bottom;
-     position: relative;
-     top: 70%;
-     color: rgba(255, 255, 255, 0.85);
-     }
+.welcome {
+  font-size: 4em;
+  text-align: center;
+  vertical-align: text-bottom;
+  position: relative;
+  top: 70%;
+  color: rgba(255, 255, 255, 0.85);
+  }
    }
 /* for medium tablets */
 
 @media only screen and (min-width: 991px) {
   /* changes around the background image size, and fonts for skills, education */
-  .skills, .education {
-    font-size: 1.3em;
+.skills, .education {
+  font-size: 1.3em;
+
   }
 
 /* pares down my name to make it fit better  */
 
 
-  .expheadline{
+.expheadline{
     font-size: 3em;
-
   }
-  .hi {
+.hi {
   margin: 0px 0px 0px 0px;
   background-position:top;
   background-size:98%;
@@ -214,22 +232,17 @@ background-color: #fff;
   font-weight: 100;
   }
  .welcome {
-     font-size: 5em;
-     text-align: center;
-     vertical-align: text-bottom;
-     position: relative;
-     top: 65%;
-     color: rgba(255, 255, 255, 0.85);
+   font-size: 5em;
+   text-align: center;
+   vertical-align: text-bottom;
+   position: relative;
+   top: 65%;
+   color: rgba(255, 255, 255, 0.85);
    }
-   .smallhead
-   {
-     font-size: 2.25em;
-     font-family: "roboto", arial, sans-serif;
-   }
-   .list-group-one , .list-group-two{
-     float: left;
-     list-style-type: none;
 
+  .list-group-one , .list-group-two{
+   float: left;
+   list-style-type: none;
    }
  }
 /* for large screens*/
