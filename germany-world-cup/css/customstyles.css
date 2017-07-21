@@ -5,10 +5,65 @@
 body {
   padding-top: 50px;
   font-family: "Open Sans", Helvetica, sams-serif;
+  font-size: 12px;
+}
+.topsection{
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+}
+h1 {
+  font-size: 5rem;
+  font-weight: 600;
 }
 .byline{
+  font-size: 1.5rem;
   text-transform: uppercase;
+  font-weight: 400;
+  color: #777;
+  margin: 15px 0px 20px 0px;
+  font-style: italic;
 }
 .lowercase {
   text-transform: lowercase;
+}
+.lead p {
+  font-size: 1.75rem;
+}
+.graphiccontainer {
+  margin: 0px 0px 20px 0px;
+}
+.textblock {
+  margin: 0px 20px 0px 0px;
+}
+.graphictitle h2 {
+  font-size: 2.5rem;
+  margin: 0px;
+  padding: 0px;
+}
+.graphictext {
+  margin: 15px 0px 0px 0px;
+}
+.graphictext {
+  font-size: 1.35rem;
+}
+.graphicblock {
+  padding: 0px 20px;
+  border-width: 0px 0px 0px 2px;
+  border-style: solid;
+  border-color: #777;
+}
+@media only screen and (max-width: 768px) {
+.textblock{
+  margin: 0px;
+  padding: 20px;
+}
+.graphicblock{
+  border-width: 0px 0px 2px 0px;
+  border-style: solid;
+  border-color: #777;
+  padding: 20px;
+}
+h1 {
+  font-size: 3.8rem;
+}
 }
