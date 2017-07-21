@@ -1,15 +1,11 @@
 /* No CSS Reset with Bootstrap */
 /*These initial styles come from here: http://getbootstrap.com/examples/starter-template/starter-template.css*/
-
-
 body {
   padding-top: 100px;
   font-size: 12px;
   background-color: rgba(234, 200, 234, 0.5)
-}
-
+  }
 /* assigns an image to the background dictates how big it is*/
-
 .hi {
   margin: 0px 0px 0px 0px;
   background:url('../img/typewriter.jpg');
@@ -19,11 +15,8 @@ body {
   height: 250px;
   font-weight: 100;
   font-family: Garamond, times, serif;
-
-}
-
+  }
 /* greeting font for the website. Sets it down the image 20%  */
-
 .welcome {
   font-size: 5em;
   text-align: center;
@@ -31,38 +24,28 @@ body {
   position: relative;
   top: 20%;
   color: rgba(255, 255, 255, 0.85);
-
-
-}
-
-
+  }
 .about {
   font-size: 2em;
   text-align: center;
   font-family: Garamond, times, serif;
-
-}
+  }
 .font_awesome li {
   display: inline;
-}
+  }
 /* similarly to .tophalf this controls the whole page */
 
 .everything {
-padding-bottom: 10px;
-margin-bottom: 10px;
-}
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  }
 /* the master controller for everything above the experience and skills and education. But I didn't really want to have anything be globally controlled. So I left it blank. */
-
-
 .tophalf {
-
-}
+  }
 /* bolds the span in education */
-
 .bolding{
   font-weight: bolder;
-}
-
+  }
 .education, .skills {
   font-family: Garamond, times, serif;
   justify-content: center;
@@ -70,70 +53,60 @@ margin-bottom: 10px;
   margin-bottom: 10px;
   line-height: 1.4em;
   padding-top: 10px;
-}
-
+  }
 /* sets the font for the navbar  */
 .navbar-brand{
   font-family: "Roboto", arial, sans-serif;
-}
+  }
 .experience {
-
-background-color: #fff;
-
-}
-
+  background-color: #fff;
+  }
 /* ids date's font family and style */
-
 .date {
   font-family: Garamond, times, serif;
   font-style: italic;
-}
-
-
+  }
 .jobtitle {
   font-weight: bold;
   font-size: 1.75em;
   font-family: Garamond, times, serif;
   margin-bottom: 0px;
-}
-
+  }
 .employer {
   font-size: 1.25em;
   margin-bottom: 10px;
   font-family: "Roboto", arial, sans-serif;
-}
+  }
 .duties{
   font-size: 1.4em;
   font-family: Garamond, times, serif;
   line-height: 1.25em;
-}
-
+  }
 .jobleft  {
   border-bottom: 1px solid #ddd;
   margin-bottom: 10px;
   padding-bottom: 10px;
-}
-
+  }
 .education{
   font-size: .9em;
-}
+  }
 .skills {
-
-}
-
+  }
 .footer {
   font-family: Garamond, times, serif;
   font-size: 1.3em;
   text-align: center;
   margin-top:60px;
-}
-.smallhead
-{
+  }
+.smallhead {
   font-size: 2.25em;
   font-family: "roboto", arial, sans-serif;
-
-}
-
+  text-align: left;
+  }
+.list-group-two , .list-group-one {
+  text-align: left;
+  padding-left: 30px;
+  }
 /* for x-small devices, tablets */
 @media only screen and (min-width:480px) {
 .education, .skills {
@@ -143,53 +116,52 @@ background-color: #fff;
   margin-bottom: 10px;
   line-height: 1.4em;
   padding-top: 20px;
-  ;
   }
-
 /* drops down the headline text further */
-
-  .expheadline{
-    font-size: 2em;
+.expheadline{
+  font-size: 2em;
   }
-
 /*makes the welcome background banner smaller for smaller screens*/
-
-  .welcome {
-    font-size: 3.5em;
-    text-align: center;
-    vertical-align: text-bottom;
-    position: relative;
-    top: 65%;
-    color: rgba(255, 255, 255, 0.85);
-    text-shadow: 2px 2px black;
+.welcome {
+  font-size: 3.5em;
+  text-align: center;
+  vertical-align: text-bottom;
+  position: relative;
+  top: 65%;
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 2px 2px black;
   }
-  .fa-twitter {
-    color: #9932CC;
+.fa-twitter {
+  color: #9932CC;
   }
-  .fa-linkedin-square{
-    color: #9932CC;
+.fa-linkedin-square{
+  color: #9932CC;
   }
-  .fa-github-square{
-    color: #9932CC;
+.fa-github-square{
+  color: #9932CC;
   }
-  .fa-envelope{
-    color: #9932CC;
+.fa-envelope{
+  color: #9932CC;
   }
+.list-group-two , .list-group-one{
+  list-style-type: none;
   /* again changes the height of my text, Chris Cioffi, reporter smaller moves it a skootch */
-    .hi {
+.hi {
   margin: 0px 0px 0px 0px;
   background-position:top;
   background-size:98%;
   background-repeat:no-repeat;
   height: 340px;
   font-weight: 100;
-    }
+  }
 }
 /* for small devices, tablets */
 @media only screen and (min-width: 768px) {
 .skills, .education {
   font-size: 1.2em;
-
+  }
+.list-group-two , .list-group-one{
+  list-style-type: none;
   }
 .hi {
   margin: 0px 0px 0px 0px;
@@ -207,21 +179,16 @@ background-color: #fff;
   top: 70%;
   color: rgba(255, 255, 255, 0.85);
   }
-   }
+}
 /* for medium tablets */
-
 @media only screen and (min-width: 991px) {
   /* changes around the background image size, and fonts for skills, education */
 .skills, .education {
   font-size: 1.3em;
-
   }
-
 /* pares down my name to make it fit better  */
-
-
 .expheadline{
-    font-size: 3em;
+  font-size: 3em;
   }
 .hi {
   margin: 0px 0px 0px 0px;
@@ -231,45 +198,42 @@ background-color: #fff;
   height: 480px;
   font-weight: 100;
   }
- .welcome {
-   font-size: 5em;
-   text-align: center;
-   vertical-align: text-bottom;
-   position: relative;
-   top: 65%;
-   color: rgba(255, 255, 255, 0.85);
-   }
-
-  .list-group-one , .list-group-two{
-   float: left;
-   list-style-type: none;
+.welcome {
+  font-size: 5em;
+  text-align: center;
+  vertical-align: text-bottom;
+  position: relative;
+  top: 65%;
+  color: rgba(255, 255, 255, 0.85);
+  }
+.list-group-one , .list-group-two{
+  float: left;
+  list-style-type: none;
    }
  }
 /* for large screens*/
-
 @media only screen and (min-width:1200px) {
-
   /* modifies the font size of skills, edication and the background size */
-  .skills, .education {
+.skills, .education {
   font-size: 1.4em;
   }
-  .expheadline{
+.expheadline{
   font-size: 3em;
   }
-  .hi {
-    margin: 0px 0px 0px 0px;
-    background-position:top;
-    background-size:98%;
-    background-repeat:no-repeat;
-    height: 550px;
-    font-weight: 100;
+.hi {
+  margin: 0px 0px 0px 0px;
+  background-position:top;
+  background-size:98%;
+  background-repeat:no-repeat;
+  height: 550px;
+  font-weight: 100;
   }
-  .welcome {
-      font-size: 5em;
-      text-align: center;
-      vertical-align: text-bottom;
-      position: relative;
-      top: 70%;
-      color: rgba(255, 255, 255, 0.85);
-    }
+.welcome {
+  font-size: 5em;
+  text-align: center;
+  vertical-align: text-bottom;
+  position: relative;
+  top: 70%;
+  color: rgba(255, 255, 255, 0.85);
+  }
 }
