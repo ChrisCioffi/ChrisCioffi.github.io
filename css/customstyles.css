@@ -90,8 +90,6 @@ body {
 .education{
   font-size: .9em;
   }
-.skills {
-  }
 .footer {
   font-family: Garamond, times, serif;
   font-size: 1.3em;
@@ -107,15 +105,27 @@ body {
   text-align: left;
   padding-left: 30px;
   }
+.fa-twitter {
+  color: #9932CC;
+  }
+.fa-linkedin-square{
+  color: #9932CC;
+  }
+.fa-github-square{
+  color: #9932CC;
+  }
+.fa-envelope{
+  color: #9932CC;
+  }
 /* for x-small devices, tablets */
-@media only screen and (min-width:480px) {
+@media only screen and (max-width: 768px) {
 .education, .skills {
-  font-family: Garamond, times, serif;
-  justify-content: center;
-  background-color: #fff;
-  margin-bottom: 10px;
-  line-height: 1.4em;
-  padding-top: 20px;
+  font-size: 1.3em;
+  padding-top: 10px;
+  }
+.skills {
+  padding-top: 5px;
+  margin-top: 10px;
   }
 /* drops down the headline text further */
 .expheadline{
@@ -131,20 +141,9 @@ body {
   color: rgba(255, 255, 255, 0.85);
   text-shadow: 2px 2px black;
   }
-.fa-twitter {
-  color: #9932CC;
-  }
-.fa-linkedin-square{
-  color: #9932CC;
-  }
-.fa-github-square{
-  color: #9932CC;
-  }
-.fa-envelope{
-  color: #9932CC;
-  }
 .list-group-two , .list-group-one{
   list-style-type: none;
+}
   /* again changes the height of my text, Chris Cioffi, reporter smaller moves it a skootch */
 .hi {
   margin: 0px 0px 0px 0px;
@@ -154,14 +153,21 @@ body {
   height: 340px;
   font-weight: 100;
   }
+  .education_skills{
+    padding: 10px 0px 10px 0px;
+  }
 }
 /* for small devices, tablets */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
 .skills, .education {
-  font-size: 1.2em;
+  font-size: 1.3em;
   }
 .list-group-two , .list-group-one{
   list-style-type: none;
+  }
+.skills {
+  padding-top: 5px;
+  margin-top: 4px;
   }
 .hi {
   margin: 0px 0px 0px 0px;
@@ -179,9 +185,13 @@ body {
   top: 70%;
   color: rgba(255, 255, 255, 0.85);
   }
+.education_skills{
+  padding: 10px 0px 10px 0px;
+  }
+
 }
 /* for medium tablets */
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* changes around the background image size, and fonts for skills, education */
 .skills, .education {
   font-size: 1.3em;
@@ -210,6 +220,10 @@ body {
   float: left;
   list-style-type: none;
    }
+ .skills {
+   padding-top: 10px;
+   margin-top: 0px;
+   }
  }
 /* for large screens*/
 @media only screen and (min-width:1200px) {
@@ -236,4 +250,8 @@ body {
   top: 70%;
   color: rgba(255, 255, 255, 0.85);
   }
+.list-group-one , .list-group-two{
+  float: left;
+  list-style-type: none;
+   }
 }
