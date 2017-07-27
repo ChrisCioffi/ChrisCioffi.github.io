@@ -159,17 +159,20 @@
                   type: 'bar'
               },
               title: {
-                  text: 'World\'s largest cities per 2014'
+                  text: 'Average Number of Passes per Game by World Cup Quarterfinalists'
               },
               subtitle: {
-                  text: 'Source: <a href="http://en.wikipedia.org/wiki/List_of_cities_proper_by_population">Wikipedia</a>'
+                  text: 'Source: FIFA</a>'
+              },
+              credits: {
+                enabled:false
               },
               xAxis: {
                   type: 'category',
                   labels: {
-                      rotation: -45,
+                      rotation: -0,
                       style: {
-                          fontSize: '13px',
+                          fontSize: '12px',
                           fontFamily: 'Verdana, sans-serif'
                       }
                   }
@@ -177,14 +180,14 @@
               yAxis: {
                   min: 0,
                   title: {
-                      text: 'Population (millions)'
+                      text: 'Average number of passes per game'
                   }
               },
               legend: {
                   enabled: false
               },
               tooltip: {
-                  pointFormat: 'Population in 2008: <b>{point.y:.1f} millions</b>'
+                  enabled: false
               },
               series: [{
                   name: 'Population',
@@ -192,21 +195,21 @@
                       ['Germany', 726],
                       ['Argentina', 616],
                       ['Netherlands', 552],
-                      ['Brazil', 516],
                       ['France', 552],
                       ['Belgium', 534],
+                      ['Brazil', 516],
                       ['Costa Rica', 448],
                       ['Colombia', 414]
                   ],
                   dataLabels: {
                       enabled: true,
-                      rotation: -90,
-                      color: '#FFFFFF',
+                      rotation: -0,
+                      color: '#000000',
                       align: 'right',
-                      format: '{point.y:.1f}', // one decimal
-                      y: 10, // 10 pixels down from the top
+                      format: '{point.y:.0f}', // no decimal
+                      y: 0, // 0 pixels down from the top
                       style: {
-                          fontSize: '13px',
+                          fontSize: '9px',
                           fontFamily: 'Verdana, sans-serif'
                       }
                   }
