@@ -131,12 +131,95 @@
     </div> <!--closes textblock-->
     <div class="col-sm-7 graphicblock">
       <div class"col-sm-12 graphiccontent">
-        <p>German players were not selfish with the ball during the World Cup, and passed from teammate to teammate with ease. The team had more passes per game than any other team in the tournament.</p>
-        <p>Germany was able to make accurate passes, and didn’t turn over the ball. While the Germans placed third overall with 82 percent of completed passes, the Germans were 7 percent above the average for teams in the tournament.</p>
-        <p>The German team didn’t have the most shots per game, but when players decided to open fire, they made them count. The Germans took a near-average 14 shots per game, but 72 percent of the attempts were on-target — the highest in the tournament.</p>
-        <p>Germany was able to score the most goals per game during the World Cup, and at the same time, kept opponent shots out of its net. The Germans scored a tournament-high 2.57 goals per game, and kept out almost a full point higher than the tournament average.</p>
-        <p>The Germans didn’t rely on set piece plays on their path to victory. The team was able to yield 2.14 open play points per game, the highest in the tournament.</p>
-        <p>The Germans were able to put balls on the frame from both long and short range. The team did not lead either category, but were near or above-average in shots from both inside and outside the area.</p>
+
+      </div> <!-- closes graphiccontent -->
+    </div> <!--closes graphicblock -->
+  </div> <!-- closes graphiccontainer-->
+  <div class="row graphiccontainer" id="five">
+    <div class="col-sm-3 col-sm-offset-1 textblock">
+      <div class="col-sm-12 graphictitle">
+        <h2>A Passing Machine</h2>
+      </div> <!--closes graphictitle-->
+      <div class="col-sm-12 info_map">
+        <p>Germany moved the ball around the field at a rapid clip throughout the tournament, passing the ball an average of 726 times per game -- well above the median of 513 passes for all 32 teams.</p>
+      </div> <!-- gloses info_map-->
+    </div> <!--closes textblock-->
+    <div class="col-sm-7 graphicblock">
+      <div class"col-sm-12 graphiccontent">
+        <div id="container"> </div>
+        <script src="Highcharts-5.0.13/code/highcharts.js"></script>
+        <script>
+        Highcharts.chart('container', {
+              chart: {
+                  type: 'column'
+              },
+              title: {
+                  text: 'World\'s largest cities per 2014'
+              },
+              subtitle: {
+                  text: 'Source: <a href="http://en.wikipedia.org/wiki/List_of_cities_proper_by_population">Wikipedia</a>'
+              },
+              xAxis: {
+                  type: 'category',
+                  labels: {
+                      rotation: -45,
+                      style: {
+                          fontSize: '13px',
+                          fontFamily: 'Verdana, sans-serif'
+                      }
+                  }
+              },
+              yAxis: {
+                  min: 0,
+                  title: {
+                      text: 'Population (millions)'
+                  }
+              },
+              legend: {
+                  enabled: false
+              },
+              tooltip: {
+                  pointFormat: 'Population in 2008: <b>{point.y:.1f} millions</b>'
+              },
+              series: [{
+                  name: 'Population',
+                  data: [
+                      ['Shanghai', 23.7],
+                      ['Lagos', 16.1],
+                      ['Istanbul', 14.2],
+                      ['Karachi', 14.0],
+                      ['Mumbai', 12.5],
+                      ['Moscow', 12.1],
+                      ['São Paulo', 11.8],
+                      ['Beijing', 11.7],
+                      ['Guangzhou', 11.1],
+                      ['Delhi', 11.1],
+                      ['Shenzhen', 10.5],
+                      ['Seoul', 10.4],
+                      ['Jakarta', 10.0],
+                      ['Kinshasa', 9.3],
+                      ['Tianjin', 9.3],
+                      ['Tokyo', 9.0],
+                      ['Cairo', 8.9],
+                      ['Dhaka', 8.9],
+                      ['Mexico City', 8.9],
+                      ['Lima', 8.9]
+                  ],
+                  dataLabels: {
+                      enabled: true,
+                      rotation: -90,
+                      color: '#FFFFFF',
+                      align: 'right',
+                      format: '{point.y:.1f}', // one decimal
+                      y: 10, // 10 pixels down from the top
+                      style: {
+                          fontSize: '13px',
+                          fontFamily: 'Verdana, sans-serif'
+                      }
+                  }
+              }]
+          });
+        </script>
       </div> <!-- closes graphiccontent -->
     </div> <!--closes graphicblock -->
   </div> <!-- closes graphiccontainer-->
