@@ -238,34 +238,34 @@
             zoomType: 'xy'
         },
         title: {
-            text: 'Height Versus Weight of 507 Individuals by Gender'
+            text: 'Comparing Goals For and Goals Against for Each Team'
         },
         subtitle: {
-            text: 'Source: Heinz  2003'
+            text: 'Source: FIFA.com'
         },
         xAxis: {
             title: {
                 enabled: true,
-                text: 'Height (cm)'
+                text: 'Average of Goals Against Per Game'
             },
             startOnTick: true,
             endOnTick: true,
             showLastLabel: true
         },
+        dataLabels: {
+                    format: "{point.name}",
+                    enabled: true
+        },
         yAxis: {
             title: {
-                text: 'Weight (kg)'
+                text: 'Average of Goals For Per Game'
             }
         },
+        credits: {
+          enabled:false
+        },
         legend: {
-            layout: 'vertical',
-            align: 'left',
-            verticalAlign: 'top',
-            x: 100,
-            y: 70,
-            floating: true,
-            backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF',
-            borderWidth: 1
+
         },
         plotOptions: {
             scatter: {
@@ -287,13 +287,13 @@
                 },
                 tooltip: {
                     headerFormat: '<b>{series.name}</b><br>',
-                    pointFormat: '{point.x} cm, {point.y} kg'
+                    pointFormat: '<b>Average Goals For: {point.x} </b><br> <b>Average Goals Against: {point.y}</b>'
                 }
             }
         },
         series: [{
             name: 'Reached Round of 16',
-            color: 'rgba(223, 83, 83, .5)',
+            color: '#FF3A20',
             data: [
             { x: 2.6, y: 0.6, name: 'Germany', dataLabels: { enabled: true, format: 'Germany'}},
             { x: 2.4, y: 0.8, name: 'Colombia', dataLabels: { enabled: true, format: 'Colombia'}},
@@ -314,8 +314,8 @@
           ]
           },
           {
-              name: 'Reached Round of 16',
-              color: 'rgba(0, 83, 83, .5)',
+              name: 'Eliminated in Round of 32',
+              color: '#7cb5ec',
               data: [
               { x: 2, y: 2, name: 'Croatia', dataLabels: { enabled: true, format: 'Croatia'}},
               { x: 1.3, y: 1.3, name: 'Bosnia and Herzegovina', dataLabels: { enabled: true, format: 'Bosnia and Herzegovina'}},
