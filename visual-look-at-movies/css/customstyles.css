@@ -3,255 +3,50 @@
 body {
   padding-top: 100px;
   font-size: 12px;
-  background-color: rgba(234, 200, 234, 0.5)
+  border: 3px solid black;
   }
-/* assigns an image to the background dictates how big it is*/
-.hi {
-  margin: 0px 0px 0px 0px;
-  background:url('../img/typewriter.jpg');
-  background-position:top;
-  background-size:95%;
-  background-repeat:no-repeat;
-  height: 250px;
-  font-weight: 100;
-  font-family: Garamond, times, serif;
-  }
-/* greeting font for the website. Sets it down the image 20%  */
-.welcome {
-  font-size: 5em;
-  text-align: center;
-  vertical-align: text-bottom;
-  position: relative;
-  top: 20%;
-  color: rgba(255, 255, 255, 0.85);
-  }
-.about {
-  font-size: 2em;
-  text-align: center;
-  font-family: Garamond, times, serif;
-  }
-.font_awesome li {
-  display: inline;
-  }
-/* similarly to .tophalf this controls the whole page */
+.graphicblock{
+  border: 3px solid black;
+}
+.textblock {
+  border: 3px solid black;
+}
+.timeline_explainer {
+  border: 3px solid black;
+}
+.headertext {
+  border: 3px solid black;
+}
+.text{
+  border: 3px solid black;
+  width: 102%;
+  
+}
+.graphiccontent {
+  border: 3px solid black;
+}
+#timeline_id {
+  border: 3px solid black;
+}
 
-.everything {
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  }
-/* the master controller for everything above the experience and skills and education. But I didn't really want to have anything be globally controlled. So I left it blank. */
-.tophalf {
-  }
-/* bolds the span in education */
-.bolding{
-  font-weight: bolder;
-  }
-.education, .skills {
-  font-family: Garamond, times, serif;
-  justify-content: center;
-  background-color: #fff;
-  margin-bottom: 10px;
-  line-height: 1.4em;
-  padding-top: 10px;
-  }
-/* sets the font for the navbar  */
-.navbar-brand{
-  font-family: "Roboto", arial, sans-serif;
-  }
-.experience {
-  background-color: #fff;
-  }
-/* ids date's font family and style */
-.date {
-  font-family: Garamond, times, serif;
-  font-style: italic;
-  }
-.jobtitle {
-  font-weight: bold;
-  font-size: 1.75em;
-  font-family: Garamond, times, serif;
-  margin-bottom: 0px;
-  }
-.employer {
-  font-size: 1.25em;
-  margin-bottom: 10px;
-  font-family: "Roboto", arial, sans-serif;
-  }
-.duties{
-  font-size: 1.4em;
-  font-family: Garamond, times, serif;
-  line-height: 1.25em;
-  }
-.jobleft  {
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-  }
-.education{
-  font-size: .9em;
-  }
-.footer {
-  font-family: Garamond, times, serif;
-  font-size: 1.3em;
-  text-align: center;
-  margin-top:60px;
-  }
-.smallhead {
-  font-size: 2.25em;
-  font-family: "roboto", arial, sans-serif;
-  text-align: left;
-  }
-.list-group-two , .list-group-one {
-  text-align: left;
-  padding-left: 30px;
-  }
-.fa-twitter {
-  color: #9932CC;
-  }
-.fa-linkedin-square{
-  color: #9932CC;
-  }
-.fa-github-square{
-  color: #9932CC;
-  }
-.fa-envelope{
-  color: #9932CC;
-  }
+/* assigns an image to the background dictates how big it is*/
+
+
 /* for x-small devices, tablets */
 @media only screen and (max-width: 768px) {
-.education, .skills {
-  font-size: 1.3em;
-  padding-top: 10px;
-  }
-.skills {
-  padding-top: 5px;
-  margin-top: 10px;
-  }
-/* drops down the headline text further */
-.expheadline{
-  font-size: 2em;
-  }
-/*makes the welcome background banner smaller for smaller screens*/
-.welcome {
-  font-size: 3.5em;
-  text-align: center;
-  vertical-align: text-bottom;
-  position: relative;
-  top: 65%;
-  color: rgba(255, 255, 255, 0.85);
-  text-shadow: 2px 2px black;
-  }
-.list-group-two , .list-group-one{
-  list-style-type: none;
-}
-  /* again changes the height of my text, Chris Cioffi, reporter smaller moves it a skootch */
-.hi {
-  margin: 0px 0px 0px 0px;
-  background-position:top;
-  background-size:98%;
-  background-repeat:no-repeat;
-  height: 340px;
-  font-weight: 100;
-  }
-  .education_skills{
-    padding: 10px 0px 10px 0px;
-  }
+
 }
 /* for small devices, tablets */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-.skills, .education {
-  font-size: 1.3em;
-  }
-.list-group-two , .list-group-one{
-  list-style-type: none;
-  }
-.skills {
-  padding-top: 5px;
-  margin-top: 4px;
-  }
-.hi {
-  margin: 0px 0px 0px 0px;
-  background-position:top;
-  background-size:98%;
-  background-repeat:no-repeat;
-  height: 350px;
-  font-weight: 100;
-  }
-.welcome {
-  font-size: 4em;
-  text-align: center;
-  vertical-align: text-bottom;
-  position: relative;
-  top: 70%;
-  color: rgba(255, 255, 255, 0.85);
-  }
-.education_skills{
-  padding: 10px 0px 10px 0px;
-  }
 
 }
 /* for medium tablets */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* changes around the background image size, and fonts for skills, education */
-.skills, .education {
-  font-size: 1.35em;
-  }
-/* pares down my name to make it fit better  */
-.expheadline{
-  font-size: 3em;
-  }
-.hi {
-  margin: 0px 0px 0px 0px;
-  background-position:top;
-  background-size:98%;
-  background-repeat:no-repeat;
-  height: 480px;
-  font-weight: 100;
-  }
-.welcome {
-  font-size: 5em;
-  text-align: center;
-  vertical-align: text-bottom;
-  position: relative;
-  top: 65%;
-  color: rgba(255, 255, 255, 0.85);
-  }
-.list-group-one , .list-group-two{
-  float: left;
-  list-style-type: none;
-   }
- .skills {
-   padding-top: 10px;
-   margin-top: 0px;
-   }
+
  }
 /* for large screens*/
 @media only screen and (min-width:1200px) {
   /* modifies the font size of skills, edication and the background size */
-.skills, .education {
-  font-size: 1.4em;
-  }
-.expheadline{
-  font-size: 3em;
-  }
-.hi {
-  margin: 0px 0px 0px 0px;
-  background-position:top;
-  background-size:98%;
-  background-repeat:no-repeat;
-  height: 550px;
-  font-weight: 100;
-  }
-.welcome {
-  font-size: 5em;
-  text-align: center;
-  vertical-align: text-bottom;
-  position: relative;
-  top: 70%;
-  color: rgba(255, 255, 255, 0.85);
-  }
-.list-group-one , .list-group-two{
-  float: left;
-  list-style-type: none;
-   }
+
 }
