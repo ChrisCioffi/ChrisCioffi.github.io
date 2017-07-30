@@ -3,13 +3,21 @@
 body {
   padding-top: 100px;
   font-size: 12px;
-  border: 3px solid black;
   }
 .graphicblock{
-  border: 3px solid black;
+  border-left: 10px solid green;
+  padding: 5px;
+  margin-top: 5px;
+}
+.widegraphicblock{
+  border-top: 5px solid green;
+  border-bottom: 5px solid green;
+  padding: 5px;
 }
 .textblock {
+  padding: 5px;
   border: 3px solid black;
+
 }
 .timeline_explainer {
   border: 3px solid black;
@@ -17,16 +25,29 @@ body {
 .headertext {
   border: 3px solid black;
 }
-.text{
+.bodytext{
   border: 3px solid black;
-  width: 102%;
-  
+  width: 100%;
+  margin-left: 0px;
 }
 .graphiccontent {
-  border: 3px solid black;
+  margin-left: 15px;
 }
-#timeline_id {
-  border: 3px solid black;
+.toptext{
+  text-align: center;
+  font-size: 2rem;
+}
+.byline {
+  font-size: 1rem;
+  text-align: center;
+}
+.lead {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 60px;
+}
+.footer{
+  padding-top: 40px;
 }
 
 /* assigns an image to the background dictates how big it is*/
