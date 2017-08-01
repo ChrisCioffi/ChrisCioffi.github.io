@@ -75,12 +75,13 @@
         </div> <!--closes textblock-->
         <div class="col-sm-12 widegraphicblock">
           <div class"col-sm-12 graphiccontent">
-            <div id="graph_one"> <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=18KiSn5c9yh4RYScZ7j9955-nMjq4nRghoFuKP5gaxYA&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe> </div>
+            <div id="graph_one"> <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=18KiSn5c9yh4RYScZ7j9955-nMjq4nRghoFuKP5gaxYA&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='500' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+            </div>
           </div> <!-- closes graphiccontent -->
         </div> <!--closes widegraphicblock -->
       </div> <!-- closes graphiccontainer-->
       <div class="row graphiccontainer" id="two">
-        <div class="col-sm-4 textblock">
+        <div class="col-sm-12 textblock">
           <div class="col-sm-12 headertext">
             <div class="text-center header">Graph 2</div>
           </div> <!--closes headertext-->
@@ -88,9 +89,83 @@
             <div class="text-center text">This explains the graphic</div>
           </div> <!-- closes bodytext-->
         </div> <!--closes textblock-->
-        <div class="col-sm-7 graphicblock">
+        <div class="col-sm-12 graphicblock">
           <div class"col-sm-12 graphiccontent">
-            <div id="graph_two"> A graph will go here </div>
+          <div id="graph_two"> </div>
+          <script src="Highcharts-5.0.13/code/highcharts.js"></script>
+          <script>
+          Highcharts.chart('graph_two', {
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: 'Total number of movies in the IMDB top 250 by decade'
+    },
+    subtitle: {
+        text: 'Source: <a href="http://www.imdb.com" , "_blank">IMDB</a>'
+    },
+    xAxis: {
+        type: 'category',
+        labels: {
+            rotation: -45,
+            style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+            }
+        }
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Population (millions)'
+        },
+      plotLines: [{
+      color: '#03487b', // Color value
+      value: 23, // Value of where the line will appear
+      width: 4, // Width of the line
+      label: {
+      text: 'Median is 23', // Content of the label.
+      align: 'left', // Positioning of the label.
+      }
+    }]
+
+    },
+    legend: {
+        enabled: false
+    },
+    tooltip: {
+        pointFormat: 'Population in 2008: <b>{point.y:.1f} millions</b>'
+    },
+    series: [{
+        name: 'Population',
+        data: [
+            ['1920s', 6],
+            ['1930s', 7],
+            ['1940s', 12],
+            ['1950s', 25],
+            ['1960s', 18],
+            ['1970s', 21],
+            ['1980s', 28],
+            ['1990s', 42],
+            ['2000s', 53],
+            ['2010s', 38]
+        ],
+        dataLabels: {
+            enabled: true,
+            rotation: -90,
+            color: '#FFFFFF',
+            align: 'right',
+            format: '{point.y:.1f}', // one decimal
+            y: 10, // 10 pixels down from the top
+            style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+            }
+        }
+    }]
+});
+
+          </script>
           </div> <!-- closes graphiccontent -->
         </div> <!--closes graphicblock -->
       </div> <!-- closes graphiccontainer-->
@@ -105,7 +180,15 @@
         </div> <!--closes textblock-->
         <div class="col-sm-12 widegraphicblock">
           <div class"col-sm-12 graphiccontent">
-            <div id="graph_three"> A graph will go here </div>
+            <div id="graph_three"> <iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col4%3E%3E1+from+1d5uEMXD6EVep7lBZRjWpyjoJvlUS28e0OKoucqHm&amp;viz=MAP&amp;h=false&amp;lat=33.636058249461165&amp;lng=96.15234375&amp;t=1&amp;z=2&amp;l=col4%3E%3E1&amp;y=2&amp;tmplt=2&amp;hml=KML"></iframe> </div>
+            <div class="overlaybox">
+            <div class="topgross">Grossed 31,000-38,000</div>
+            <div class="twogross">Grossed 30,999-24,900 </div>
+            <div class="threegross">Grossed 18,650-24,899 </div>
+            <div class="fourgross">Grossed 12,500-18,649</div>
+            <div class="fivegross">Grossed 0-12,500</div>
+            <div class="sixgross"> Not top grossing </div>
+          </div> <!-- closes overlaybox -->
           </div> <!-- closes graphiccontent -->
         </div> <!--closes widegraphicblock -->
       </div> <!-- closes graphiccontainer-->
