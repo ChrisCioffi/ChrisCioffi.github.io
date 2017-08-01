@@ -74,7 +74,7 @@
           </div> <!-- closes bodytext-->
         </div> <!--closes textblock-->
         <div class="col-sm-12 widegraphicblock">
-          <div class"col-sm-12 graphiccontent">
+          <div class="col-sm-12 graphiccontent">
             <div id="graph_one"> <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=18KiSn5c9yh4RYScZ7j9955-nMjq4nRghoFuKP5gaxYA&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='500' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
             </div>
           </div> <!-- closes graphiccontent -->
@@ -90,82 +90,8 @@
           </div> <!-- closes bodytext-->
         </div> <!--closes textblock-->
         <div class="col-sm-12 graphicblock">
-          <div class"col-sm-12 graphiccontent">
+          <div class="col-sm-12 graphiccontent">
           <div id="graph_two"> </div>
-          <script src="Highcharts-5.0.13/code/highcharts.js"></script>
-          <script>
-          Highcharts.chart('graph_two', {
-    chart: {
-        type: 'column'
-    },
-    title: {
-        text: 'Total number of movies in the IMDB top 250 by decade'
-    },
-    subtitle: {
-        text: 'Source: <a href="http://www.imdb.com" , "_blank">IMDB</a>'
-    },
-    xAxis: {
-        type: 'category',
-        labels: {
-            rotation: -45,
-            style: {
-                fontSize: '13px',
-                fontFamily: 'Verdana, sans-serif'
-            }
-        }
-    },
-    yAxis: {
-        min: 0,
-        title: {
-            text: 'Population (millions)'
-        },
-      plotLines: [{
-      color: '#03487b', // Color value
-      value: 23, // Value of where the line will appear
-      width: 4, // Width of the line
-      label: {
-      text: 'Median is 23', // Content of the label.
-      align: 'left', // Positioning of the label.
-      }
-    }]
-
-    },
-    legend: {
-        enabled: false
-    },
-    tooltip: {
-        pointFormat: 'Population in 2008: <b>{point.y:.1f} millions</b>'
-    },
-    series: [{
-        name: 'Population',
-        data: [
-            ['1920s', 6],
-            ['1930s', 7],
-            ['1940s', 12],
-            ['1950s', 25],
-            ['1960s', 18],
-            ['1970s', 21],
-            ['1980s', 28],
-            ['1990s', 42],
-            ['2000s', 53],
-            ['2010s', 38]
-        ],
-        dataLabels: {
-            enabled: true,
-            rotation: -90,
-            color: '#FFFFFF',
-            align: 'right',
-            format: '{point.y:.1f}', // one decimal
-            y: 10, // 10 pixels down from the top
-            style: {
-                fontSize: '13px',
-                fontFamily: 'Verdana, sans-serif'
-            }
-        }
-    }]
-});
-
-          </script>
           </div> <!-- closes graphiccontent -->
         </div> <!--closes graphicblock -->
       </div> <!-- closes graphiccontainer-->
@@ -179,7 +105,7 @@
           </div> <!-- closes bodytext-->
         </div> <!--closes textblock-->
         <div class="col-sm-12 widegraphicblock">
-          <div class"col-sm-12 graphiccontent">
+          <div class="col-sm-12 graphiccontent">
             <div id="graph_three"> <iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col4%3E%3E1+from+1d5uEMXD6EVep7lBZRjWpyjoJvlUS28e0OKoucqHm&amp;viz=MAP&amp;h=false&amp;lat=33.636058249461165&amp;lng=96.15234375&amp;t=1&amp;z=2&amp;l=col4%3E%3E1&amp;y=2&amp;tmplt=2&amp;hml=KML"></iframe> </div>
             <div class="overlaybox">
             <div class="topgross">Grossed 31,000-38,000</div>
@@ -193,7 +119,7 @@
         </div> <!--closes widegraphicblock -->
       </div> <!-- closes graphiccontainer-->
       <div class="row graphiccontainer" id="four">
-        <div class="col-sm-4 textblock">
+        <div class="col-sm-12 textblock">
           <div class="col-sm-12 headertext">
             <div class="text-center header">Graph 4</div>
           </div> <!--closes headertext-->
@@ -201,12 +127,12 @@
             <div class="text-center text">This explains the graphic</div>
           </div> <!-- closes bodytext-->
         </div> <!--closes textblock-->
-        <div class="col-sm-7 graphicblock">
-          <div class"col-sm-12 graphiccontent">
-            <div id="graph_four"> A graph will go here </div>
-          </div> <!-- closes graphiccontent -->
-        </div> <!--closes graphicblock -->
-      </div> <!-- closes graphiccontainer-->
+        <div class="col-sm-12 graphicblock">
+          <div class="col-sm-12 graphiccontent">
+            <div id="graph_four"> </div>
+          </div>
+        </div> <!-- closes graphiccontent -->
+      </div> <!--closes graphicblock -->
       <div class="row graphiccontainer" id="five">
         <div class="col-sm-12 textblock">
           <div class="col-sm-12 headertext">
@@ -217,7 +143,7 @@
           </div> <!-- closes bodytext-->
         </div> <!--closes textblock-->
         <div class="col-sm-12 widegraphicblock">
-          <div class"col-sm-12 graphiccontent">
+          <div class="col-sm-12 graphiccontent">
             <div id="graph_five"> A graph will go here </div>
           </div> <!-- closes graphiccontent -->
         </div> <!--closes graphicblock -->
@@ -232,7 +158,7 @@
           </div> <!-- closes bodytext-->
         </div> <!--closes textblock-->
         <div class="col-sm-7 graphicblock">
-          <div class"col-sm-12 graphiccontent">
+          <div class="col-sm-12 graphiccontent">
             <div id="graph_six"> A graph will go here </div>
           </div> <!-- closes graphiccontent -->
         </div> <!--closes graphicblock -->
@@ -253,7 +179,157 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <!--All of these links below make interactivity, which we'll add later, work. This-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="Highcharts-5.0.13/code/highcharts.js"></script>
 
+<script>
+      Highcharts.chart('graph_two', {
+      chart: {
+        type: 'column'
+      },
+      title: {
+        text: 'Total number of movies in the IMDB top 250 by decade'
+      },
+      subtitle: {
+        text: 'Source: <a href="http://www.imdb.com" , "_blank">IMDB</a>'
+      },
+      plotOptions: {
+      series: {
+      color: '#3c6478'
+      },
+      },
+      xAxis: {
+        type: 'category',
+        labels: {
+            rotation: -45,
+            style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+            }
+        }
+      },
+      yAxis: {
+        min: 0,
+        title: {
+            text: 'Number of Films'
+        },
+      plotLines: [{
+      color: '#03A89E', // Color value
+      value: 23, // Value of where the line will appear
+      width: 4, // Width of the line
+      label: {
+      text: 'Median is 23', // Content of the label.
+      align: 'left', // Positioning of the label.
+      }
+      }]
+
+      },
+      credits: {
+      enabled:false
+      },
+      legend: {
+        enabled: false
+      },
+      tooltip: {
+        pointFormat: 'There were {point.y} movies in the IMDB top 250 in the {point.name}'
+      },
+      series: [{
+        name: 'Grossing films by decade',
+        data: [
+            ['1920s', 6],
+            ['1930s', 7],
+            ['1940s', 12],
+            ['1950s', 25],
+            ['1960s', 18],
+            ['1970s', 21],
+            ['1980s', 28],
+            ['1990s', 42],
+            ['2000s', 53],
+            ['2010s', 38]
+        ],
+        dataLabels: {
+            enabled: true,
+            rotation: -0,
+            color: '#CD3700',
+            align: 'right',
+            format: '{point.y:.1f}', // one decimal
+            y: 20, // 10 pixels down from the top
+            style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+            }
+        }
+      }]
+      });
+
+  </script>
+  <script>
+    Highcharts.chart('graph_four', {
+    chart: {
+    type: 'column'
+    },
+    title: {
+    text: 'Number of films by director'
+    },
+    subtitle: {
+    text: '<a href="http://www.imdb.com/chart/top" , "_blank">IMDB Top 250 movies </a> IMDB Top 250 Movies and <a href="http://www.boxofficemojo.com/alltime/adjusted.htm" , "_blank">Box Office Mojo Top Adjusted Gross Income Films </a>'
+    },
+    xAxis: {
+    type: 'category',
+    labels: {
+      rotation: -45,
+      style: {
+          fontSize: '13px',
+          fontFamily: 'Verdana, sans-serif'
+      }
+    }
+    },
+    yAxis: {
+    min: 0,
+    title: {
+      text: 'Number of Films'
+    },
+    },
+    plotOptions: {
+    series: {
+    color: '#3c6478'
+    },
+    },
+    credits: {
+    enabled:false
+    },
+    legend: {
+    enabled: false
+    },
+    tooltip: {
+    pointFormat: '{point.name} had {point.y} movies on the IMDB Top 250 and Box Office Mojo Top 200 Adjusted Grossing Movies'
+    },
+    series: [{
+    name: 'Grossing films by decade',
+    data: [
+      ['Alfred Hitchcock', 2],
+      ['Christopher Nolan', 2],
+      ['George Roy Hill', 2],
+      ['Robert Zemeckis', 2],
+      ['George Lucas', 3],
+      ['Peter Jackson', 3],
+      ['Steven Spielberg', 5],
+      ['Disney/Pixar', 8]
+    ],
+    dataLabels: {
+      enabled: true,
+      rotation: -0,
+      color: '#CD3700',
+      align: 'right',
+      format: '{point.y:.1f}', // one decimal
+      y: 20, // 10 pixels down from the top
+      style: {
+          fontSize: '13px',
+          fontFamily: 'Verdana, sans-serif'
+      }
+    }
+    }]
+    });
+</script>
     <!--This is the core boostrap javascript file this is the original, but we need to correct the path-->
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
