@@ -56,7 +56,7 @@
 
     <div class="container"> <!--beginning of main body section of document -->
       <div class="row topsection">
-        <div class="col-sm-6 col-sm-offset-3 topbox">
+        <div class="col-sm-12 topbox">
           <div class="toptext">A Visual Look at Our Favorite Movies</div>
           <div class="byline"><span class="lowercase"> BY </span>Chris Cioffi </div>
           <div class="lead"> There are movies we think are good and movies we all pay to go see. These movies are not always the same. This is a visual look at our favorite movies, using IMDB ratings and data of box office ticket sales (adjusted for inflation) from Box Office Mojo.
@@ -67,21 +67,22 @@
       <div class="row graphiccontainer" id="one">
         <div class="col-sm-12 textblock">
           <div class="col-sm-12 headertext">
-            <div class="text-center header">timeline</div>
+            <div class="text-center header">Each decade, one film stood out</div>
           </div> <!--closes headertext-->
           <div class="col-sm-12 bodytext">
-            <div class="text-center text">This explains the timeline</div>
+            <div class="text-center text">Between the 1920s and today, </div>
           </div> <!-- closes bodytext-->
         </div> <!--closes textblock-->
-        <div class="col-sm-12 widegraphicblock">
+        <div class="col-sm-12 graphicblock">
           <div class="col-sm-12 graphiccontent">
             <div id="graph_one"> <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=18KiSn5c9yh4RYScZ7j9955-nMjq4nRghoFuKP5gaxYA&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='500' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
             </div>
           </div> <!-- closes graphiccontent -->
-        </div> <!--closes widegraphicblock -->
+        </div> <!--closes graphicblock -->
       </div> <!-- closes graphiccontainer-->
       <div class="row graphiccontainer" id="two">
         <div class="col-sm-12 textblock">
+          <div class="bottomline"> </div>
           <div class="col-sm-12 headertext">
             <div class="text-center header">Graph 2</div>
           </div> <!--closes headertext-->
@@ -97,6 +98,7 @@
       </div> <!-- closes graphiccontainer-->
       <div class="row graphiccontainer" id="three">
         <div class="col-sm-12 textblock">
+          <div class="bottomline"> </div>
           <div class="col-sm-12 headertext">
             <div class="text-center header">Graph 3</div>
           </div> <!--closes headertext-->
@@ -104,7 +106,7 @@
             <div class="text-center text">This explains the graphic</div>
           </div> <!-- closes bodytext-->
         </div> <!--closes textblock-->
-        <div class="col-sm-12 widegraphicblock">
+        <div class="col-sm-12 graphicblock">
           <div class="col-sm-12 graphiccontent">
             <div id="graph_three"> <iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col4%3E%3E1+from+1d5uEMXD6EVep7lBZRjWpyjoJvlUS28e0OKoucqHm&amp;viz=MAP&amp;h=false&amp;lat=33.636058249461165&amp;lng=96.15234375&amp;t=1&amp;z=2&amp;l=col4%3E%3E1&amp;y=2&amp;tmplt=2&amp;hml=KML"></iframe> </div>
             <div class="overlaybox">
@@ -116,10 +118,11 @@
             <div class="sixgross"> Not top grossing </div>
           </div> <!-- closes overlaybox -->
           </div> <!-- closes graphiccontent -->
-        </div> <!--closes widegraphicblock -->
+        </div> <!--closes graphicblock -->
       </div> <!-- closes graphiccontainer-->
       <div class="row graphiccontainer" id="four">
         <div class="col-sm-12 textblock">
+          <div class="bottomline"> </div>
           <div class="col-sm-12 headertext">
             <div class="text-center header">Graph 4</div>
           </div> <!--closes headertext-->
@@ -135,6 +138,7 @@
       </div> <!--closes graphicblock -->
       <div class="row graphiccontainer" id="five">
         <div class="col-sm-12 textblock">
+          <div class="bottomline"> </div>
           <div class="col-sm-12 headertext">
             <div class="text-center header">Graph 5</div>
           </div> <!--closes headertext-->
@@ -142,7 +146,7 @@
             <div class="text-center text">This explains the graphic</div>
           </div> <!-- closes bodytext-->
         </div> <!--closes textblock-->
-        <div class="col-sm-12 widegraphicblock">
+        <div class="col-sm-12 graphicblock">
           <div class="col-sm-12 graphiccontent">
             <div id="graph_five"> Graph here</div>
           </div> <!-- closes graphiccontent -->
@@ -150,6 +154,7 @@
       </div> <!-- closes graphiccontainer-->
       <div class="row graphiccontainer" id="six">
         <div class="col-sm-12 textblock">
+          <div class="bottomline"> </div>
           <div class="col-sm-12 headertext">
             <div class="text-center header">Graph 6</div>
           </div> <!--closes headertext-->
@@ -163,6 +168,7 @@
           </div> <!-- closes graphiccontent -->
         </div> <!--closes graphicblock -->
       </div> <!-- closes graphiccontainer-->
+      <div class="bottomline"> </div>
 
 <i class="fa fa-address-book" aria-hidden="false"></i>
 
@@ -180,7 +186,10 @@
     <!--All of these links below make interactivity, which we'll add later, work. This-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="Highcharts-5.0.13/code/highcharts.js"></script>
-
+    <script src="highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/heatmap.js"></script>
+    <script src="https://code.highcharts.com/modules/treemap.js"></script>
 <script>
       Highcharts.chart('graph_two', {
       chart: {
@@ -213,7 +222,7 @@
             text: 'Number of Films'
         },
       plotLines: [{
-      color: '#03A89E', // Color value
+      color: '#2F4F4F', // Color value
       value: 23, // Value of where the line will appear
       width: 4, // Width of the line
       label: {
@@ -331,10 +340,19 @@
     });
 </script>
 <script>
+Highcharts.setOptions({
+    lang: {
+        decimalPoint: '.',
+        thousandsSep: ','
+      }
+    });
 Highcharts.chart('graph_five', {
     chart: {
         type: 'scatter',
         zoomType: 'xy'
+    },
+    credits: {
+    enabled:false
     },
     title: {
         text: 'Adjusted gross income for each of the 8 Star Wars films'
@@ -378,29 +396,67 @@ Highcharts.chart('graph_five', {
             },
             tooltip: {
                 headerFormat: '<b>{series.name}</b><br>',
-                pointFormat: '{point.x} cm, {point.y} kg'
+                pointFormat: '${point.x:,.f} million, {point.y} IMDB rating'
+
             }
+
         }
     },
     series: [{
         name: 'Original Trilogy',
         color: '#CD3700',
-        data: [{ x:1583483200 ,  y: 8.7, name: 'A New Hope' , dataLabels: { enabled: true, format: 'A New Hope'}},
-          { x:872825900 ,  y: 8.8, name: 'The Empire Strikes Back' , dataLabels: { enabled: true, format: 'The Empire Strikes Back'}},
-          { x:836188200 ,  y: 8.4, name: 'Return of the Jedi' , dataLabels: { enabled: true, format: 'Return of the Jedi'}}]
+        data: [{ x:1583 ,  y: 8.7, name: 'A New Hope' , dataLabels: { enabled: true, format: 'A New Hope'}},
+          { x:872 ,  y: 8.8, name: 'The Empire Strikes Back' , dataLabels: { enabled: true, format: 'The Empire Strikes Back'}},
+          { x:836 ,  y: 8.4, name: 'Return of the Jedi' , dataLabels: { enabled: true, format: 'Return of the Jedi'}}]
 
     }, {
         name: 'Prequels',
         color: '#03A89E',
-        data: [{ x:802874300,  y: 6.5, name: 'The Phantom Menace', dataLabels: { enabled: true, format: 'The Phantom Menace'}},
-        { x:475334700,  y: 6.6, name: 'Attack of the Clones', dataLabels: { enabled: true, format: 'Attack of the Clones'}},
-        { x:527395500,  y: 7.6, name: 'Revenge of the Sith', dataLabels: { enabled: true, format: 'Revenge of the Sith'}}]
+        data: [{ x:802,  y: 6.5, name: 'The Phantom Menace', dataLabels: { enabled: true, format: 'The Phantom Menace'}},
+        { x:475,  y: 6.6, name: 'Attack of the Clones', dataLabels: { enabled: true, format: 'Attack of the Clones'}},
+        { x:527,  y: 7.6, name: 'Revenge of the Sith', dataLabels: { enabled: true, format: 'Revenge of the Sith'}}]
     },  {
         name: 'New Generation',
         color: '#FF8C00',
-        data: [{ x:961143200,  y: 8.1, name: 'The Force Awakens ', dataLabels: { enabled: true, format: 'The Force Awakens '}},
-        { x:537326000,  y: 7.9, name: 'Rogue One ', dataLabels: { enabled: true, format: 'Rogue One '}}]
+        data: [{ x:961,  y: 8.1, name: 'The Force Awakens ', dataLabels: { enabled: true, format: 'The Force Awakens '}},
+        { x:537,  y: 7.9, name: 'Rogue One ', dataLabels: { enabled: true, format: 'Rogue One '}}]
     }]
+});
+</script>
+<script>
+Highcharts.chart('graph_six', {
+    colorAxis: {
+        minColor: '#FF7F56',
+        maxColor: Highcharts.getOptions().colors[0]
+    },
+    credits: {
+    enabled:false
+    },
+    series: [{
+        type: 'treemap',
+        layoutAlgorithm: 'squarified',
+        data: [{ name: 'Buena Vista/Disney' , value: 23.090, colorValue: 1 },
+                { name: 'Fox' , value: 14.943, colorValue: 2 },
+                { name: 'Paramount' , value: 13.298, colorValue: 3 },
+                { name: 'Werner Brothers' , value: 12.937, colorValue: 4 },
+                { name: 'Universal Studios' , value: 12.417, colorValue: 5 },
+                { name: 'Disney ' , value: 7.106, colorValue: 6 },
+                { name: 'MGM' , value: 5.517, colorValue: 7 },
+                { name: 'Columbia' , value: 4.126, colorValue: 8 },
+                { name: 'United Artists' , value: 3.173, colorValue: 9 },
+                { name: 'New Line ' , value: 2.264, colorValue: 10 },
+                { name: 'Sony' , value: 2.072, colorValue: 11 },
+                { name: 'Everyone else' , value: 10.107, colorValue: 12 }]
+    }],
+    title: {
+        text: 'Gross of the top studios'
+    },
+    tooltip: {
+       valueDecimals: 2,
+       valuePrefix: '$',
+       valueSuffix: ' Billion'
+
+    }
 });
 </script>
   </body>

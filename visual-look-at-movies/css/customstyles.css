@@ -5,47 +5,52 @@ body {
   font-size: 12px;
   }
 .graphicblock{
-  border-top: 5px solid green;
-  border-bottom: 5px solid green;
   padding: 5px;
+  margin-bottom: 5px;
   margin-top: 5px;
 }
-.widegraphicblock{
-  border-top: 5px solid green;
-  border-bottom: 5px solid green;
-  padding: 5px;
+.topsection{
+background-color: #e3e7ea;
+border-top: 3px solid #C83200;
+border-bottom:  3px solid #C83200;
 }
-.textblock {
-  padding: 5px;
-  border: 3px solid black;
-}
-.timeline_explainer {
-  border: 3px solid black;
-}
-.headertext {
-  border: 3px solid black;
+.header{
+  padding: 20px 0px;
+  font-size: 7rem;
+  font-family: helvetica, sans-serif;
 }
 .bodytext{
-  border: 3px solid black;
   width: 100%;
   margin-left: 0px;
 }
+
 .graphiccontent {
   margin-left: 0px;
 }
 .toptext{
   text-align: center;
-  font-size: 2rem;
+  padding: 20px 0px;
+  font-size: 7rem;
+  font-family: helvetica, sans-serif;
 }
 .byline {
-  font-size: 1rem;
+  font-size: 2.4rem;
   text-align: center;
+  padding-bottom: 60px;
+  padding-top: 50px;
+  font-family: garamond, serif;
 }
 .lead {
+  width: 100%;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 3rem;
   padding-bottom: 60px;
+  padding-top: 40px;
 }
+  .bottomline {
+  border-top: 3px solid #C83200;
+}
+
 .footer{
   padding-top: 40px;
 }
@@ -61,6 +66,14 @@ body {
 #graph_four {
   border: 3px inset;
 }
+#graph_five {
+  border: 3px inset;
+}
+#graph_six {
+  border: 3px inset;
+}
+
+
 .overlaybox {
   width: 200px;
   height: 150px;
