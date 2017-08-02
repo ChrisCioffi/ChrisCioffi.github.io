@@ -16,7 +16,7 @@ border-bottom:  3px solid #C83200;
 }
 .header{
   padding: 20px 0px;
-  font-size: 7rem;
+  font-size: 6rem;
   font-family: helvetica, sans-serif;
 }
 .bodytext{
@@ -33,19 +33,25 @@ border-bottom:  3px solid #C83200;
   font-size: 7rem;
   font-family: helvetica, sans-serif;
 }
+.text {
+  text-align: center;
+  padding: 20px 40px;
+  font-size: 2.5rem;
+  font-family: garamond, serif;
+}
 .byline {
   font-size: 2.4rem;
   text-align: center;
-  padding-bottom: 60px;
-  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-top: 80px;
   font-family: garamond, serif;
 }
 .lead {
   width: 100%;
   text-align: center;
   font-size: 3rem;
-  padding-bottom: 60px;
-  padding-top: 40px;
+  padding: 60px 100px;
+  font-family: garamond, serif;
 }
   .bottomline {
   border-top: 3px solid #C83200;
@@ -134,7 +140,37 @@ border-bottom:  3px solid #C83200;
 
 /* for x-small devices, tablets */
 @media only screen and (max-width: 768px) {
-
+  .lead {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px 100px;
+    font-family: garamond, serif;
+  }
+  .toptext{
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 5rem;
+    font-family: helvetica, sans-serif;
+  }
+  .byline {
+      font-size: 2rem;
+      text-align: center;
+      padding-bottom: 60px;
+      padding-top: 50px;
+      font-family: garamond, serif;
+    }
+  .text {
+    text-align: center;
+    padding: 20px 40px;
+    font-size: 2rem;
+    font-family: garamond, serif;
+  }
+  .header{
+    padding: 20px 0px;
+    font-size: 5rem;
+    font-family: helvetica, sans-serif;
+  }
 }
 /* for small devices, tablets */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
