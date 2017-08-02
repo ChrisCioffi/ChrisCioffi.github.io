@@ -144,12 +144,12 @@
         </div> <!--closes textblock-->
         <div class="col-sm-12 widegraphicblock">
           <div class="col-sm-12 graphiccontent">
-            <div id="graph_five"> A graph will go here </div>
+            <div id="graph_five"> Graph here</div>
           </div> <!-- closes graphiccontent -->
         </div> <!--closes graphicblock -->
       </div> <!-- closes graphiccontainer-->
       <div class="row graphiccontainer" id="six">
-        <div class="col-sm-4 textblock">
+        <div class="col-sm-12 textblock">
           <div class="col-sm-12 headertext">
             <div class="text-center header">Graph 6</div>
           </div> <!--closes headertext-->
@@ -157,7 +157,7 @@
             <div class="text-center text">This explains the graphic</div>
           </div> <!-- closes bodytext-->
         </div> <!--closes textblock-->
-        <div class="col-sm-7 graphicblock">
+        <div class="col-sm-12 graphicblock">
           <div class="col-sm-12 graphiccontent">
             <div id="graph_six"> A graph will go here </div>
           </div> <!-- closes graphiccontent -->
@@ -330,9 +330,78 @@
     }]
     });
 </script>
-    <!--This is the core boostrap javascript file this is the original, but we need to correct the path-->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+Highcharts.chart('graph_five', {
+    chart: {
+        type: 'scatter',
+        zoomType: 'xy'
+    },
+    title: {
+        text: 'Adjusted gross income for each of the 8 Star Wars films'
+    },
+    subtitle: {
+        text: '<a href="http://www.imdb.com/chart/top" , "_blank">IMDB Top 250 movies </a> IMDB Top 250 Movies and <a href="http://www.boxofficemojo.com/alltime/adjusted.htm" , "_blank">Box Office Mojo Top Adjusted Gross Income Films </a>'
+    },
+    xAxis: {
+        title: {
+            enabled: true,
+            text: 'Gross Income (2017 dollars)'
+
+        },
+        startOnTick: true,
+        endOnTick: true,
+        showLastLabel: true
+    },
+    yAxis: {
+        title: {
+            text: 'IMDB Ranking'
+        }
+    },
+
+    plotOptions: {
+        scatter: {
+            marker: {
+                radius: 5,
+                states: {
+                    hover: {
+                        enabled: true,
+                        lineColor: 'rgb(100,100,100)'
+                    }
+                }
+            },
+            states: {
+                hover: {
+                    marker: {
+                        enabled: false
+                    }
+                }
+            },
+            tooltip: {
+                headerFormat: '<b>{series.name}</b><br>',
+                pointFormat: '{point.x} cm, {point.y} kg'
+            }
+        }
+    },
+    series: [{
+        name: 'Original Trilogy',
+        color: '#CD3700',
+        data: [{ x:1583483200 ,  y: 8.7, name: 'A New Hope' , dataLabels: { enabled: true, format: 'A New Hope'}},
+          { x:872825900 ,  y: 8.8, name: 'The Empire Strikes Back' , dataLabels: { enabled: true, format: 'The Empire Strikes Back'}},
+          { x:836188200 ,  y: 8.4, name: 'Return of the Jedi' , dataLabels: { enabled: true, format: 'Return of the Jedi'}}]
+
+    }, {
+        name: 'Prequels',
+        color: '#03A89E',
+        data: [{ x:802874300,  y: 6.5, name: 'The Phantom Menace', dataLabels: { enabled: true, format: 'The Phantom Menace'}},
+        { x:475334700,  y: 6.6, name: 'Attack of the Clones', dataLabels: { enabled: true, format: 'Attack of the Clones'}},
+        { x:527395500,  y: 7.6, name: 'Revenge of the Sith', dataLabels: { enabled: true, format: 'Revenge of the Sith'}}]
+    },  {
+        name: 'New Generation',
+        color: '#FF8C00',
+        data: [{ x:961143200,  y: 8.1, name: 'The Force Awakens ', dataLabels: { enabled: true, format: 'The Force Awakens '}},
+        { x:537326000,  y: 7.9, name: 'Rogue One ', dataLabels: { enabled: true, format: 'Rogue One '}}]
+    }]
+});
+</script>
   </body>
 </html>
