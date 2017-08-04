@@ -159,11 +159,17 @@
   <div class="row graphiccontainer" id="six">
     <div class="col-sm-3 col-sm-offset-1 textblock">
       <div class="col-sm-12 graphictitle">
-        <h2>How Germany Won</h2>
+        <h2>Impressive on Offense, Stingy on Defense</h2>
       </div> <!--closes graphictitle-->
       <div class="col-sm-12 info_map">
-        <p>Germany won the World Cup by controlling the ball with more crisp passes than any other team in the tournament, taking more high percentage shots and scoring buckets of goals while keeping their opponents from finding the back of the net.</p>
+        <p>It may seem obvious, but one reason Germany won the World Cup is that it scored more goals per game, on average, than any other team in the tournament, while letting in fewer goals per game on average than all but one team, Costa Rica.</p>
+
+        <p>Teams on the right side of this graphic scored more goals per game on average than teams on the left. Teams on the top of the graphic let in more goals per game on average than teams at the bottom.</p>
+
+        <p>Hover over a team dot for exact figures.</p>
+            <button type="button" class="btn btn-primary btn-xs" id="togglequarterfinalists"><span class='shown' style='display: none;'> Hide Eliminated Teams </span> <span class="showlabel" style="display: inline;">Show Eliminated Teams</span></button>
       </div> <!-- gloses info_map-->
+
     </div> <!--closes textblock-->
     <div class="col-sm-7 graphicblock">
       <div class"col-sm-12 graphiccontent">
@@ -183,7 +189,6 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     <!--This link is to jquery library.  If this is isn't hooked up properly, none of our functions will work.-->
 
-    <script src="scripts.js"></script>
   </body>
   <script src="Highcharts-5.0.13/code/highcharts.js"></script>
   <script>
@@ -250,7 +255,7 @@
     });
   </script>
   <script>
-  Highcharts.chart('winlosschart', {
+  var winlosschart = Highcharts.chart('winlosschart', {
     chart: {
         type: 'scatter',
         zoomType: 'xy'
@@ -356,5 +361,5 @@
           ]
           });
   </script>
-
+<script src="scripts.js"></script>
 </html>

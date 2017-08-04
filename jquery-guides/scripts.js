@@ -188,13 +188,13 @@ $(document).ready(function() {
 
 /*We can turn things on and off with toggle*/
 
-
+/*
 $(document).ready(function() {
     $("button").click(function() {
 		$("#one").toggle();
     });
 });
-
+*/
 
 /*We can hide something that is currently visible*/
 /*
