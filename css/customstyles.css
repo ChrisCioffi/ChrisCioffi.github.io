@@ -6,6 +6,9 @@ body {
   background-color: rgba(234, 200, 234, 0.5)
   }
 /* assigns an image to the background dictates how big it is*/
+#hidden {
+  display: none;
+}
 .hi {
   margin: 0px 0px 0px 0px;
   background:url('../img/typewriter.jpg');
@@ -188,6 +191,7 @@ body {
 .education_skills{
   padding: 10px 0px 10px 0px;
   }
+
 
 }
 /* for medium tablets */

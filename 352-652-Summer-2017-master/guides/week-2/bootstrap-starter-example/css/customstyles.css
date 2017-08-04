@@ -1,0 +1,6 @@
+/* No CSS Reset with Bootstrap */
+/*These initial styles come from here: http://getbootstrap.com/examples/starter-template/starter-template.css*/
+
+body {
+  padding-top: 50px;
+}

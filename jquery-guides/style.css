@@ -1,0 +1,37 @@
+div {
+    height:75px;
+    width:75px;
+    background-color:#FF0000;
+    border-radius:5px;
+    margin-bottom: 5px;
+    padding:10px;
+    font-family: helvetica;
+}
+
+button {
+	margin-bottom: 10px;
+
+}
+
+#moveme {
+	position: relative;
+	background-color: blue;
+	color: #fff;
+}
+
+.dottedborder {
+	border: 3px dashed blue;
+}
+
+#hiddenbox {
+	display: none;
+}
+
+.hidden {
+	color: #ffffff;
+	background-color: #000000;
+}
+
+.even {
+	background-color: #00FF00;
+}
