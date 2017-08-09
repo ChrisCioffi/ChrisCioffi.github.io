@@ -12,8 +12,7 @@ body {
   vertical-align: text-bottom;
   position: relative;
   top: 20%;
-  color: rgba(255, 255, 255, 0.85);
-  }
+    }
 .about {
   font-size: 2em;
   text-align: center;
@@ -21,7 +20,7 @@ body {
   }
 .font_awesome li {
   display: inline;
-
+  
   }
 .footer {
   text-align: center;
