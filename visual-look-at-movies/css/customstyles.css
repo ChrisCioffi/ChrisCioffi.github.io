@@ -4,6 +4,10 @@ body {
   padding-top: 100px;
   font-size: 12px;
   }
+.container {
+  padding-left: 200px;
+  padding-right: 200px;
+}
 .graphicblock{
   padding: 5px;
   margin-bottom: 5px;
