@@ -33,8 +33,9 @@ font-family: garamond, times, serif;
   margin-left: 50px;
 }
 .photo{
-  margin: 300px 300px;
-}
+  margin: 0px 0px 0px 0px;
+  background:url('../IMG_0972.jpg');
+  }
 .byline {
   font-size: 1.5rem;
   text-align: center;
