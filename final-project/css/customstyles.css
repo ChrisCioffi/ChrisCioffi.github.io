@@ -1,20 +1,21 @@
 /* No CSS Reset with Bootstrap */
 /*These initial styles come from here: http://getbootstrap.com/examples/starter-template/starter-template.css*/
 body {
-  padding-top: 100px;
   font-size: 12px;
 
   }
+
+  .bottomsection {
+    display: inline-block;
+  }
   .title {
     width: 300px;
-    padding-top: 0px;
-    z-index: 1;
-    position: absolute;
-    top: 250px;
-    right: 50px;
+    position: relative;
     margin-left: 30px;
     font-size: 3rem;
+    top: 550px;
     text-align: center;
+    z-index: 1;
 }
 .headline {
   font-family: Garamond, times, serif;
@@ -32,8 +33,9 @@ font-family: garamond, times, serif;
   margin-right: 50px;
   margin-left: 50px;
 }
-.photo{
-  margin: 250px 250px;
+.headerimage{
+  width:100%;
+  position: relative;
 }
 .byline {
   font-size: 1.5rem;
@@ -41,8 +43,6 @@ font-family: garamond, times, serif;
   font-family: helvetica, sans-serif;
 }
 .headlinebox {
-  background-image: url("../IMG_0972.jpg");
-  background-color: red;
 }
 .welcome {
   font-size: 5em;
@@ -57,48 +57,44 @@ font-family: garamond, times, serif;
 .part_one{
 
 }
-.photo_one{
+.photobox_one{
 
 }
+.textbox_one{
+
+}
+.photo_one {
+  height: 150px;
+  background-color: yellow;
+}
+.photo_two {
+  height: 150px;
+  background-color: yellow;
+}
+.photo_three {
+  height: 150px;
+  background-color: yellow;
+}
+
 .graph_one{
-
-}
-.part_two{
-
-}
-.photo_two{
-
+  height: 500px;
+  width: 500px;
+  background-color: yellow;
 }
 .graph_two{
-
-}
-.part_three{
-
-}
-.photo_three{
-
+  
 }
 .graph_three{
-
-}
-.part_four{
-
-}
-.photo_four{
-
+  height: 500px;
+  width: 500px;
+  background-color: yellow;
 }
 .graph_four{
-
+  height: 500px;
+  width: 500px;
+  background-color: yellow;
 }
-.part_five{
 
-}
-.photo_five{
-
-}
-.graph_five{
-
-}
 .about {
   font-size: 2em;
   text-align: center;
@@ -110,26 +106,52 @@ font-family: garamond, times, serif;
   }
 .footer {
   text-align: center;
+
 }
 /* for x-small devices, tablets */
 
 @media only screen and (max-width: 768px) {
-
-
+  .title {
+    display: inline;
+    width: 300px;
+    margin-left: 30px;
+    font-size: 3rem;
+    top: 40px;
+    padding: 60px;
+    text-align: center;
+    z-index: 1;
+  }
+}
 /* for small devices, tablets */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
-
+  .title {
+    width: 300px;
+    position: relative;
+    margin-left: 30px;
+    font-size: 3rem;
+    top: 350px;
+    text-align: center;
+    z-index: 1;
+  }
+}
 /* for medium tablets */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
 /* changes around the background image size, and fonts for skills, education */
-
-
+.title {
+  width: 300px;
+  position: relative;
+  margin-left: 30px;
+  font-size: 3rem;
+  top: 450px;
+  text-align: center;
+  z-index: 1;
+}
+}
 /* for large screens*/
 
 @media only screen and (min-width:1200px) {
-
+}
 /* modifies the font size of skills, edication and the background size */
