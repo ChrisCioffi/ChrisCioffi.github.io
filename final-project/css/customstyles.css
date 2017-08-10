@@ -5,7 +5,41 @@ body {
   font-size: 12px;
 
   }
+  .title {
+    width: 300px;
+    padding-top: 0px;
+    z-index: 1;
+    position: absolute;
+    top: 250px;
+    right: 50px;
+    margin-left: 30px;
+    font-size: 3rem;
+    text-align: center;
+}
+.headline {
+  font-family: Garamond, times, serif;
+  font-size:
+}
 
+p {
+padding: 0px;
+font-size: 2rem;
+font-family: garamond, times, serif;
+}
+
+.separator{
+  border-top: 2px solid #000000;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.photo{
+  margin: 300px 300px;
+}
+.byline {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: helvetica, sans-serif;
+}
 .welcome {
   font-size: 5em;
   text-align: center;
@@ -13,6 +47,54 @@ body {
   position: relative;
   top: 20%;
     }
+.fancyletter{
+  font-size: 5em;
+}
+.part_one{
+
+}
+.photo_one{
+
+}
+.graph_one{
+
+}
+.part_two{
+
+}
+.photo_two{
+
+}
+.graph_two{
+
+}
+.part_three{
+
+}
+.photo_three{
+
+}
+.graph_three{
+
+}
+.part_four{
+
+}
+.photo_four{
+
+}
+.graph_four{
+
+}
+.part_five{
+
+}
+.photo_five{
+
+}
+.graph_five{
+
+}
 .about {
   font-size: 2em;
   text-align: center;
@@ -20,7 +102,7 @@ body {
   }
 .font_awesome li {
   display: inline;
-  
+
   }
 .footer {
   text-align: center;
