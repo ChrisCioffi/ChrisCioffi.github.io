@@ -34,14 +34,15 @@ font-family: garamond, times, serif;
 }
 .photo{
   margin: 250px 250px;
-  background:url('../IMG_0972.jpg');
-  }
-  }
 }
 .byline {
   font-size: 1.5rem;
   text-align: center;
   font-family: helvetica, sans-serif;
+}
+.headlinebox {
+  background-image: url("../IMG_0972.jpg");
+  background-color: red;
 }
 .welcome {
   font-size: 5em;
