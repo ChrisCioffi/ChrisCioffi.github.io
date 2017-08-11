@@ -9,21 +9,6 @@ body {
 #hidden {
   display: none;
 }
-.hi {
-  margin: 0px 0px 0px 0px;
-  height: 50px;
-  font-weight: 100;
-  font-family: Garamond, times, serif;
-  }
-/* greeting font for the website. Sets it down the image 20%  */
-.welcome {
-  font-size: 5em;
-  text-align: center;
-  vertical-align: text-bottom;
-  position: relative;
-  top: 20%;
-  color: rgba(255, 255, 255, 0.85);
-  }
 .about {
   font-size: 2em;
   text-align: center;
@@ -36,6 +21,7 @@ body {
 /* similarly to .tophalf this controls the whole page */
 
 .everything {
+  padding-top: 150px;
   padding-bottom: 10px;
   margin-bottom: 10px;
   }
@@ -140,6 +126,7 @@ body {
   top: 65%;
   color: rgba(255, 255, 255, 0.85);
   text-shadow: 2px 2px black;
+  font-family: Garamond, times, serif;
   }
 .list-group-two , .list-group-one{
   list-style-type: none;
@@ -176,6 +163,7 @@ body {
   background-repeat:no-repeat;
   height: 350px;
   font-weight: 100;
+  font-family: Garamond, times, serif;
   }
 .welcome {
   font-size: 4em;
@@ -209,14 +197,13 @@ body {
   height: 150px;
   font-weight: 100;
   }
-.welcome {
-  font-size: 5em;
-  text-align: center;
-  vertical-align: text-bottom;
-  position: relative;
-  top: 65%;
-  color: rgba(255, 255, 255, 0.85);
-  }
+  .welcome {
+    font-size: 5em;
+    text-align: center;
+    vertical-align: text-bottom;
+    position: relative;
+    top: 65%;
+    }
 .list-group-one , .list-group-two{
   float: left;
   list-style-type: none;
@@ -237,19 +224,17 @@ body {
   }
   .hi {
     margin: 0px 0px 0px 0px;
-    background-position:top;
-    background-size:98%;
-    background-repeat:no-repeat;
-    height: 150px;
+    height: 50px;
     font-weight: 100;
+    font-family: Garamond, times, serif;
     }
+  /* greeting font for the website. Sets it down the image 20%  */
   .welcome {
     font-size: 5em;
     text-align: center;
     vertical-align: text-bottom;
     position: relative;
-    top: 65%;
-    color: rgba(255, 255, 255, 0.85);
+    top: 100%;
     }
 .list-group-one , .list-group-two{
   float: left;
