@@ -171,15 +171,25 @@ border-bottom:  3px solid #C83200;
     font-size: 5rem;
     font-family: helvetica, sans-serif;
   }
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 /* for small devices, tablets */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 /* for medium tablets */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* changes around the background image size, and fonts for skills, education */
-
+  .container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
  }
 /* for large screens*/
 @media only screen and (min-width:1200px) {
