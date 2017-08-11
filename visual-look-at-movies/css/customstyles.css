@@ -28,7 +28,13 @@ border-bottom:  3px solid #C83200;
   width: 100%;
   margin-left: 0px;
 }
-
+.welcome {
+  font-size: 2.4rem;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  font-family: garamond, serif;  
+}
 .graphiccontent {
   margin-left: 0px;
 }

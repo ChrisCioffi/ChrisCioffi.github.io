@@ -1,7 +1,7 @@
 /* No CSS Reset with Bootstrap */
 /*These initial styles come from here: http://getbootstrap.com/examples/starter-template/starter-template.css*/
 body {
-  padding-top: 100px;
+  padding-top: 20px;
   font-size: 12px;
   background-color: rgba(234, 200, 234, 0.5)
   }
@@ -11,11 +11,7 @@ body {
 }
 .hi {
   margin: 0px 0px 0px 0px;
-  background:url('../img/typewriter.jpg');
-  background-position:top;
-  background-size:95%;
-  background-repeat:no-repeat;
-  height: 250px;
+  height: 50px;
   font-weight: 100;
   font-family: Garamond, times, serif;
   }
@@ -35,6 +31,7 @@ body {
   }
 .font_awesome li {
   display: inline;
+  padding-top: 50px;
   }
 /* similarly to .tophalf this controls the whole page */
 
@@ -209,7 +206,7 @@ body {
   background-position:top;
   background-size:98%;
   background-repeat:no-repeat;
-  height: 480px;
+  height: 150px;
   font-weight: 100;
   }
 .welcome {
@@ -238,22 +235,22 @@ body {
 .expheadline{
   font-size: 3em;
   }
-.hi {
-  margin: 0px 0px 0px 0px;
-  background-position:top;
-  background-size:98%;
-  background-repeat:no-repeat;
-  height: 550px;
-  font-weight: 100;
-  }
-.welcome {
-  font-size: 5em;
-  text-align: center;
-  vertical-align: text-bottom;
-  position: relative;
-  top: 70%;
-  color: rgba(255, 255, 255, 0.85);
-  }
+  .hi {
+    margin: 0px 0px 0px 0px;
+    background-position:top;
+    background-size:98%;
+    background-repeat:no-repeat;
+    height: 150px;
+    font-weight: 100;
+    }
+  .welcome {
+    font-size: 5em;
+    text-align: center;
+    vertical-align: text-bottom;
+    position: relative;
+    top: 65%;
+    color: rgba(255, 255, 255, 0.85);
+    }
 .list-group-one , .list-group-two{
   float: left;
   list-style-type: none;
