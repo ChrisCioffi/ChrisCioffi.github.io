@@ -33,6 +33,13 @@ font-family: garamond, times, serif;
   margin-right: 50px;
   margin-left: 50px;
 }
+#medicaid_dentists {
+  border: 5px inset;
+}
+#dental_exams {
+  border: 5px inset;
+}
+
 .headerimage{
   width:100%;
   position: relative;
@@ -82,12 +89,7 @@ font-family: garamond, times, serif;
   background-color: yellow;
 }
 .graph_two{
-  
-}
-.graph_three{
-  height: 500px;
-  width: 500px;
-  background-color: yellow;
+
 }
 .graph_four{
   height: 500px;
