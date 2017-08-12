@@ -107,14 +107,16 @@
     </div>
     <div class="row graph_one">
       <div class="col-sm-7 graph_one">
-        <p>a graph will go here<p>
+        <div id="dental_exams"> </div>
       </div>
     </div>
     <div class="row bottomtext">
       <div class="col-sm-7 part_two">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. </p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. </p>
+        <div id="cartomap">
         <iframe width="100%" height="520" frameborder="0" src="https://chriscioffi.carto.com/builder/ed4e6f7c-7eed-11e7-b555-0ef24382571b/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+        </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. </p>
       </div>
     </div>
@@ -139,7 +141,7 @@
     </div>
     <div class="row graph">
       <div class="col-sm-7 graph_two">
-        <div id="dental_exams"> </div>
+        <p>a graph will go here<p>
       </div>
     </div>
     <div class="row bottomtext">
@@ -184,7 +186,7 @@
     </div>
     <div class="row graph">
       <div class="col-sm-7 graph_four">
-        <p>a graph will go here<p>
+        <div id="medicaid_payouts"> </div>
       </div>
     </div>
 
@@ -258,7 +260,7 @@ Highcharts.chart('medicaid_dentists', {
       type: 'line'
   },
   title: {
-      text: 'Percentage of children with at least one dental encounter'
+      text: 'Percentage of dentists that accept Medicaid'
   },
   subtitle: {
       text: 'Source: MD Annual Oral Health Legislative Report'
@@ -287,7 +289,46 @@ Highcharts.chart('medicaid_dentists', {
   },
   series: [{
       name: 'Percentage of dentists in Maryland accepting Medicaid',
-      data: [{ x: 0,y:939, percentage:23.2540861812779}, { x: 1,y:1038, percentage:24.9519230769231}, { x: 2, y: 953, percentage: 22.4340866290019 } ,{ x: 3,y:1001, percentage:23.4536082474227}, { x: 4,y:1100, percentage:25.8215962441315}, { x: 5, y: 1203, percentage: 27.8343359555761 }, { x: 6, y: 1274, percentage: 29.9412455934195 }]
+      data: [{ x: 0,y:939, percentage:23.2540861812779}, { x: 1,y:1038, percentage:24.9519230769231}, { x: 2, y: 953, percentage: 22.4340866290019 } ,{ x: 3,y:1001, percentage:23.4536082474227}, { x: 4, y:1100, percentage:25.8215962441315}, { x: 5, y: 1203, percentage: 27.8343359555761 }, { x: 6, y: 1274, percentage: 29.9412455934195 }]
+    }]
+});
+</script>
+<script>
+Highcharts.chart('medicaid_payouts', {
+  chart: {
+      type: 'line'
+  },
+  title: {
+      text: 'Amount of money paid to dentists by Medicaid'
+  },
+  subtitle: {
+      text: 'Source: MD Annual Oral Health Legislative Report'
+  },
+  xAxis: {
+      categories: ['CY 2000' , 'CY 2001' ,' CY 2002' , 'CY 2003' , 'CY 2004' ,' CY 2005' , 'CY 2006' , 'CY 2007' ,' CY 2008' , 'CY 2009**' , 'CY 2010***' ,' CY 2011' , 'CY 2012' , 'CY 2014' ]
+  },
+  yAxis: {
+      title: {
+          text: 'Dollars in millions'
+      }
+  },
+  tooltip:{
+            formatter:function(){
+                console.log(this);
+                return 'In ' + this.x + ', $' + this.y + 'million was reimbursed to Maryland dentists.'
+              }
+                    },
+  plotOptions: {
+      line: {
+          dataLabels: {
+              enabled: false
+          },
+          enableMouseTracking: true
+      }
+  },
+  series: [{
+      name: 'Percentage of children getting dental exams',
+      data: [ 27.1, 40.3, 33, 28, 33, 35.1, 42.5, 55.4, 82.8, 137.6, 152.7, 150.5, 157.2, 159 ]
     }]
 });
 </script>

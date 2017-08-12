@@ -40,6 +40,12 @@ font-family: garamond, times, serif;
 #dental_exams {
   border: 5px inset;
 }
+#medicaid_payouts {
+  border: 5px inset;
+}
+#cartomap{
+  border: 5px inset;
+}
 
 .headerimage{
   width:100%;
@@ -86,15 +92,7 @@ font-family: garamond, times, serif;
   background-color: yellow;
 }
 
-.graph_one{
-  height: 500px;
-  width: 500px;
-  background-color: yellow;
-}
 .graph_two{
-
-}
-.graph_four{
   height: 500px;
   width: 500px;
   background-color: yellow;
