@@ -70,6 +70,9 @@ font-family: garamond, times, serif;
   margin-right: 50px;
   margin-left: 50px;
 }
+#demographics {
+  border: 5px inset;
+}
 #medicaid_dentists {
   border: 5px inset;
 }
@@ -122,11 +125,6 @@ font-family: garamond, times, serif;
 }
 .photo_three {
   height: 150px;
-  background-color: yellow;
-}
-.graph_two{
-  height: 500px;
-  width: 500px;
   background-color: yellow;
 }
 

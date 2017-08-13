@@ -137,7 +137,21 @@
     </div>
     <div class="row graph">
       <div class="col-sm-7 graph_two">
-        <p>a graph will go here<p>
+    <!--This code was built from a solution built by pzp May 26, 2016. Link: https://stackoverflow.com/questions/37463289/highcharts-change-graph-when-radio-button-selected -->
+      <div id="demographics>"
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+      </div>
+
+<input class="test" name="g" type="radio" value="a">Male/female</input>
+
+<input class="test" name="g" type="radio" value="b">Race and Hispanic Origin</input>
+
+
+<input class="test" name="g" type="radio" value="c">Percent of poverty line</input>
+
+<div id="demographics" style="width: 100%"></div>
+
+        <!---->
       </div>
     </div>
     <div class="row bottomtext">
@@ -328,5 +342,6 @@ Highcharts.chart('medicaid_payouts', {
     }]
 });
 </script>
-  </body>
+<script src="scriptsfinal.js"></script>
+</body>
 </html>
