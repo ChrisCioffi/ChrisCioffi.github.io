@@ -2,9 +2,44 @@
 /*These initial styles come from here: http://getbootstrap.com/examples/starter-template/starter-template.css*/
 body {
   font-size: 12px;
-
   }
-
+/*for Portfolio and Index pages: */
+/* controls the fa-fa-buttons */
+.fa-twitter {
+  color: #9932CC;
+  }
+.fa-linkedin-square{
+  color: #9932CC;
+  }
+.fa-github-square{
+  color: #9932CC;
+  }
+.fa-envelope{
+  color: #9932CC;
+  }
+.font_awesome li {
+  display: inline;
+  padding-top: 25px;
+  }
+/* end of fa-fa buttons */
+/* controls the background color for top section */
+  .topsection {
+    background-color: rgba(234, 200, 234, 0.7);
+  }
+  .welcome {
+    font-size: 5rem;
+    text-align: center;
+    vertical-align: text-bottom;
+    position: relative;
+    padding-top: 30px;
+    font-family: "Roboto", helvetica, sans-serif;
+      }
+  .hello_world{
+    font-size: 1.5rem;
+    font-family: garamond, times, serif;
+    text-align: center;
+  }
+/* end of top section controls */
   .bottomsection {
     display: inline-block;
   }
@@ -21,6 +56,7 @@ body {
   font-family: Garamond, times, serif;
   font-size:
 }
+
 
 p {
 padding: 0px;
@@ -46,6 +82,9 @@ font-family: garamond, times, serif;
 #cartomap{
   border: 5px inset;
 }
+.hi{
+  padding-top: 15px;
+}
 
 .headerimage{
   width:100%;
@@ -59,13 +98,6 @@ font-family: garamond, times, serif;
 }
 .headlinebox {
 }
-.welcome {
-  font-size: 5em;
-  text-align: center;
-  vertical-align: text-bottom;
-  position: relative;
-  top: 20%;
-    }
 .fancyletter{
   font-size: 5em;
   padding-top: 15px;
@@ -73,6 +105,7 @@ font-family: garamond, times, serif;
 .part_one{
 
 }
+
 .photobox_one{
 
 }
@@ -91,7 +124,6 @@ font-family: garamond, times, serif;
   height: 150px;
   background-color: yellow;
 }
-
 .graph_two{
   height: 500px;
   width: 500px;
@@ -103,10 +135,7 @@ font-family: garamond, times, serif;
   text-align: center;
   font-family: Garamond, times, serif;
   }
-.font_awesome li {
-  display: inline;
 
-  }
 .footer {
   text-align: center;
 
