@@ -106,7 +106,7 @@ d3.tsv("data.tsv", function(error, data) {
       .attr("y", 6)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("Percentage of dentists");
+      .text("Percentage of dentists accepting Medicaid");
 
   svg.append("path")
       .datum(data)
