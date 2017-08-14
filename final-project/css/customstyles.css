@@ -81,6 +81,23 @@ body {
   stroke: limegreen;
   stroke-width: 2px;
 }
+/*tooltip styling borrowed from https://bl.ocks.org/alandunning/cfb7dcd7951826b9eacd54f0647f48d3*/
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: #F1F3F3;
+  stroke: #6F257F;
+  stroke-width: 5px;
+}
+
+.hover-line {
+  stroke: #6F257F;
+  stroke-width: 2px;
+  stroke-dasharray: 3,3;
+}
 /* end of D3 styling items*/
 
 p {
