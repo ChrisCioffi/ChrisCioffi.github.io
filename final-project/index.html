@@ -178,10 +178,8 @@
     <div class="row graph">
         <div class="col-sm-7 graph_three">
         <!-- links D3 chart...thanks to  Peter Freschi https://github.com/pfreschi/IntroToD3 -->
-
         <div class="linechart"></div>
       </div>
-
     </div>
     <div class="row bottomtext">
       <div class="col-sm-7 part">
@@ -242,6 +240,9 @@
       credits: {
         enabled: false
       },
+      legend: {
+     enabled: false
+      },
       title: {
           text: 'Percentage of children with at least one dental encounter'
       },
@@ -253,15 +254,19 @@
       },
       yAxis: {
           title: {
-              text: 'Number of children'
+              text: 'Percentage of children'
           }
       },
       tooltip:{
-                formatter:function(){
-                    console.log(this);
-                    return 'In ' + this.x + ', ' + this.y + '% of children on Medicaid went to the dentist.'
-                  }
-                        },
+          formatter:function(){
+          console.log(this);
+          return 'In ' + this.x + ', ' + this.y + '% of children on Medicaid went to the dentist.'
+        },
+          backgroundColor: '#FCFFC5',
+          borderColor: 'black',
+          borderRadius: 10,
+          borderWidth: 3
+      },
       plotOptions: {
           line: {
               dataLabels: {
@@ -285,10 +290,13 @@ Highcharts.chart('medicaid_dentists', {
     enabled: false
   },
   title: {
-      text: 'Percentage of dentists that accept Medicaid'
+      text: 'Number of dentists that accept Medicaid'
   },
   subtitle: {
       text: 'Source: MD Annual Oral Health Legislative Report'
+  },
+  legend: {
+ enabled: false
   },
   xAxis: {
       categories: ['June 2010' , 'August 2011' ,' August 2012' , 'August 2013' , 'August 2014' ,' August 2015' , 'August 2016']
@@ -302,8 +310,12 @@ Highcharts.chart('medicaid_dentists', {
             formatter:function(){
                 console.log(this);
                 return 'In ' + this.x + ', ' + Highcharts.numberFormat(this.percentage, 1) + '% of dentists in Maryland accepted Medicaid.'
-              }
-                    },
+              },
+                backgroundColor: '#FCFFC5',
+                borderColor: 'black',
+                borderRadius: 10,
+                borderWidth: 3
+            },
   plotOptions: {
       line: {
           dataLabels: {
@@ -322,6 +334,9 @@ Highcharts.chart('medicaid_dentists', {
 Highcharts.chart('medicaid_payouts', {
   chart: {
       type: 'line'
+  },
+  legend: {
+ enabled: false
   },
   title: {
       text: 'Amount of money paid to dentists by Medicaid'
@@ -344,8 +359,12 @@ Highcharts.chart('medicaid_payouts', {
             formatter:function(){
                 console.log(this);
                 return 'In ' + this.x + ', $' + this.y + 'million was reimbursed to Maryland dentists.'
-              }
-                    },
+        },
+          backgroundColor: '#FCFFC5',
+          borderColor: 'black',
+          borderRadius: 10,
+          borderWidth: 3
+      },
   plotOptions: {
       line: {
           dataLabels: {

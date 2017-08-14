@@ -50,9 +50,13 @@
               formatter:function(){
                   console.log(this);
                   return 'In ' + this.x + ', ' + this.y + '% of '  + this.series.name + ' children in the U.S. had untreated cavities.'
+                },
+                backgroundColor: '#FCFFC5',
+                borderColor: 'black',
+                borderRadius: 10,
+                borderWidth: 3
                 }
-                      }
-  });
+              });
 
 
   $('.test').change(function() {
