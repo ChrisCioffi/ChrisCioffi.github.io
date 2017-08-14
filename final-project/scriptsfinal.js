@@ -21,6 +21,14 @@
       type: 'line',
       title: ''
     },
+    plotOptions: {
+        line: {
+            dataLabels: {
+                enabled: true
+            },
+            enableMouseTracking: true
+        }
+    },
     title: {
       text: 'Percentage of children aged 5-19 years with untreated cavities'
     },
