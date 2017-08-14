@@ -139,14 +139,14 @@
       <div class="col-sm-7 graph_two">
     <!--This code was built from a solution built by pzp May 26, 2016. Link: https://stackoverflow.com/questions/37463289/highcharts-change-graph-when-radio-button-selected -->
       <div id="buttons">
-<input class="test" name="g" type="radio" value="a">Male/female</input>
+      <input class="test" name="g" type="radio" value="a">Male/female</input>
 
-<input class="test" name="g" type="radio" value="b">Race and Hispanic Origin</input>
+      <input class="test" name="g" type="radio" value="b">Race and Hispanic Origin</input>
 
 
-<input class="test" name="g" type="radio" value="c">Percent of poverty line</input>
-</div>
-<div id="demographics" style="width: 100%"></div>
+      <input class="test" name="g" type="radio" value="c">Percent of poverty line</input>
+      </div>
+      <div id="demographics" style="width: 100%"></div>
 
         <!---->
       </div>
@@ -179,6 +179,10 @@
       <div class="col-sm-7 graph_three">
         <div id="medicaid_dentists"> </div>
       </div>
+      <div class="col-sm-7 graph_three"> linechart
+        <div class="linechart"></div>
+      </div>
+
     </div>
     <div class="row bottomtext">
       <div class="col-sm-7 part">
@@ -350,6 +354,8 @@ Highcharts.chart('medicaid_payouts', {
 </script>
 
 <script src="scriptsfinal.js"></script>
-
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.1/d3.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

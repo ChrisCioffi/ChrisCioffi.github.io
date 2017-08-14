@@ -56,7 +56,35 @@ body {
   font-family: Garamond, times, serif;
   font-size:
 }
+/*specific to the D3 chart...*/
+#title {
+	background-color: darkblue;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
 
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: limegreen;
+  stroke-width: 2px;
+}
+/* end of D3 styling items*/
 
 p {
 padding: 0px;
