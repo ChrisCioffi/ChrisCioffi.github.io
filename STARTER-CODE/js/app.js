@@ -87,7 +87,7 @@ d3.tsv("data.tsv", function(error, data) {
 
   data.forEach(function(d) {
     d.date = parseDate(d.date);
-    d.percentage = +d.percentage;
+    d.users = +d.users;
   });
 
   x.domain(d3.extent(data, function(d) { return d.date; }));
