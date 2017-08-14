@@ -87,7 +87,7 @@ d3.tsv("data.tsv", function(error, data) {
 
   data.forEach(function(d) {
     d.date = parseDate(d.date);
-    d.users = +d.users;
+    d.users = + d.users;
   });
 
   x.domain(d3.extent(data, function(d) { return d.date; }));
@@ -101,6 +101,7 @@ d3.tsv("data.tsv", function(error, data) {
   svg.append("g")
       .attr("class", "y axis")
       .call(yAxis)
+
     .append("text")
       .attr("transform", "rotate(-90)")
       .attr("y", 6)

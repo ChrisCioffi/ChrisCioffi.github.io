@@ -2,6 +2,7 @@
 /*These initial styles come from here: http://getbootstrap.com/examples/starter-template/starter-template.css*/
 body {
   font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
   }
 /*for Portfolio and Index pages: */
 /* controls the fa-fa-buttons */
@@ -62,10 +63,6 @@ body {
 	color: white;
 	padding: 10px;
 	text-align: center;
-}
-
-body {
-	font-family: 'Montserrat', sans-serif;
 }
 
 .axis path,
