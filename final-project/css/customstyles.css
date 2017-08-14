@@ -100,14 +100,9 @@ body {
 }
 /* end of D3 styling items*/
 /*
-tooltip formatting borrowed from Highcharts website
+highcharts formatting borrowed from Highcharts website
 */
-tooltip: {
-    backgroundColor: '#FCFFC5',
-    borderColor: 'black',
-    borderRadius: 10,
-    borderWidth: 3
-}
+
 /* end of highcharts formatting */
 p {
 padding: 0px;
@@ -134,6 +129,9 @@ font-family: garamond, times, serif;
   border: 5px inset;
 }
 #cartomap{
+  border: 5px inset;
+}
+.linechart{
   border: 5px inset;
 }
 .hi{
