@@ -175,7 +175,6 @@ I opted to not use it.
 }
 
 .samplebox {
-  border: 1px dashed blue;
   margin-bottom: 10px;
   position: relative;
   max-height: 400px;
