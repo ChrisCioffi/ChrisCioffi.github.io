@@ -106,15 +106,10 @@ I opted to not use it.
   display:         flex;
 }
 
-
-.thumbnail{
-  height: auto;
-}
-
 .explainer {
-  width: 75%;
-  margin: 0 auto 0 auto;
+  font-size: 1.6rem;
 }
+
 
 /* end of portfolio page info*/
 
@@ -309,11 +304,12 @@ img {
     text-align: center;
     z-index: 1;
   }
-  .explainer {
-    font-size: 1.2;
-  }
+
   footer {
     padding: 30px;
+  }
+  .welcome{
+    font-size: 5rem;
   }
 }
 /* for small devices, tablets */
