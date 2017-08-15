@@ -21,8 +21,11 @@ body {
 .font_awesome li {
   display: inline;
   padding-top: 25px;
+  align-items: center;
   }
 /* end of fa-fa buttons */
+
+
 /* controls the background color for top section */
   .topsection {
     background-color: rgba(234, 200, 234, 0.7);
@@ -39,6 +42,11 @@ body {
     font-size: 1.5rem;
     font-family: garamond, times, serif;
     text-align: center;
+  }
+  .hi{
+    padding-top: 15px;
+    z-index: 1;
+    top: 30%;
   }
 /* end of top section controls */
   .bottomsection {
@@ -116,6 +124,8 @@ font-family: garamond, times, serif;
   margin-right: 50px;
   margin-left: 50px;
 }
+
+/* For graphs */
 #demographicchart {
   border: 5px inset;
 }
@@ -137,10 +147,15 @@ font-family: garamond, times, serif;
 .graph_two{
   border: 5px inset;
 }
-.hi{
-  padding-top: 15px;
-}
+/* For graphs */
 
+
+/* styling for final project */
+.introimage{
+  width:100%;
+  position: absolute;
+  padding-bottom: 25px;
+}
 .headerimage{
   width:100%;
   position: relative;
@@ -185,7 +200,10 @@ font-family: garamond, times, serif;
   text-align: center;
   font-family: Garamond, times, serif;
   }
+.introimage{
 
+}
+/*the end of final project stuff */
 .footer {
   text-align: center;
 
@@ -203,6 +221,16 @@ font-family: garamond, times, serif;
     text-align: center;
     z-index: 1;
   }
+  .topsection {
+    background-color: rgba(234, 200, 234, 0.7);
+    height: 350px;
+  }
+  .hi{
+    padding-top: 15px;
+    z-index: 1;
+    top: 15%;
+    text-align: center;
+  }
 }
 /* for small devices, tablets */
 
@@ -215,6 +243,10 @@ font-family: garamond, times, serif;
     top: 350px;
     text-align: center;
     z-index: 1;
+  }
+  .topsection {
+    background-color: rgba(234, 200, 234, 0.7);
+    height: 350px;
   }
 }
 /* for medium tablets */
@@ -231,9 +263,17 @@ font-family: garamond, times, serif;
   text-align: center;
   z-index: 1;
 }
+.topsection {
+  background-color: rgba(234, 200, 234, 0.7);
+  height: 400px;
+}
 }
 /* for large screens*/
 
 @media only screen and (min-width:1200px) {
+  .topsection {
+    background-color: rgba(234, 200, 234, 0.7);
+    height: 500px;
+  }
 }
 /* modifies the font size of skills, edication and the background size */
