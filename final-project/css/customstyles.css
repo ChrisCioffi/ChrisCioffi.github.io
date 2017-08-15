@@ -31,12 +31,13 @@ body {
     background-color: rgba(234, 200, 234, 0.7);
   }
   .welcome {
-    font-size: 6rem;
+    font-size: 7rem;
     text-align: center;
     vertical-align: text-bottom;
     position: relative;
     padding-top: 30px;
     font-family: "Roboto", helvetica, sans-serif;
+    font-variant-ligatures: none;
       }
   .hello_world{
     font-size: 2.5rem;
@@ -65,18 +66,18 @@ body {
 }
 .headline {
   font-family: Garamond, times, serif;
-  font-size:
+  font-size: 1.9rem;
+  color: white;
+  font-weight: 600;
+  width: auto;
+}
+.crane {
+  height: 100%;
 }
 
-/* For the portfolio page*/
-.work_samples{
-text-align: center;
-}
-.samplebox{
-padding: 20px;
-}
 
-/*This controls the previews on portfolio page https://bootsnipp.com/snippets/4RDW */
+/*This controls the previews on portfolio page https://bootsnipp.com/snippets/4RDW
+I opted to not use it.
 #frame_one, #frame_two, #frame_three {
     width: 800px;
     height: 520px;
@@ -88,94 +89,34 @@ padding: 20px;
     -webkit-transform: scale(0.4);
     -webkit-transform-origin: 0 0;
 }
- 
+ */
+.textoverlay {
+  width: 75%;
+  margin: 0 auto 0 auto;
+  background-color: rgba(0, 0, 0, .3);
+  position: absolute;
+  bottom: 220px;
 
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+
+.thumbnail{
+  height: auto;
+}
+
+.explainer {
+  width: 75%;
+  margin: 0 auto 0 auto;
+}
 
 /* end of portfolio page info*/
-/*specific to the D3 chart...thanks to  Peter Freschi https://github.com/pfreschi/IntroToD3 */
-#title {
-	background-color: darkblue;
-	color: white;
-	padding: 10px;
-	text-align: center;
-}
-
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-
-.x.axis path {
-  display: none;
-}
-
-.line {
-  fill: none;
-  stroke: limegreen;
-  stroke-width: 2px;
-}
-/*tooltip styling borrowed from https://bl.ocks.org/alandunning/cfb7dcd7951826b9eacd54f0647f48d3*/
-.overlay {
-  fill: none;
-  pointer-events: all;
-}
-
-.focus circle {
-  fill: #F1F3F3;
-  stroke: #6F257F;
-  stroke-width: 5px;
-}
-
-.hover-line {
-  stroke: #6F257F;
-  stroke-width: 2px;
-  stroke-dasharray: 3,3;
-}
-/* end of D3 styling items*/
-/*
-highcharts formatting borrowed from Highcharts website
-*/
-
-/* end of highcharts formatting */
-p {
-padding: 0px;
-font-size: 1.75rem;
-line-height: 2rem;
-font-family: garamond, times, serif;
-}
-
-.separator{
-  border-top: 2px solid #000000;
-  margin-right: 50px;
-  margin-left: 50px;
-}
-
-/* For graphs */
-#demographicchart {
-  border: 5px inset;
-}
-#medicaid_dentists {
-  border: 5px inset;
-}
-#dental_exams {
-  border: 5px inset;
-}
-#medicaid_payouts {
-  border: 5px inset;
-}
-#cartomap{
-  border: 5px inset;
-}
-.linechart{
-  border: 5px inset;
-}
-.graph_two{
-  border: 5px inset;
-}
-/* For graphs */
-
 
 /* styling for final project */
 .introimage{
@@ -230,11 +171,112 @@ font-family: garamond, times, serif;
 .introimage{
 
 }
+/*specific to the D3 chart...thanks to  Peter Freschi https://github.com/pfreschi/IntroToD3 */
+#title {
+	background-color: darkblue;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+.samplebox {
+  border: 1px dashed blue;
+  margin-bottom: 10px;
+  position: relative;
+  max-height: 400px;
+}
+
+.test {
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: limegreen;
+  stroke-width: 2px;
+}
+/*tooltip styling borrowed from https://bl.ocks.org/alandunning/cfb7dcd7951826b9eacd54f0647f48d3*/
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: #F1F3F3;
+  stroke: #6F257F;
+  stroke-width: 5px;
+}
+
+.hover-line {
+  stroke: #6F257F;
+  stroke-width: 2px;
+  stroke-dasharray: 3,3;
+}
+/* end of D3 styling items*/
+/*
+highcharts formatting borrowed from Highcharts website
+*/
+
+/* end of highcharts formatting */
+p {
+padding: 0px;
+font-size: 1.75rem;
+line-height: 2rem;
+font-family: garamond, times, serif;
+}
+.thumbnail {
+  margin:auto;
+}
+img {
+  width: 100%;
+}
+.separator{
+  border-top: 2px solid #000000;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+/* For graphs */
+#demographicchart {
+  border: 5px inset;
+}
+#medicaid_dentists {
+  border: 5px inset;
+}
+#dental_exams {
+  border: 5px inset;
+}
+#medicaid_payouts {
+  border: 5px inset;
+}
+#cartomap{
+  border: 5px inset;
+}
+.linechart{
+  border: 5px inset;
+}
+.graph_two{
+  border: 5px inset;
+}
+/* For graphs */
+
+
 /*the end of final project stuff */
 .footer {
   text-align: center;
 
 }
+
 /* for x-small devices, tablets */
 
 @media only screen and (max-width: 768px) {
@@ -243,7 +285,6 @@ font-family: garamond, times, serif;
     width: 300px;
     margin-left: 30px;
     font-size: 3rem;
-    top: 40px;
     padding: 60px;
     text-align: center;
     z-index: 1;
@@ -258,6 +299,22 @@ font-family: garamond, times, serif;
     top: 15%;
     text-align: center;
   }
+  /* For the portfolio page*/
+  .work_samples{
+  text-align: center;
+  }
+  .textoverlay {
+    position: relative;
+    font-size: 3rem;
+    text-align: center;
+    z-index: 1;
+  }
+  .explainer {
+    font-size: 1.2;
+  }
+  footer {
+    padding: 30px;
+  }
 }
 /* for small devices, tablets */
 
@@ -265,7 +322,6 @@ font-family: garamond, times, serif;
   .title {
     width: 300px;
     position: relative;
-    margin-left: 30px;
     font-size: 3rem;
     top: 350px;
     text-align: center;
@@ -274,6 +330,20 @@ font-family: garamond, times, serif;
   .topsection {
     background-color: rgba(234, 200, 234, 0.7);
     height: 350px;
+  }
+  /* For the portfolio page*/
+  .work_samples{
+  text-align: center;
+  }
+  .textoverlay {
+    position: relative;
+    margin-left: 30px;
+    font-size: 1.1rem;
+    text-align: center;
+    z-index: 1;
+  }
+  footer {
+    padding: 30px;
   }
 }
 /* for medium tablets */
@@ -294,6 +364,19 @@ font-family: garamond, times, serif;
   background-color: rgba(234, 200, 234, 0.7);
   height: 400px;
 }
+/* For the portfolio page*/
+.work_samples{
+text-align: center;
+}
+.textoverlay {
+  position: relative;
+  font-size: 1.5rem;
+  text-align: center;
+  z-index: 1;
+}
+footer {
+  padding: 30px;
+}
 }
 /* for large screens*/
 
@@ -301,6 +384,19 @@ font-family: garamond, times, serif;
   .topsection {
     background-color: rgba(234, 200, 234, 0.7);
     height: 500px;
+  }
+  /* For the portfolio page*/
+  .work_samples{
+  text-align: center;
+  }
+  .textoverlay {
+    position: relative;
+    font-size: 1.5rem;
+    text-align: center;
+    z-index: 1;
+  }
+  footer {
+    padding: 30px;
   }
 }
 /* modifies the font size of skills, edication and the background size */
