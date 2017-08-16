@@ -34,53 +34,55 @@ body {
 }
 
 i {
-    margin-left: 10px;
-    font-size: 30px;
-    height: 30px;
-    display:table-cell;
-    vertical-align:middle;
+  margin-left: 10px;
+  font-size: 30px;
+  height: 30px;
+  display:table-cell;
+  vertical-align:middle;
 }
 /* end of fa-fa buttons */
 
 
 /* controls the background color for top section */
-  .topsection {
-    background-color: rgba(234, 200, 234, 0.7);
-  }
-  .welcome {
-    font-size: 7rem;
-    text-align: center;
-    vertical-align: text-bottom;
-    position: relative;
-    padding-top: 30px;
-    font-family: "Roboto", helvetica, sans-serif;
-    font-variant-ligatures: none;
-      }
-    .subhead  {
-      font-size: 3rem;
+.topsection {
+  background-color: rgba(234, 200, 234, 0.7);
+}
+.welcome {
+  font-size: 7rem;
+  text-align: center;
+  vertical-align: text-bottom;
+  position: relative;
+  padding-top: 30px;
+  font-family: "Roboto", helvetica, sans-serif;
+  font-variant-ligatures: none;
     }
-  .hello_world{
-    font-size: 2.5rem;
-    font-family: garamond, times, serif;
-    text-align: justify;
-    padding: 25px;
+  .subhead  {
+    font-size: 3rem;
   }
-  .hello_worldone{
-    font-size: 2.5rem;
-    font-family: garamond, times, serif;
-    text-align: center;
-    padding: 25px;
-  }
-  .hi{
-    padding-top: 15px;
-    z-index: 1;
-    top: 30%;
-  }
+.hello_world{
+  font-size: 2.5rem;
+  font-family: garamond, times, serif;
+  text-align: justify;
+  padding: 25px;
+}
+.hello_worldone{
+  font-size: 2.5rem;
+  font-family: garamond, times, serif;
+  text-align: center;
+  padding: 25px;
+}
+.hi{
+  padding-top: 15px;
+  z-index: 1;
+  top: 30%;
+}
+.photo_of_me {
+padding-top: 25px;
+}
 /* end of top section controls */
 
 /* assorted bottom controls*/
   .bottomsection {
-    display: inline-block;
   }
   .title {
     width: 300px;
@@ -108,7 +110,9 @@ i {
 .crane {
   height: 100%;
 }
-
+#dental_exams, #demographicchart, #medicaid_dentists, #dental_exams, #medicaid_payouts {
+  border: 5px inset;
+  }
 
 /*This controls the previews on portfolio page https://bootsnipp.com/snippets/4RDW
 I opted to not use it.
@@ -144,6 +148,9 @@ I opted to not use it.
   font-size: 1.6rem;
 }
 
+.row {
+
+}
 
 /* end of portfolio page info*/
 
@@ -273,6 +280,7 @@ img {
   .title {
     font-size: 3rem;
     margin-top: 60px;
+    right:30px;
     text-align: center;
     z-index: 1;
     top: 1px;
