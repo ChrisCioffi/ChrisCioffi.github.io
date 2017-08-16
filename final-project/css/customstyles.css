@@ -23,6 +23,23 @@ body {
   padding-top: 25px;
   align-items: center;
   }
+.shareicons {
+  height: 30px;
+  font-size: 2rem;
+  text-align:center;
+  font-size: 30px;
+  display:table;
+  vertical-align:middle;
+  width:100%;
+}
+
+i {
+    margin-left: 10px;
+    font-size: 30px;
+    height: 30px;
+    display:table-cell;
+    vertical-align:middle;
+}
 /* end of fa-fa buttons */
 
 
@@ -39,10 +56,20 @@ body {
     font-family: "Roboto", helvetica, sans-serif;
     font-variant-ligatures: none;
       }
+    .subhead  {
+      font-size: 3rem;
+    }
   .hello_world{
     font-size: 2.5rem;
     font-family: garamond, times, serif;
+    text-align: justify;
+    padding: 25px;
+  }
+  .hello_worldone{
+    font-size: 2.5rem;
+    font-family: garamond, times, serif;
     text-align: center;
+    padding: 25px;
   }
   .hi{
     padding-top: 15px;
@@ -68,6 +95,13 @@ body {
   font-family: Garamond, times, serif;
   font-size: 1.9rem;
   color: white;
+  font-weight: 600;
+  width: auto;
+}
+.headlineone {
+  font-family: Garamond, times, serif;
+  font-size: 1.9rem;
+  color: black;
   font-weight: 600;
   width: auto;
 }
@@ -145,17 +179,8 @@ I opted to not use it.
 .textbox_one{
 
 }
-.photo_one {
-  height: 150px;
-  background-color: yellow;
-}
-.photo_two {
-  height: 150px;
-  background-color: yellow;
-}
-.photo_three {
-  height: 150px;
-  background-color: yellow;
+.photo{
+
 }
 
 .about {
@@ -220,7 +245,10 @@ I opted to not use it.
 /*
 highcharts formatting borrowed from Highcharts website
 */
-
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
 /* end of highcharts formatting */
 p {
 padding: 0px;
@@ -275,13 +303,11 @@ img {
 
 @media only screen and (max-width: 768px) {
   .title {
-    display: inline;
-    width: 300px;
-    margin-left: 30px;
     font-size: 3rem;
-    padding: 60px;
+    margin-top: 60px;
     text-align: center;
     z-index: 1;
+    top: 1px;
   }
   .topsection {
     background-color: rgba(234, 200, 234, 0.7);
@@ -378,7 +404,7 @@ footer {
 @media only screen and (min-width:1200px) {
   .topsection {
     background-color: rgba(234, 200, 234, 0.7);
-    height: 500px;
+    height: 400px;
   }
   /* For the portfolio page*/
   .work_samples{
