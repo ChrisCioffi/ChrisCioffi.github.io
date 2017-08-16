@@ -291,7 +291,7 @@ img {
   #dental_exams, #demographicchart, #medicaid_dentists, #dental_exams, #medicaid_payouts {
     border: 5px inset;
     height: 400px;
-    width:300px
+    width:340px
   }
 
 .cartomap{
@@ -302,7 +302,7 @@ img {
     }
   .graph_two{
     height: 400px;
-    width:300px;
+    width:340px;
     border: 5px inset;
     padding-bottom: 15px;
   }
