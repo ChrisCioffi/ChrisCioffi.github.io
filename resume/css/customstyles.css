@@ -1,24 +1,52 @@
 /* No CSS Reset with Bootstrap */
 /*These initial styles come from here: http://getbootstrap.com/examples/starter-template/starter-template.css*/
 body {
-  padding-top: 20px;
   font-size: 12px;
+
   }
 /* assigns an image to the background dictates how big it is*/
 #hidden {
   display: none;
 }
+.shareicons {
+  height: 30px;
+  font-size: 2rem;
+  text-align:center;
+  display:table;
+  vertical-align:middle;
+  width:100%;
+}
+.welcome {
+  font-size: 7rem;
+  text-align: center;
+  vertical-align: text-bottom;
+  position: relative;
+  padding-top: 30px;
+  font-family: "Roboto", helvetica, sans-serif;
+  font-variant-ligatures: none;
+  background-color: rgba(234, 200, 234, 0.7);
+    }
+.hi{
+  padding-top: 45px;
+  z-index: 1;
+  top: 30%;
+}
 .about {
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   font-family: Garamond, times, serif;
   }
+.font_awesome {
+  background-color: rgba(234, 200, 234, 0.7);
+}
 .font_awesome li {
   display: inline;
   padding-top: 50px;
   }
 /* similarly to .tophalf this controls the whole page */
-
+.expheadline{
+  font-size: 2em;
+  }
 .everything {
   padding-top: 15px;
   padding-bottom: 10px;
@@ -26,21 +54,20 @@ body {
   width: 100%;
   }
 /* the master controller for everything above the experience and skills and education. But I didn't really want to have anything be globally controlled. So I left it blank. */
-.tophalf {
-  background-color: rgba(234, 200, 234, 0.7);
-  }
 /* bolds the span in education */
 .bolding{
   font-weight: bolder;
   }
-.education, .skills {
+.education_skills {
   font-family: Garamond, times, serif;
   justify-content: center;
   background-color: #fff;
   margin-bottom: 10px;
   line-height: 1.4em;
   padding-top: 10px;
+  font-size: 1.75rem;
   }
+
 /* sets the font for the navbar  */
 .navbar-brand{
   font-family: "Roboto", arial, sans-serif;
@@ -52,6 +79,7 @@ body {
 .date {
   font-family: Garamond, times, serif;
   font-style: italic;
+  font-size: 1.55rem;
   }
 .jobtitle {
   font-weight: bold;
@@ -64,6 +92,7 @@ body {
   margin-bottom: 10px;
   font-family: "Roboto", arial, sans-serif;
   }
+
 .duties{
   font-size: 1.4em;
   font-family: Garamond, times, serif;
@@ -73,9 +102,6 @@ body {
   border-bottom: 1px solid #ddd;
   margin-bottom: 10px;
   padding-bottom: 10px;
-  }
-.education{
-  font-size: .9em;
   }
 .footer {
   font-family: Garamond, times, serif;
@@ -104,12 +130,16 @@ body {
 .fa-envelope{
   color: #9932CC;
   }
+
 /* for x-small devices, tablets */
 @media only screen and (max-width: 768px) {
 .education, .skills {
   font-size: 1.3em;
   padding-top: 10px;
   }
+.welcome {
+  font-size: 4rem;
+}
 .skills {
   padding-top: 5px;
   margin-top: 10px;
@@ -119,13 +149,7 @@ body {
   font-size: 2em;
   }
 /*makes the welcome background banner smaller for smaller screens*/
-.welcome {
-  font-size: 3.5em;
-  text-align: center;
-  vertical-align: text-bottom;
-  position: relative;
-  padding-top: 35px;
-  }
+
 .list-group-two , .list-group-one{
   list-style-type: none;
 }
@@ -133,12 +157,14 @@ body {
   .education_skills{
     padding: 10px 0px 10px 0px;
   }
-}
 /* for small devices, tablets */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 .skills, .education {
   font-size: 1.3em;
   }
+.hi {
+  height: 100px;
+}
 .list-group-two , .list-group-one{
   list-style-type: none;
   }
@@ -146,18 +172,10 @@ body {
   padding-top: 5px;
   margin-top: 4px;
   }
-.welcome {
-  font-size: 4em;
-  text-align: center;
-  vertical-align: text-bottom;
-  position: relative;
-  padding-top: 35px;
-  }
 .education_skills{
   padding: 10px 0px 10px 0px;
+  line-height: 2rem;
   }
-
-
 }
 /* for medium tablets */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -168,13 +186,6 @@ body {
 /* pares down my name to make it fit better  */
 .expheadline{
   font-size: 3em;
-  }
-.welcome {
-  font-size: 5em;
-  text-align: center;
-  vertical-align: text-bottom;
-  position: relative;
-  padding-top: 35px;
   }
 .list-group-one , .list-group-two{
   float: left;
@@ -191,19 +202,12 @@ body {
 .skills, .education {
   font-size: 1.4em;
   }
-.expheadline{
-  font-size: 3em;
-  }
   /* greeting font for the website. Sets it down the image 20%  */
-  .welcome {
-    font-size: 5em;
-    text-align: center;
-    vertical-align: text-bottom;
-    position: relative;
-    padding-top: 25px;
-    }
 .list-group-one , .list-group-two{
   float: left;
   list-style-type: none;
-   }
+}
+.expheadline{
+ font-size: 5em;
+ }
 }

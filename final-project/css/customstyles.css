@@ -17,16 +17,18 @@ body {
 .fa-envelope{
   color: #9932CC;
   }
-.font_awesome li {
-  display: inline;
-  padding-top: 25px;
-  align-items: center;
-  }
+  .font_awesome li {
+    display: inline;
+    padding-top: 50px;
+    }
+.font_awesome {
+  padding-top: 30px;
+  background-color: rgba(234, 200, 234, 0.7);
+}
 .shareicons {
   height: 30px;
   font-size: 2rem;
   text-align:center;
-  font-size: 30px;
   display:table;
   vertical-align:middle;
   width:100%;
@@ -46,18 +48,9 @@ i {
 .topsection {
   background-color: rgba(234, 200, 234, 0.7);
 }
-.welcome {
-  font-size: 7rem;
-  text-align: center;
-  vertical-align: text-bottom;
-  position: relative;
-  padding-top: 30px;
-  font-family: "Roboto", helvetica, sans-serif;
-  font-variant-ligatures: none;
-    }
-  .subhead  {
-    font-size: 3rem;
-  }
+.subhead  {
+  font-size: 3rem;
+}
 .hello_world{
   font-size: 2.5rem;
   font-family: garamond, times, serif;
@@ -70,10 +63,28 @@ i {
   text-align: center;
   padding: 25px;
 }
+.welcome {
+  font-size: 7rem;
+  text-align: center;
+  vertical-align: text-bottom;
+  position: relative;
+  padding-top: 30px;
+  font-family: "Roboto", helvetica, sans-serif;
+  font-variant-ligatures: none;
+    }
 .hi{
-  padding-top: 15px;
+  padding-top: 45px;
   z-index: 1;
   top: 30%;
+}
+.about {
+  font-size: 1.5em;
+  text-align: center;
+  font-family: Garamond, times, serif;
+  }
+.hi {
+  background-color: rgba(234, 200, 234, 0.7);
+  height: 150px;
 }
 .photo_of_me {
 padding-top: 25px;
@@ -92,19 +103,19 @@ padding-top: 25px;
     text-align: center;
     z-index: 1;
 }
-.headline {
-  font-family: Garamond, times, serif;
-  font-size: 1.9rem;
-  color: white;
-  font-weight: 600;
-  width: auto;
-}
 .headlineone {
-  font-family: Garamond, times, serif;
-  font-size: 1.9rem;
+  font-family: Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
   color: black;
   font-weight: 600;
   width: auto;
+}
+.byline {
+  font-size: 1.5rem;
+  text-align: center;
+  color: black;
+  font-family: garamond, serif;
 }
 .crane {
   height: 100%;
@@ -150,7 +161,9 @@ I opted to not use it.
 .row {
 
 }
-
+.graph {
+  padding: 20px;
+}
 /* end of portfolio page info*/
 
 /* styling for final project */
@@ -164,22 +177,14 @@ I opted to not use it.
   position: relative;
   padding-bottom: 25px;
 }
-.byline {
-  font-size: 1.5rem;
-  text-align: center;
-  font-family: helvetica, sans-serif;
-}
+
 .headlinebox {
 }
 .fancyletter{
   font-size: 5em;
   padding-top: 15px;
 }
-.about {
-  font-size: 2em;
-  text-align: center;
-  font-family: Garamond, times, serif;
-  }
+
 .introimage{
 
 }
@@ -189,7 +194,7 @@ I opted to not use it.
 	color: white;
 	padding: 10px;
 	text-align: center;
-}
+}w
 
 .samplebox {
   margin-bottom: 10px;
@@ -276,30 +281,28 @@ img {
 /* for x-small devices, tablets */
 
 @media only screen and (max-width: 768px) {
-  .title {
-    font-size: 3rem;
-    margin-top: 60px;
-    right:30px;
-    text-align: center;
-    z-index: 1;
-    top: 1px;
-  }
+.title {
+  font-size: 3rem;
+  margin-top: 60px;
+  right:30px;
+  text-align: center;
+  z-index: 1;
+  top: 1px;
+}
+.hi {
+  height: 100px;
+}
+.welcome {
+  font-size: 4rem;
+}
   .topsection {
     background-color: rgba(234, 200, 234, 0.7);
-    height: 350px;
   }
-  .hi{
-    padding-top: 15px;
-    z-index: 1;
-    top: 15%;
-    text-align: center;
-  }
-  #dental_exams, #demographicchart, #medicaid_dentists, #dental_exams, #medicaid_payouts {
+  #dental_exams, #demographicchart, #medicaid_dentists, #medicaid_payouts {
     border: 5px inset;
     height: 400px;
-    width:340px
+    width:340px;
   }
-
 .cartomap{
   width: 100%;
 }
@@ -325,26 +328,11 @@ img {
 
   footer {
     padding: 30px;
-  }
-  .welcome{
-    font-size: 5rem;
-  }
+}
 }
 /* for small devices, tablets */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .title {
-    width: 300px;
-    position: relative;
-    font-size: 3rem;
-    top: 350px;
-    text-align: center;
-    z-index: 1;
-  }
-  .topsection {
-    background-color: rgba(234, 200, 234, 0.7);
-    height: 350px;
-  }
+@media only screen and (min-width: 768px) {
   /* For the portfolio page*/
   .work_samples{
   text-align: center;
@@ -356,13 +344,24 @@ img {
     text-align: center;
     z-index: 1;
   }
+.headerimage {
+  padding-top: 100px;
+}
+.title {
+  width: 300px;
+  position: relative;
+  font-size: 3rem;
+  top: 70px;
+  text-align: center;
+  z-index: 1;
+}
   footer {
     padding: 30px;
   }
 }
 /* for medium tablets */
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) {
 
 /* changes around the background image size, and fonts for skills, education */
 .title {
@@ -370,13 +369,10 @@ img {
   position: relative;
   margin-left: 30px;
   font-size: 3rem;
-  top: 450px;
+  top: 600px;
   text-align: center;
   z-index: 1;
-}
-.topsection {
-  background-color: rgba(234, 200, 234, 0.7);
-  height: 400px;
+  padding: 10px;
 }
 /* For the portfolio page*/
 .work_samples{
@@ -403,6 +399,14 @@ footer {
   .work_samples{
   text-align: center;
   }
+  .title {
+    width: 300px;
+    position: relative;
+    font-size: 3rem;
+    top: 690px;
+    text-align: center;
+    z-index: 1;
+  }
   .textoverlay {
     position: relative;
     font-size: 1.5rem;
@@ -412,5 +416,5 @@ footer {
   footer {
     padding: 30px;
   }
-} */
+}
 /* modifies the font size of skills, edication and the background size */
