@@ -119,7 +119,7 @@ padding-top: 25px;
   font-weight: 600;
   width: auto;
 }
-.headlinetwo {
+.llinetwo {
 font-family: "Roboto", helvetica, sans-serif;
 font-size: 1.5rem;
 font-weight: 100;
@@ -231,7 +231,7 @@ I opted to not use it.
 .textoverlay {
   width: 75%;
   margin: 0 auto 0 auto;
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(0, 0, 0, .6);
   position: absolute;
   bottom: 200px;
 }
