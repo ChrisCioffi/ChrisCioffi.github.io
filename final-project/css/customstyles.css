@@ -3,6 +3,10 @@
 body {
   font-size: 12px;
   }
+.container {
+    margin: 0 !important;
+}
+
 /*for Portfolio and Index pages: */
 /* controls the fa-fa-buttons */
 .fa-twitter {
@@ -17,10 +21,14 @@ body {
 .fa-envelope{
   color: #9932CC;
   }
-  .font_awesome li {
-    display: inline;
-    padding-top: 50px;
-    }
+.font_awesome li {
+  display: inline;
+  padding-top: 50px;
+}
+.font_awesome{
+  -webkit-padding-start: 0px;
+}
+
 .font_awesome {
   padding-top: 30px;
   background-color: rgba(234, 200, 234, 0.7);
@@ -92,38 +100,119 @@ padding-top: 25px;
 /* end of top section controls */
 
 /* assorted bottom controls*/
-  .bottomsection {
-  }
-  .title {
-    width: 300px;
-    position: relative;
-    margin-left: 30px;
-    font-size: 3rem;
-    top: 550px;
-    text-align: center;
-    z-index: 1;
+.title {
+  width: 350px;
+  position: absolute;
+  margin-left: 30px;
+  font-size: 3rem;
+  text-align: center;
+  z-index: 1;
+  bottom: 100px;
+}
+.fulltitle {
+  position: relative;
 }
 .headlineone {
-  font-family: Helvetica, sans-serif;
+  font-family: "Roboto", helvetica, sans-serif;
   font-size: 2rem;
   font-weight: 100;
-  color: black;
+  color: white;
   font-weight: 600;
   width: auto;
+}
+.headlinetwo {
+font-family: "Roboto", helvetica, sans-serif;
+font-size: 1.5rem;
+font-weight: 100;
+color: white;
+font-weight: 600;
+width: auto;
 }
 .byline {
   font-size: 1.5rem;
   text-align: center;
-  color: black;
-  font-family: garamond, serif;
+  color: white;
+  font-family: "Roboto", helvetica, sans-serif;
 }
 .crane {
   height: 100%;
 }
+#hidden {
+  display: none;
+}
 #dental_exams, #demographicchart, #medicaid_dentists, #dental_exams, #medicaid_payouts {
-  border: 5px inset;
+
+  }
+/* Resume-related items*/
+.everything {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.expheadline{
+  font-size: 2em;
+}
+.bolding{
+  font-weight: bolder;
+  }
+.education_skills {
+  font-family: Garamond, times, serif;
+  justify-content: center;
+  background-color: #fff;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+  padding-top: 10px;
+  font-size: 1.75rem;
+  }
+.education_skills ul {
+  list-style: none;
+}
+.experience {
+  background-color: #fff;
+  }
+.date {
+  font-family: Garamond, times, serif;
+  font-style: italic;
+  font-size: 1.55rem;
+  }
+.jobtitle {
+  font-weight: bold;
+  font-size: 1.75em;
+  font-family: Garamond, times, serif;
+  margin-bottom: 0px;
+  }
+.employer {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+  font-family: "Roboto", arial, sans-serif;
   }
 
+.duties{
+  font-size: 1.4em;
+  font-family: Garamond, times, serif;
+  line-height: 1.25em;
+  }
+.jobleft  {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  }
+.footer {
+  font-family: Garamond, times, serif;
+  font-size: 1.3em;
+  text-align: center;
+  margin-top:60px;
+  }
+.smallhead {
+  font-size: 2.25em;
+  font-family: "roboto", arial, sans-serif;
+  text-align: left;
+  }
+.list-group-two , .list-group-one {
+  text-align: left;
+  padding-left: 30px;
+  }
 /*This controls the previews on portfolio page https://bootsnipp.com/snippets/4RDW
 I opted to not use it.
 #frame_one, #frame_two, #frame_three {
@@ -137,14 +226,17 @@ I opted to not use it.
     -webkit-transform: scale(0.4);
     -webkit-transform-origin: 0 0;
 }
- */
+/* portfolio related items */
+
 .textoverlay {
   width: 75%;
   margin: 0 auto 0 auto;
   background-color: rgba(0, 0, 0, .3);
   position: absolute;
-  bottom: 220px;
-
+  bottom: 200px;
+}
+.headline {
+  color: 	#f0f0ed;
 }
 
 .row-eq-height {
@@ -157,12 +249,10 @@ I opted to not use it.
 .explainer {
   font-size: 1.6rem;
 }
-
 .row {
-
 }
 .graph {
-  padding: 20px;
+  padding: 20px 0px;
 }
 /* end of portfolio page info*/
 
@@ -174,27 +264,25 @@ I opted to not use it.
 }
 .headerimage{
   width:100%;
-  position: relative;
   padding-bottom: 25px;
+  padding-top: 75px;
 }
 
 .headlinebox {
+  padding-top: 0px;
 }
 .fancyletter{
   font-size: 5em;
   padding-top: 15px;
 }
 
-.introimage{
-
-}
 /*specific to the D3 chart...thanks to  Peter Freschi https://github.com/pfreschi/IntroToD3 */
 #title {
 	background-color: darkblue;
 	color: white;
 	padding: 10px;
 	text-align: center;
-}w
+}
 
 .samplebox {
   margin-bottom: 10px;
@@ -218,7 +306,7 @@ I opted to not use it.
 
 .line {
   fill: none;
-  stroke: limegreen;
+  stroke: green;
   stroke-width: 2px;
 }
 /*tooltip styling borrowed from https://bl.ocks.org/alandunning/cfb7dcd7951826b9eacd54f0647f48d3*/
@@ -255,9 +343,6 @@ font-family: garamond, times, serif;
 .thumbnail {
   margin:auto;
 }
-img {
-  width: 100%;
-}
 .separator{
   border-top: 2px solid #000000;
   margin-right: 50px;
@@ -281,82 +366,125 @@ img {
 /* for x-small devices, tablets */
 
 @media only screen and (max-width: 768px) {
-.title {
-  font-size: 3rem;
-  margin-top: 60px;
-  right:30px;
-  text-align: center;
-  z-index: 1;
-  top: 1px;
-}
-.hi {
-  height: 100px;
-}
+.education, .skills {
+  font-size: 1.3em;
+  padding-top: 10px;
+  }
 .welcome {
   font-size: 4rem;
 }
-  .topsection {
-    background-color: rgba(234, 200, 234, 0.7);
+
+.skills {
+  padding-top: 5px;
+  margin-top: 10px;
   }
-  #dental_exams, #demographicchart, #medicaid_dentists, #medicaid_payouts {
-    border: 5px inset;
-    height: 400px;
-    width:340px;
+.about_me {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+/* drops down the headline text further */
+.expheadline{
+  font-size: 2em;
   }
+/*makes the welcome background banner smaller for smaller screens*/
+
+.list-group-two , .list-group-one{
+  list-style-type: none;
+}
+/* again changes the height of my text, Chris Cioffi, reporter smaller moves it a skootch */
+.education_skills{
+  padding: 10px 0px 10px 0px;
+}
+
+.hi {
+  height: 100px;
+}
+.topsection {
+  background-color: rgba(234, 200, 234, 0.7);
+}
 .cartomap{
   width: 100%;
 }
-  .linechart {
-    border: 5px inset;
-    }
-  .graph_two{
-    height: 400px;
-    width:340px;
-    border: 5px inset;
-    padding-bottom: 15px;
+.linechart {
+  border: 5px inset;
   }
-  /* For the portfolio page*/
-  .work_samples{
+.graph_two{
+  height: 400px;
+  width:340px;
+  border: 5px inset;
+  padding-bottom: 15px;
+}
+/* For the portfolio page*/
+.work_samples{
+text-align: center;
+}
+.textoverlay {
+  position: relative;
+  font-size: 1.4rem;
   text-align: center;
-  }
-  .textoverlay {
-    position: relative;
-    font-size: 3rem;
-    text-align: center;
-    z-index: 1;
-  }
+  z-index: 1;
+}
 
-  footer {
-    padding: 30px;
+footer {
+  padding: 30px;
+}
+.skills, .education {
+  font-size: 1.3em;
+  }
+.hi {
+  height: 100px;
+}
+.list-group-two , .list-group-one{
+  list-style-type: none;
+  }
+.skills {
+  padding-top: 5px;
+  margin-top: 4px;
+  }
+.education_skills{
+  padding: 10px 0px 10px 0px;
+  line-height: 2rem;
+  }
+.samplebox {
+  border-top: 1px solid 	#ddd;
+  padding-top: 35px;
 }
 }
 /* for small devices, tablets */
 
-@media only screen and (min-width: 768px) {
-  /* For the portfolio page*/
-  .work_samples{
-  text-align: center;
-  }
-  .textoverlay {
-    position: relative;
-    margin-left: 30px;
-    font-size: 1.1rem;
-    text-align: center;
-    z-index: 1;
-  }
-.headerimage {
-  padding-top: 100px;
+@media only screen and (min-width: 769px) {
+/* For the portfolio page*/
+.work_samples{
+text-align: center;
+}
+.explainer {
+  font-size: 1.4rem;
 }
 .title {
-  width: 300px;
-  position: relative;
-  font-size: 3rem;
-  top: 70px;
-  text-align: center;
-  z-index: 1;
+width: 300px;
+font-size: 3rem;
+text-align: center;
+z-index: 1;
 }
-  footer {
-    padding: 30px;
+footer {
+  padding: 30px;
+}
+.skills, .education {
+  font-size: 1.3em;
+  }
+.hi {
+  height: 150px;
+}
+.list-group-two , .list-group-one{
+  list-style-type: none;
+  }
+.skills {
+  padding-top: 5px;
+  margin-top: 4px;
+  }
+.education_skills{
+  padding: 10px 0px 10px 0px;
+  line-height: 2rem;
   }
 }
 /* for medium tablets */
@@ -366,10 +494,8 @@ img {
 /* changes around the background image size, and fonts for skills, education */
 .title {
   width: 300px;
-  position: relative;
   margin-left: 30px;
   font-size: 3rem;
-  top: 600px;
   text-align: center;
   z-index: 1;
   padding: 10px;
@@ -387,6 +513,22 @@ text-align: center;
 footer {
   padding: 30px;
 }
+/* changes around the background image size, and fonts for skills, education */
+.skills, .education {
+font-size: 1.35em;
+}
+/* pares down my name to make it fit better  */
+.expheadline{
+  font-size: 3em;
+  }
+.list-group-one , .list-group-two{
+  float: left;
+  list-style-type: none;
+   }
+ .skills {
+   padding-top: 10px;
+   margin-top: 0px;
+   }
 }
 /* for large screens*/
 
@@ -399,22 +541,31 @@ footer {
   .work_samples{
   text-align: center;
   }
-  .title {
-    width: 300px;
-    position: relative;
-    font-size: 3rem;
-    top: 690px;
-    text-align: center;
-    z-index: 1;
-  }
-  .textoverlay {
-    position: relative;
-    font-size: 1.5rem;
-    text-align: center;
-    z-index: 1;
-  }
+.title {
+  width: 300px;
+  font-size: 3rem;
+  text-align: center;
+  z-index: 1;
+}
+.textoverlay {
+  position: relative;
+  font-size: 1.5rem;
+  text-align: center;
+  z-index: 1;
+}
   footer {
     padding: 30px;
   }
+  .skills, .education {
+    font-size: 1.4em;
+    }
+    /* greeting font for the website. Sets it down the image 20%  */
+  .list-group-one , .list-group-two{
+    float: left;
+    list-style-type: none;
+  }
+  .expheadline{
+   font-size: 5em;
+   }
 }
 /* modifies the font size of skills, edication and the background size */
