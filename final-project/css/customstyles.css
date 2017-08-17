@@ -28,7 +28,6 @@ body {
 .font_awesome{
   -webkit-padding-start: 0px;
 }
-
 .font_awesome {
   padding-top: 30px;
   background-color: rgba(234, 200, 234, 0.7);
@@ -41,7 +40,6 @@ body {
   vertical-align:middle;
   width:100%;
 }
-
 i {
   margin-left: 10px;
   font-size: 30px;
@@ -59,7 +57,7 @@ i {
 .subhead  {
   font-size: 3rem;
 }
-.hello_world{
+.hello_world {
   font-size: 2.5rem;
   font-family: garamond, times, serif;
   text-align: justify;
@@ -107,11 +105,12 @@ padding-top: 25px;
   font-size: 3rem;
   text-align: center;
   z-index: 1;
-  bottom: 100px;
 }
 .fulltitle {
   position: relative;
-}
+  padding-top: 25px;
+  margin-bottom: -75px;
+  }
 .headlineone {
   font-family: "Roboto", helvetica, sans-serif;
   font-size: 2rem;
@@ -212,6 +211,7 @@ width: auto;
 .list-group-two , .list-group-one {
   text-align: left;
   padding-left: 30px;
+  line-height: 1.3;
   }
 /*This controls the previews on portfolio page https://bootsnipp.com/snippets/4RDW
 I opted to not use it.
@@ -348,7 +348,9 @@ font-family: garamond, times, serif;
   margin-right: 50px;
   margin-left: 50px;
 }
+.title {
 
+}
 /* For graphs */
 
 .photo_text{
@@ -366,14 +368,29 @@ font-family: garamond, times, serif;
 /* for x-small devices, tablets */
 
 @media only screen and (max-width: 768px) {
-.education, .skills {
-  font-size: 1.3em;
-  padding-top: 10px;
-  }
+
 .welcome {
   font-size: 4rem;
 }
-
+.title {
+  width: 250px;
+  position: absolute;
+  margin-left: 0px;
+  text-align: center;
+  z-index: 1;
+  bottom: 60px;
+}
+.headlineone {
+  font-size: 1.6rem;
+}
+.fulltitle {
+  position: relative;
+  padding-top: 25px;
+  margin-bottom: 0px;
+}
+.headlinetwo {
+  font-size: 1.3rem;
+}
 .skills {
   padding-top: 5px;
   margin-top: 10px;
@@ -388,14 +405,10 @@ font-family: garamond, times, serif;
   }
 /*makes the welcome background banner smaller for smaller screens*/
 
-.list-group-two , .list-group-one{
-  list-style-type: none;
-}
 /* again changes the height of my text, Chris Cioffi, reporter smaller moves it a skootch */
 .education_skills{
   padding: 10px 0px 10px 0px;
 }
-
 .hi {
   height: 100px;
 }
@@ -404,15 +417,6 @@ font-family: garamond, times, serif;
 }
 .cartomap{
   width: 100%;
-}
-.linechart {
-  border: 5px inset;
-  }
-.graph_two{
-  height: 400px;
-  width:340px;
-  border: 5px inset;
-  padding-bottom: 15px;
 }
 /* For the portfolio page*/
 .work_samples{
@@ -424,26 +428,15 @@ text-align: center;
   text-align: center;
   z-index: 1;
 }
-
 footer {
   padding: 30px;
 }
-.skills, .education {
-  font-size: 1.3em;
-  }
 .hi {
   height: 100px;
 }
-.list-group-two , .list-group-one{
-  list-style-type: none;
-  }
 .skills {
   padding-top: 5px;
   margin-top: 4px;
-  }
-.education_skills{
-  padding: 10px 0px 10px 0px;
-  line-height: 2rem;
   }
 .samplebox {
   border-top: 1px solid 	#ddd;
@@ -464,7 +457,9 @@ text-align: center;
 width: 300px;
 font-size: 3rem;
 text-align: center;
+position: relative;
 z-index: 1;
+bottom: 220px;
 }
 footer {
   padding: 30px;
@@ -484,7 +479,7 @@ footer {
   }
 .education_skills{
   padding: 10px 0px 10px 0px;
-  line-height: 2rem;
+  line-height: 1.4rem;
   }
 }
 /* for medium tablets */
@@ -498,7 +493,7 @@ footer {
   font-size: 3rem;
   text-align: center;
   z-index: 1;
-  padding: 10px;
+  bottom: 220px;
 }
 /* For the portfolio page*/
 .work_samples{
@@ -533,14 +528,14 @@ font-size: 1.35em;
 /* for large screens*/
 
 @media only screen and (min-width:1200px) {
-  .topsection {
-    background-color: rgba(234, 200, 234, 0.7);
-    height: 400px;
-  }
-  /* For the portfolio page*/
-  .work_samples{
+.topsection {
+  background-color: rgba(234, 200, 234, 0.7);
+  height: 400px;
+}
+/* For the portfolio page*/
+.work_samples{
   text-align: center;
-  }
+}
 .title {
   width: 300px;
   font-size: 3rem;
