@@ -78,7 +78,7 @@ i {
   font-family: "Roboto", helvetica, sans-serif;
   font-variant-ligatures: none;
     }
-.hi{
+.hi {
   padding-top: 45px;
   z-index: 1;
   top: 30%;
@@ -113,6 +113,7 @@ padding-top: 25px;
   position: relative;
   padding-top: 25px;
   margin-bottom: -75px;
+  font-size: 1rem;
   }
 .headlineone {
   font-family: "Roboto", helvetica, sans-serif;
@@ -272,10 +273,9 @@ I opted to not use it.
 }
 .headerimage{
   width:100%;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
   padding-top: 75px;
 }
-
 .headlinebox {
   padding-top: 0px;
 }
@@ -376,9 +376,17 @@ font-family: garamond, times, serif;
 /* for x-small devices, tablets */
 
 @media only screen and (max-width: 768px) {
-
+.fulltitle {
+  position: relative;
+  padding-top: 25px;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
 .welcome {
   font-size: 4rem;
+}
+iframe {
+  height: 300;
 }
 .title {
   width: 250px;
@@ -390,11 +398,6 @@ font-family: garamond, times, serif;
 }
 .headlineone {
   font-size: 1.6rem;
-}
-.fulltitle {
-  position: relative;
-  padding-top: 25px;
-  margin-bottom: 0px;
 }
 .headlinetwo {
   font-size: 1.3rem;
