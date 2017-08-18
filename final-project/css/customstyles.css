@@ -433,6 +433,9 @@ text-align: center;
   text-align: center;
   z-index: 1;
 }
+.graphintro {
+  font-size: 1.5rem;
+}
 footer {
   padding: 30px;
 }
