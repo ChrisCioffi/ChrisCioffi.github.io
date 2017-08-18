@@ -258,8 +258,9 @@ I opted to not use it.
 }
 .row {
 }
-.graph {
-  padding: 20px 0px;
+.graph, .cartomap  {
+  padding: 15px 15px;
+  border: 1px solid black;
 }
 /* end of portfolio page info*/
 
@@ -421,9 +422,6 @@ font-family: garamond, times, serif;
 }
 .topsection {
   background-color: rgba(234, 200, 234, 0.7);
-}
-.cartomap{
-  width: 100%;
 }
 /* For the portfolio page*/
 .work_samples{
