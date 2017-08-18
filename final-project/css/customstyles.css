@@ -97,6 +97,7 @@ padding-top: 25px;
 }
 .photo_final {
   padding: 20px 0px;
+  margin-left: 15px;
 }
 /* end of top section controls */
 
@@ -259,9 +260,15 @@ I opted to not use it.
 }
 .row {
 }
-.graph, .cartomap  {
-  padding: 15px 15px;
+.graph  {
+  padding: 15px;
   border: 1px solid black;
+  margin-left: 15px;
+}
+.cartomap  {
+  padding: 15px;
+  border: 1px solid black;
+  margin-left: 0px;
 }
 /* end of portfolio page info*/
 
@@ -452,6 +459,9 @@ footer {
 .samplebox {
   border-top: 1px solid 	#ddd;
   padding-top: 35px;
+}
+.linechart {
+  width: 330px;
 }
 }
 /* for small devices, tablets */
