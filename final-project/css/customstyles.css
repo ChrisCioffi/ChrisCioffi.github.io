@@ -95,6 +95,9 @@ i {
 .photo_of_me {
 padding-top: 25px;
 }
+.photo_final {
+  padding: 20px 0px;
+}
 /* end of top section controls */
 
 /* assorted bottom controls*/
@@ -118,6 +121,10 @@ padding-top: 25px;
   color: white;
   font-weight: 600;
   width: auto;
+}
+.headlinetwo {
+  font-size: 1.7rem;
+  color: white;
 }
 .llinetwo {
 font-family: "Roboto", helvetica, sans-serif;
