@@ -262,13 +262,20 @@ I opted to not use it.
 }
 .graph  {
   padding: 15px;
+  margin-bottom: 15px;
   border: 1px solid black;
   margin-left: 15px;
+  font-size: 1.5rem;
+}
+.graphhead {
+  font-size: 2rem;
+  font-weight: 600;
 }
 .cartomap  {
   padding: 15px;
   border: 1px solid black;
   margin-left: 0px;
+  font-size: 1.5rem;
 }
 /* end of portfolio page info*/
 
@@ -401,7 +408,8 @@ iframe {
   margin-left: 0px;
   text-align: center;
   z-index: 1;
-  bottom: 60px;
+  bottom: 100px;
+  left: 10px;
 }
 .headlineone {
   font-size: 1.6rem;
