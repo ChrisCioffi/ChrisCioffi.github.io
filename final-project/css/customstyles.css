@@ -548,6 +548,7 @@ font-size: 1.35em;
   font-size: 3rem;
   text-align: center;
   z-index: 1;
+  bottom: 270px;
 }
 .textoverlay {
   position: relative;
