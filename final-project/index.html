@@ -208,8 +208,9 @@
           </div>
           <div class="row graphic">
             <div class="col-md-7 graph"> <b>A steady increase in the number of dentists improves access </b></br> By increasing reimbursements for dentists, streamlining administrative paperwork and improving outreach, the number of dentists accepting Medicaid has increased in the state.
-              <!-- links D3 chart...thanks to  Peter Freschi https://github.com/pfreschi/IntroToD3 -->
-              <div class="linechart"></div>
+              <!-- links D3 chart...thanks to  Peter Freschi https://github.com/pfreschi/IntroToD3
+              <div class="linechart"></div> -->
+              <div id="medicaid_dentists"></div>
             </div>
           </div>
           <div class="row bottomtext">
@@ -319,7 +320,7 @@ Highcharts.chart('medicaid_dentists', {
     enabled: false
   },
   title: {
-      text: 'A steady increase in the number of dentists improves access'
+      text: 'Dentists that accept Medicaid'
   },
   subtitle: {
       text: 'Source: MD Annual Oral Health Legislative Report'

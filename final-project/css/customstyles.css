@@ -67,6 +67,7 @@ i {
   font-size: 2.5rem;
   font-family: garamond, times, serif;
   text-align: center;
+  padding-left: 0px;
   padding: 25px;
 }
 .welcome {
@@ -87,6 +88,7 @@ i {
   font-size: 1.5em;
   text-align: center;
   font-family: Garamond, times, serif;
+  padding: 0px;
   }
 .hi {
   background-color: rgba(234, 200, 234, 0.7);
@@ -396,9 +398,14 @@ font-family: garamond, times, serif;
   margin-bottom: 30px;
   font-size: 1rem;
 }
+.explainer {
+  font-size: 1.2rem;
+  padding: 10px;
+}
 .welcome {
   font-size: 4rem;
 }
+.
 iframe {
   height: 300;
 }
@@ -481,6 +488,7 @@ text-align: center;
 }
 .explainer {
   font-size: 1.4rem;
+  padding: 10px;
 }
 .title {
 width: 300px;
@@ -509,6 +517,12 @@ footer {
 .education_skills{
   padding: 10px 0px 10px 0px;
   line-height: 1.4rem;
+  }
+.textoverlay {
+  position: relative;
+  font-size: 1.5rem;
+  text-align: center;
+  z-index: 1;
   }
 }
 /* for medium tablets */
