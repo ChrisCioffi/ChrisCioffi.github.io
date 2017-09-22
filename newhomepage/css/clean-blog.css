@@ -56,6 +56,8 @@ hr.small {
 .navbar-custom .navbar-brand {
   font-weight: 800;
 }
+
+
 .navbar-custom .navbar-header .navbar-toggle {
   color: #777777;
   font-weight: 800;
@@ -67,6 +69,26 @@ hr.small {
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1px;
+}
+
+/* added things */
+.hello_world {
+font-size: 2.5rem;
+font-family: garamond, times, serif;
+text-align: justify;
+padding: 25px;
+}
+.hello_worldone{
+font-size: 2.5rem;
+font-family: garamond, times, serif;
+text-align: center;
+padding-left: 0px;
+padding: 25px;
+}
+.photo_of_me {
+padding-top: 25px;
+width: 10px;
+height: 10px;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
