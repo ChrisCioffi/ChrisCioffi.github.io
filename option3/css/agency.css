@@ -5,8 +5,9 @@
  */
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
 p {
   line-height: 1.75; }
 
@@ -26,7 +27,7 @@ h6 {
   text-transform: uppercase; }
 
 section {
-  padding: 100px 0; }
+  padding: 10px 0; }
   section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
@@ -38,10 +39,23 @@ section {
     margin-bottom: 75px;
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.secthead {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.bio {
+  text-align: left;
+  font-size: 1rem;
+  padding: 5px 40px;
+}
+.profpic {
+  padding: 5px 30px;
+}
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0; } }
+    padding: 10px 0; } }
 
 ::-moz-selection {
   background: #fed136;
@@ -433,10 +447,10 @@ header.masthead {
     text-transform: none; }
   .team-member p {
     margin-top: 0; }
-
+  .jobbox {
+    padding: 15px;
+  }
 section#contact {
-  background-color: #222222;
-  background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center; }
   section#contact .section-heading {
