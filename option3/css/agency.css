@@ -39,6 +39,7 @@ section {
     margin-bottom: 75px;
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
 .secthead {
   text-align: center;
   font-size: 2.5rem;
@@ -53,27 +54,20 @@ section {
   width: 100%;
   padding: 20px 40px;
 }
-@media (min-width: 768px) {
-  section {
-    padding: 10px 0; } }
 
-::-moz-selection {
-  background: #fed136;
-  text-shadow: none; }
+  #skillschart {
+    min-width: 300px;
+    max-width: 600px;
+    margin: 0 auto;
+}
 
-::selection {
-  background: #fed136;
-  text-shadow: none; }
+/*  Timeline */
 
-img::selection {
-  background: transparent; }
 
-img::-moz-selection {
-  background: transparent; }
 
-body {
-  -webkit-tap-highlight-color: #fed136; }
 
+
+/* end timeline */
 
   /* Header from Option2*/
 
@@ -123,6 +117,53 @@ body {
       padding: 0;
   }
 /* end of option2 */
+
+/* from orig resume */
+.jobtitle {
+  font-weight: bold;
+  font-size: 1.75em;
+  font-family: Garamond, times, serif;
+  margin-bottom: 0px;
+  }
+.employer {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+  font-family: "Roboto", arial, sans-serif;
+  }
+
+.duties{
+  font-size: 1.4em;
+  font-family: Garamond, times, serif;
+  line-height: 1.25em;
+  }
+.jobbox  {
+  margin-bottom: 3px;
+  padding-bottom: 3px;
+  }
+
+  /* end of orig resume*/
+@media (min-width: 768px) {
+  section {
+    padding: 10px 0; } }
+
+::-moz-selection {
+  background: #fed136;
+  text-shadow: none; }
+
+::selection {
+  background: #fed136;
+  text-shadow: none; }
+
+img::selection {
+  background: transparent; }
+
+img::-moz-selection {
+  background: transparent; }
+
+body {
+  -webkit-tap-highlight-color: #fed136; }
+
+
 
 #mainNav {
   background-color: #222222; }
@@ -420,21 +461,34 @@ header.masthead {
         border-left-width: 0; }
     .timeline > li:last-child {
       margin-bottom: 0; }
+    .degreename {
+      font-size: 1.2rem;
+      font-family: arial;
+      font-weight: 700;
+      text-align: center;
+    }
   .timeline .timeline-heading h4 {
     margin-top: 0;
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-bottom: 0px;
     color: inherit; }
     .timeline .timeline-heading h4.subheading {
-      text-transform: none; }
+      text-transform: none;
+      font-size: .75rem;
+      margin-bottom: 0px;
+    }
   .timeline .timeline-body > ul,
   .timeline .timeline-body > p {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    line-height: 1rem;}
 
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%; }
   .timeline > li {
     min-height: 100px;
-    margin-bottom: 100px; }
+    margin-bottom: 40px; }
     .timeline > li .timeline-panel {
       float: left;
       width: 41%;
@@ -456,17 +510,18 @@ header.masthead {
 
 @media (min-width: 992px) {
   .timeline > li {
-    min-height: 150px; }
+    min-height: 50px;
+  margin-bottom: 0px; }
     .timeline > li .timeline-panel {
       padding: 0 20px 20px; }
     .timeline > li .timeline-image {
-      width: 150px;
-      height: 150px;
-      margin-left: -75px; }
+      width: 50px;
+      height: 50px;
+      margin-left: -25px; }
       .timeline > li .timeline-image h4 {
         font-size: 18px;
         line-height: 26px;
-        margin-top: 30px; }
+        margin-top: 10px; }
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 20px 20px; } }
 
@@ -474,11 +529,11 @@ header.masthead {
   .timeline > li {
     min-height: 170px; }
     .timeline > li .timeline-panel {
-      padding: 0 20px 20px 100px; }
+      padding: 20px 20px 20px 100px; }
     .timeline > li .timeline-image {
-      width: 170px;
-      height: 170px;
-      margin-left: -85px; }
+      width: 70px;
+      height: 70px;
+      margin-left: -35px; }
       .timeline > li .timeline-image h4 {
         margin-top: 40px; }
     .timeline > li.timeline-inverted > .timeline-panel {
@@ -500,6 +555,7 @@ header.masthead {
   .jobbox {
     padding: 15px;
   }
+
 section#contact {
   background-repeat: no-repeat;
   background-position: center; }
