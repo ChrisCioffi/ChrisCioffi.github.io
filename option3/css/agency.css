@@ -527,17 +527,17 @@ header.masthead {
 
 @media (min-width: 1200px) {
   .timeline > li {
-    min-height: 170px; }
+    min-height: 50px; }
     .timeline > li .timeline-panel {
-      padding: 20px 20px 20px 100px; }
+      padding: 20px 20px 20px 50px; }
     .timeline > li .timeline-image {
       width: 70px;
       height: 70px;
       margin-left: -35px; }
       .timeline > li .timeline-image h4 {
-        margin-top: 40px; }
+        margin-top: 20px; }
     .timeline > li.timeline-inverted > .timeline-panel {
-      padding: 0 100px 20px 20px; } }
+      padding: 0 10px 10px 10px; } }
 
 .team-member {
   margin-bottom: 50px;
