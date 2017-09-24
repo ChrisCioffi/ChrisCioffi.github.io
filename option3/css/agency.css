@@ -74,6 +74,56 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #fed136; }
 
+
+  /* Header from Option2*/
+
+  .header {
+      position: relative;
+      display: table;
+      width: 100%;
+      height: 450px;
+      background: url(../img/papers.jpg) no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+
+  .text-vertical-center {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+  }
+  .headline{
+   font-size: 5rem;
+   color: white;
+   font-weight: 600;
+   /* text-shadow:
+  		-1px -1px 0 #000,
+  		1px -1px 0 #000,
+  		-1px 1px 0 #000,
+  		1px 1px 0 #000; */
+  }
+  .subhead {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+    font-family: garamond, serif;
+    /* text-shadow:
+  		-1px -1px 0 #000,
+  		1px -1px 0 #000,
+  		-1px 1px 0 #000,
+  		1px 1px 0 #000; */
+  }
+
+  .text-vertical-center h1 {
+      font-size: 4.5em;
+      font-weight: 700;
+      margin: 0;
+      padding: 0;
+  }
+/* end of option2 */
+
 #mainNav {
   background-color: #222222; }
   #mainNav .navbar-toggler {
