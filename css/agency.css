@@ -57,6 +57,7 @@ section {
 .storyheadline {
   font-size: 1rem;
   font-weight: 500;
+  text-align: left!important;
 }
   #skillschart {
     min-width: 300px;
