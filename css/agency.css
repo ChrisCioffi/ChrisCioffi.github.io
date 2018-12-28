@@ -86,7 +86,6 @@ section {
       -o-background-size: cover;
       background-size: cover;
   }
-
   .text-vertical-center {
       display: table-cell;
       text-align: center;
@@ -146,9 +145,26 @@ section {
   }
 
   /* end of orig resume*/
+  @media (min-width: 400px) {
+    section {
+      padding: 10px 0; }
+
+      .img-portfolio {
+        width: 100%;
+        height: 300px;
+      }
+    }
+
+
 @media (min-width: 768px) {
   section {
-    padding: 10px 0; } }
+    padding: 10px 0; }
+
+    .img-portfolio {
+      width: 100%;
+      height: 110px;
+    }
+  }
 
 ::-moz-selection {
   background: #fed136;
@@ -166,6 +182,7 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: #fed136; }
+
 
 
 
@@ -265,7 +282,9 @@ header.masthead {
       line-height: 75px;
       margin-bottom: 50px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      text-transform: uppercase; } }
+      text-transform: uppercase; }
+      }
+    }
 
 .service-heading {
   margin: 15px 0;
@@ -510,7 +529,8 @@ header.masthead {
     .timeline > li.timeline-inverted > .timeline-panel {
       float: right;
       padding: 0 30px 20px 20px;
-      text-align: left; } }
+      text-align: left; }
+    }
 
 @media (min-width: 992px) {
   .timeline > li {
@@ -527,7 +547,13 @@ header.masthead {
         line-height: 26px;
         margin-top: 10px; }
     .timeline > li.timeline-inverted > .timeline-panel {
-      padding: 0 20px 20px; } }
+      padding: 0 20px 20px; }
+      .img-portfolio {
+        width: 100%;
+        height: 120px;
+      }
+
+    }
 
 @media (min-width: 1200px) {
   .timeline > li {
@@ -541,7 +567,11 @@ header.masthead {
       .timeline > li .timeline-image h4 {
         margin-top: 20px; }
     .timeline > li.timeline-inverted > .timeline-panel {
-      padding: 0 10px 10px 10px; } }
+      padding: 0 10px 10px 10px; }
+      .img-portfolio {
+        width: 100%;
+        height: 150px;
+      }}
 
 .team-member {
   margin-bottom: 50px;
