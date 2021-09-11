@@ -223,6 +223,7 @@ body {
       color: #fed136; }
 
 @media (min-width: 992px) {
+
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -276,33 +277,6 @@ header.masthead {
 
 @media (min-width: 768px) {
 
-  .jobtitle {
-    font-weight: bold;
-    font-size: .6em;
-    font-family: Garamond, times, serif;
-    margin-bottom: 0px;
-    }
-  .employer {
-    font-size: .4em;
-    margin-bottom: 10px;
-    font-family: "Roboto", arial, sans-serif;
-    }
-
-  .duties{
-    font-size: .4em;
-    font-family: Garamond, times, serif;
-    line-height: 1.25em;
-    }
-
-  .jobbox  {
-    margin: 0em 10em;
-    padding: 10px;
-    text-align: left;
-    border: 1px solid #cdcdcd;
-    border-color: rgba(0, 0, 0, .15);
-    background-color: 	#E8E8E8;
-    font-size: .4em;
-    }
   header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px; }
@@ -399,6 +373,33 @@ header.masthead {
   z-index: 2; }
 
 @media (min-width: 767px) {
+  .jobtitle {
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: Garamond, times, serif;
+    margin-bottom: 0px;
+    }
+  .employer {
+    font-size: .8em;
+    margin-bottom: 10px;
+    font-family: "Roboto", arial, sans-serif;
+    }
+
+  .duties{
+    font-size: .8em;
+    font-family: Garamond, times, serif;
+    line-height: 1.25em;
+    }
+
+  .jobbox  {
+    margin: 0em 10em;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0, 0, 0, .15);
+    background-color: 	#E8E8E8;
+    font-size: .8em;
+    }
   #portfolio .portfolio-item {
     margin: 0 0 30px; } }
 
@@ -563,6 +564,7 @@ header.masthead {
     line-height: 1rem;}
 
 @media (min-width: 768px) {
+
   .timeline:before {
     left: 50%; }
   .timeline > li {
