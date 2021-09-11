@@ -121,27 +121,35 @@ section {
   }
 /* end of option2 */
 
-/* from orig resume */
+/* from orig resume */\
+
+
 .jobtitle {
   font-weight: bold;
-  font-size: 1.75em;
+  font-size: 1.3em;
   font-family: Garamond, times, serif;
   margin-bottom: 0px;
   }
 .employer {
-  font-size: 1.25em;
+  font-size: 1em;
   margin-bottom: 10px;
   font-family: "Roboto", arial, sans-serif;
   }
 
 .duties{
-  font-size: 1.4em;
+  font-size: 1.1em;
   font-family: Garamond, times, serif;
   line-height: 1.25em;
   }
+
 .jobbox  {
-  margin-bottom: 3px;
-  padding-bottom: 3px;
+  margin: 0em 10em;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #cdcdcd;
+  border-color: rgba(0, 0, 0, .15);
+  background-color: 	#E8E8E8;
+  font-size: 1em;
   }
 
   /* end of orig resume*/
@@ -267,6 +275,34 @@ header.masthead {
       text-transform: uppercase; }
 
 @media (min-width: 768px) {
+
+  .jobtitle {
+    font-weight: bold;
+    font-size: .6em;
+    font-family: Garamond, times, serif;
+    margin-bottom: 0px;
+    }
+  .employer {
+    font-size: .4em;
+    margin-bottom: 10px;
+    font-family: "Roboto", arial, sans-serif;
+    }
+
+  .duties{
+    font-size: .4em;
+    font-family: Garamond, times, serif;
+    line-height: 1.25em;
+    }
+
+  .jobbox  {
+    margin: 0em 10em;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0, 0, 0, .15);
+    background-color: 	#E8E8E8;
+    font-size: .4em;
+    }
   header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px; }
@@ -290,9 +326,29 @@ header.masthead {
   margin: 15px 0;
   text-transform: none; }
 
+    /* working on making content box a table to lock portfolio items size and shapes */
+
+
+#portfolio .row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+
+#portfolio .col-md-3 {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: 1px solid #cdcdcd;
+  border-color: rgba(0, 0, 0, .15);
+  background-color: 	#E8E8E8;
+}
+
 #portfolio .portfolio-item {
-  right: 0;
-  margin: 0 0 15px; }
+    padding: 5px;
+    text-align: left;}
   #portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
