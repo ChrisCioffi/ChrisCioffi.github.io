@@ -65,6 +65,33 @@ section {
     margin: 0 auto;
 }
 
+
+.jobbox  {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: left;
+  border: 5px solid #FFFFFF;
+  background-color: 	#E8E8E8;
+  font-size: 1em;
+  }
+  .jobtitle {
+    font-weight: bold;
+    font-size: 3em;
+    font-family: Garamond, times, serif;
+    margin-bottom: 0px;
+    }
+  .employer {
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-family: "Roboto", arial, sans-serif;
+    }
+
+  .duties{
+    font-size: 1.5em;
+    font-family: Garamond, times, serif;
+    line-height: 1.25em;
+    }
 /*  Timeline */
 
 
@@ -124,55 +151,8 @@ section {
 /* from orig resume */\
 
 
-.jobtitle {
-  font-weight: bold;
-  font-size: 1.3em;
-  font-family: Garamond, times, serif;
-  margin-bottom: 0px;
-  }
-.employer {
-  font-size: 1em;
-  margin-bottom: 10px;
-  font-family: "Roboto", arial, sans-serif;
-  }
-
-.duties{
-  font-size: 1.1em;
-  font-family: Garamond, times, serif;
-  line-height: 1.25em;
-  }
-
-.jobbox  {
-  margin: 0em 10em;
-  padding: 10px;
-  text-align: left;
-  border: 1px solid #cdcdcd;
-  border-color: rgba(0, 0, 0, .15);
-  background-color: 	#E8E8E8;
-  font-size: 1em;
-  }
 
   /* end of orig resume*/
-  @media (min-width: 400px) {
-    section {
-      padding: 10px 0; }
-
-      .img-portfolio {
-        width: 100%;
-        height: 300px;
-      }
-    }
-
-
-@media (min-width: 768px) {
-  section {
-    padding: 10px 0; }
-
-    .img-portfolio {
-      width: 100%;
-      height: 110px;
-    }
-  }
 
 ::-moz-selection {
   background: #fed136;
@@ -222,31 +202,6 @@ body {
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: #fed136; }
 
-@media (min-width: 992px) {
-
-  #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
-    border: none;
-    background-color: transparent; }
-    #mainNav .navbar-brand {
-      font-size: 1.75em;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
-      transition: all 0.3s; }
-    #mainNav .navbar-nav .nav-item .nav-link {
-      padding: 1.1em 1em !important; }
-    #mainNav.navbar-shrink {
-      padding-top: 0;
-      padding-bottom: 0;
-      background-color: #222222; }
-      #mainNav.navbar-shrink .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0; } }
-
 header.masthead {
   text-align: center;
   color: white;
@@ -275,26 +230,6 @@ header.masthead {
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
 
-@media (min-width: 768px) {
-
-  header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px; }
-    header.masthead .intro-text .intro-lead-in {
-      font-size: 40px;
-      font-style: italic;
-      line-height: 40px;
-      margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    header.masthead .intro-text .intro-heading {
-      font-size: 75px;
-      font-weight: 700;
-      line-height: 75px;
-      margin-bottom: 50px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      text-transform: uppercase; }
-      }
-    }
 
 .service-heading {
   margin: 15px 0;
@@ -314,9 +249,8 @@ header.masthead {
 #portfolio .col-md-3 {
   display: flex;
   flex-direction: column;
-  padding: 5px;
-  border: 1px solid #cdcdcd;
-  border-color: rgba(0, 0, 0, .15);
+  padding: 10px;
+  border: 5px solid #ffffff;
   background-color: 	#E8E8E8;
 }
 
@@ -371,8 +305,37 @@ header.masthead {
 
 #portfolio * {
   z-index: 2; }
+  @media (max-width: 400px) {
+    section {
+      padding: 0px; }
 
-@media (min-width: 767px) {
+      .jobtitle {
+        font-weight: bold;
+        font-size: 1.2em;
+        font-family: Garamond, times, serif;
+        margin-bottom: 0px;
+        }
+
+      .employer {
+        font-size: .8em;
+        margin-bottom: 10px;
+        font-family: "Roboto", arial, sans-serif;
+        }
+
+      .duties{
+        font-size: .8em;
+        font-family: Garamond, times, serif;
+        line-height: 1.25em;
+        }
+      .img-portfolio {
+        width: 100%;
+      }
+
+    }
+
+
+@media (max-width: 767px) {
+
   .jobtitle {
     font-weight: bold;
     font-size: 1.2em;
@@ -390,18 +353,8 @@ header.masthead {
     font-family: Garamond, times, serif;
     line-height: 1.25em;
     }
-
-  .jobbox  {
-    margin: 0em 3em;
-    padding: 10px;
-    text-align: left;
-    border: 1px solid #cdcdcd;
-    border-color: rgba(0, 0, 0, .15);
-    background-color: 	#E8E8E8;
-    font-size: .8em;
-    }
-  #portfolio .portfolio-item {
-    margin: 0 0 30px; } }
+olio .portfolio-item {
+    margin: 0 0 30px; }
 
 .portfolio-modal .modal-dialog {
   max-width: none;
@@ -563,8 +516,6 @@ header.masthead {
     margin-bottom: 0;
     line-height: 1rem;}
 
-@media (min-width: 768px) {
-
   .timeline:before {
     left: 50%; }
   .timeline > li {
@@ -588,9 +539,56 @@ header.masthead {
       float: right;
       padding: 0 30px 20px 20px;
       text-align: left; }
-    }
 
-@media (min-width: 992px) {
+          section {
+            padding: 10px 0; }
+
+            .img-portfolio {
+              width: 100%;
+            }
+
+        header.masthead .intro-text {
+          padding-top: 300px;
+          padding-bottom: 200px; }
+          header.masthead .intro-text .intro-lead-in {
+            font-size: 40px;
+            font-style: italic;
+            line-height: 40px;
+            margin-bottom: 25px;
+            font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+          header.masthead .intro-text .intro-heading {
+            font-size: 75px;
+            font-weight: 700;
+            line-height: 75px;
+            margin-bottom: 50px;
+            font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            text-transform: uppercase; }
+            }
+
+@media (max-width: 992px) {
+
+    #mainNav {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+      -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+      transition: padding-top 0.3s, padding-bottom 0.3s;
+      border: none;
+      background-color: transparent; }
+      #mainNav .navbar-brand {
+        font-size: 1.75em;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s; }
+      #mainNav .navbar-nav .nav-item .nav-link {
+        padding: 1.1em 1em !important; }
+      #mainNav.navbar-shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #222222; }
+        #mainNav.navbar-shrink .navbar-brand {
+          font-size: 1.25em;
+          padding: 12px 0; }
   .timeline > li {
     min-height: 50px;
   margin-bottom: 0px; }
@@ -608,12 +606,11 @@ header.masthead {
       padding: 0 20px 20px; }
       .img-portfolio {
         width: 100%;
-        height: 120px;
       }
 
     }
 
-@media (min-width: 1200px) {
+@media (min-width: 993px) {
   .timeline > li {
     min-height: 50px; }
     .timeline > li .timeline-panel {
@@ -628,8 +625,8 @@ header.masthead {
       padding: 0 10px 10px 10px; }
       .img-portfolio {
         width: 100%;
-        height: 150px;
-      }}
+      }
+    }
 
 .team-member {
   margin-bottom: 50px;
@@ -644,9 +641,6 @@ header.masthead {
     text-transform: none; }
   .team-member p {
     margin-top: 0; }
-  .jobbox {
-    padding: 15px;
-  }
 
 section#contact {
   background-repeat: no-repeat;
