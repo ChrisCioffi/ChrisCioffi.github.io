@@ -3,6 +3,9 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+
+
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -13,6 +16,7 @@ p {
 
 .explainer {
   font-size: 1em;
+  font-family: Garamond, times, serif;
 }
 
 a {
@@ -44,14 +48,18 @@ section {
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
-#totalcontainer{
+#content-wrap{
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 5px;
-
+}
+#pagecontainer {
+  width: 100%;
+  margin:0 auto;
 }
 .secthead {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: center;
   font-size: 2.5rem;
   font-weight: 600;
@@ -66,7 +74,8 @@ section {
   padding: 20px 40px;
 }
 .storyheadline {
-  font-size: 1rem;
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 1.5em;
   font-weight: 800;
   text-align: left!important;
 }
@@ -77,7 +86,7 @@ section {
 }
 
 
-.jobbox  {
+.col-md-10  {
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -85,21 +94,23 @@ section {
   border: 5px solid #FFFFFF;
   background-color: 	#E8E8E8;
   font-size: 1em;
+  margin: 0 auto;
   }
 .jobtitle {
     font-weight: bold;
     font-size: 2em;
-    font-family: Garamond, times, serif;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-bottom: 0px;
     }
 .employer {
-    font-size: 1.5em;
+    font-size: 1.1em;
     margin-bottom: 10px;
     font-family: "Roboto", arial, sans-serif;
+    font-style: italic;
     }
 
 .duties{
-    font-size: 1.25em;
+    font-size: 1em;
     font-family: Garamond, times, serif;
     line-height: 1.25em;
     }
@@ -186,7 +197,8 @@ body {
 
 
 #mainNav {
-  background-color: #222222; }
+  background-color: #222222;
+  width:100%;}
   #mainNav .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -323,19 +335,16 @@ header.masthead {
       .jobtitle {
         font-weight: bold;
         font-size: 1.2em;
-        font-family: Garamond, times, serif;
         margin-bottom: 0px;
         }
 
       .employer {
         font-size: .8em;
         margin-bottom: 10px;
-        font-family: "Roboto", arial, sans-serif;
         }
 
       .duties{
         font-size: 1em;
-        font-family: Garamond, times, serif;
         line-height: 1.25em;
         }
       .img-portfolio {
@@ -350,22 +359,20 @@ header.masthead {
   .navbar-collapse {
     background-color: black;
   }
-
+.explainer{
+font-size: 1em;}
   .jobtitle {
     font-weight: bold;
     font-size: 1.2em;
-    font-family: Garamond, times, serif;
     margin-bottom: 0px;
     }
   .employer {
     font-size: .8em;
     margin-bottom: 10px;
-    font-family: "Roboto", arial, sans-serif;
     }
 
   .duties{
     font-size: 1em;
-    font-family: Garamond, times, serif;
     line-height: 1.25em;
     }
 olio .portfolio-item {
@@ -581,6 +588,9 @@ olio .portfolio-item {
             }
 
 @media (max-width: 992px) {
+  .storyheadline{
+    font-size: 1.25em;
+  }
 
     #mainNav {
       padding-top: 25px;

@@ -59,17 +59,19 @@
 
   </head>
 
-  <body id="page-top">
+  <body>
+
+    <div id="page-container">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div id="totalcontainer">
+
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <a class="navbar-brand js-scroll-trigger" href="#page-top">Chris Cioffi</a>
+          <a class="navbar-brand js-scroll-trigger" href="#content-wrap">Chris Cioffi</a>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
@@ -85,19 +87,7 @@
             </li>
           </ul>
         </div>
-      </div>
     </nav>
-
-    <!-- original Header
-    <header class="masthead">
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-heading">Chris Cioffi</div>
-          <div class="intro-lead-in">Journalist | Student</div>
-        </div>
-      </div>
-    </header> -->
-
     <header class="header" id="top">
       <div class="text-vertical-center">
         <div class="headline">Chris Cioffi</div>
@@ -106,27 +96,22 @@
         <a href="#about" class="btn btn-dark btn-lg js-scroll-trigger">Find out more</a>
       </div>
     </header>
-
-    <!-- Services -->
-  <div class="container">
+    <div id="content-wrap">
     <!-- About -->
     <section id="about" class="about">
       <div class="secthead"> Welcome</div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 mx-auto text-center">
-            <div class="row">
-          <div class="col-sm-6 bio">
+      <div class="row">
+      <div class="col-md-1"></div>
+          <div class="col-md-5 bio">
             <p> My name is Chris Cioffi, and I am a congressional reporter at Roll Call in Washington, D.C. </p>
             <p> I have worked for newspapers in three states, including Raleigh's News & Observer. I served terms of AmeriCorps in Montana and Alaska. </p>
             <p>  I graduated in 2018 with a master's degree from the University of Maryland in College Park. I specialized in data journalism. </p>
             <p>If you like what you read, let's talk. </p>
           </div>
-          <div class="col-sm-6 profilepic">
-                <img src="img/new_me.jpg" class="img-rounded" alt="profpic">
+          <div class="col-md-5 profilepic">
+                <img src="img/new_me.jpg" class="img-rounded" alt="photo of chris cioffi">
           </div>
-        </div>
-         </div>
+          <div class="col-md-1"></div>
        </div>
      </div>
        </section>
@@ -146,28 +131,28 @@
               <div class="portfolio-item">
                 <a href="https://www.rollcall.com/2020/03/10/where-the-money-is-what-phoenix-tucson-area-fundraising-says-about-the-arizona-senate-race/" target="_blank">
                   <img class="img-portfolio img-fluid" src="img/kelly.jpg">
-                </a> <span class='storyheadline'>Where the money is: What fundraising in Phoenix and Tucson area says about the Arizona Senate race</span></br><p class="explainer">A look at how, areas that donated to President Donald Trump donated to Arizona's 2020 Senate candidates. <br/> <strong> My take: </strong> I worked with the Roll Call team to write code to pull Federal Elections Commission data through its API into R, break it down by zip code and group it geographically using U.S. Census data.</p>
+                </a> <span class="storyheadline">Where the money is: What fundraising in Phoenix and Tucson area says about the Arizona Senate race</span></br><p class="explainer">A look at how, areas that donated to President Donald Trump donated to Arizona's 2020 Senate candidates. <br/> <strong> My take: </strong> I worked with the Roll Call team to write code to pull Federal Elections Commission data through its API into R, break it down by zip code and group it geographically using U.S. Census data.</p>
               </div>
               </div>
               <div class="col-md-3">
                 <div class="portfolio-item">
                   <a href="https://www.rollcall.com/2020/07/23/ties-between-a-bank-and-rep-harold-rogers-raise-questions-about-ppp-loans/" target="_blank">
                     <img class="img-portfolio img-fluid" src="img/Rogers.jpg">
-                  </a> <span class='storyheadline'>Ties between a bank and Rep. Harold Rogers raise questions about PPP loans </span></br><p class="explainer">A bank where Rogers once served as a director provided millions in Paycheck Protection Loans to business owners. <br/> <strong>My take: </strong>  I used R to filter out the PPP loans made by the bank where Rogers used to sit on the board. Then, I went through each business and created a database of owners and stakeholders. Then I compared that to federal elections data.</p>
+                  </a> <span class="storyheadline">Ties between a bank and Rep. Harold Rogers raise questions about PPP loans </span></br><p class="explainer">A bank where Rogers once served as a director provided millions in Paycheck Protection Loans to business owners. <br/> <strong>My take: </strong>  I used R to filter out the PPP loans made by the bank where Rogers used to sit on the board. Then, I went through each business and created a database of owners and stakeholders. Then I compared that to federal elections data.</p>
                 </div>
               </div>
                 <div class="col-md-3">
                   <div class="portfolio-item">
                     <a href="https://www.rollcall.com/2021/02/03/capitol-riot-what-to-keep-preservation-history/" target="_blank">
                       <img class="img-portfolio img-fluid" src="img/damage.jpg">
-                    </a> <span class='storyheadline'>Lawmakers still a long way from deciding what to preserve from insurrection</span></br><p class="explainer">A comprehensive look at how lawmakers may want to preserve Capitol damage from the Jan. 6 riot. </br> <strong>My take: </strong> After a pro-Trump mob stormed the Capitol on Jan. 6, lawmakers began to discuss what should be preserved from the event or if anything should be saved at all. I looked at the efforts and put them in historical context.</p>
+                    </a> <span class="storyheadline">Lawmakers still a long way from deciding what to preserve from insurrection</span></br><p class="explainer">A comprehensive look at how lawmakers may want to preserve Capitol damage from the Jan. 6 riot. </br> <strong>My take: </strong> After a pro-Trump mob stormed the Capitol on Jan. 6, lawmakers began to discuss what should be preserved from the event or if anything should be saved at all. I looked at the efforts and put them in historical context.</p>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="portfolio-item">
                     <a href="https://www.rollcall.com/2019/05/15/grasswho-members-raised-hundreds-of-thousands-almost-none-from-small-donors/" target="_blank">
                       <img class="img-portfolio img-fluid" src="img/hoyer.jpg">
-                    </a> <span class='storyheadline'>Grasswho? Members raised hundreds of thousands, almost none from small donors</span></br><p class="explainer">Looking at how some Democrats, who tout small-dollar contributions as grassroots support, raised small sums that way. </br>
+                    </a> <span class="storyheadline">Grasswho? Members raised hundreds of thousands, almost none from small donors</span></br><p class="explainer">Looking at how some Democrats, who tout small-dollar contributions as grassroots support, raised small sums that way. </br>
                     <strong>My take: </strong> I cleaned and analyzed FEC data using the programming language R. The story is a summary of my findings and original reporting on how some lawmakers drift away from small-dollar donations.</p>
                   </div>
                 </div>
@@ -175,28 +160,28 @@
                   <div class="portfolio-item">
                     <a href="https://www.rollcall.com/2019/04/03/cherry-blossoms-in-winter-global-warming-could-make-it-happen/" target="_blank">
                       <img class="img-portfolio img-fluid" src="img/cherry.jpg">
-                    </a><span class='storyheadline'>Cherry blossoms in winter? Global warming could make it happen</span></br> <p class="explainer">A data-driven story on how warming temperatures would likely mean earlier blooms. </br> <strong>My take: </strong> I used R to help tell a story about how earlier blossoming cherry trees could cause some scheduling snafus for organizers of the National Cherry Blossom Festival. I used R to create a graphic for the piece that showed, historically, when the festival and peak bloom occurred.</p>
+                    </a><span class="storyheadline">Cherry blossoms in winter? Global warming could make it happen</span></br> <p class="explainer">A data-driven story on how warming temperatures would likely mean earlier blooms. </br> <strong>My take: </strong> I used R to help tell a story about how earlier blossoming cherry trees could cause some scheduling snafus for organizers of the National Cherry Blossom Festival. I used R to create a graphic for the piece that showed, historically, when the festival and peak bloom occurred.</p>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="portfolio-item">
                     <a href="https://cnsmaryland.org/2018/11/30/chesapeake-farmers-target-runoff-reduction-lawmakers-seek-conservation-funds/" target="_blank">
                       <img class="img-portfolio img-fluid" src="img/chesapeake.jpg">
-                    </a> <span class='storyheadline'> Chesapeake farmers target runoff reduction, lawmakers seek conservation funds </span></br><p class="explainer">A story about Chesapeake Bay conservation program funding levels in the new farm bill. <br/> <strong>My take: </strong> Two Carto maps were created by joining shapefiles with USDA data in R. The third, about zip codes in Maryland receiving federal funds, was created with data I scraped from the web using the Rvest library. Graphs are built in D3.</p>
+                    </a> <span class="storyheadline"> Chesapeake farmers target runoff reduction, lawmakers seek conservation funds </span></br><p class="explainer">A story about Chesapeake Bay conservation program funding levels in the new farm bill. <br/> <strong>My take: </strong> Two Carto maps were created by joining shapefiles with USDA data in R. The third, about zip codes in Maryland receiving federal funds, was created with data I scraped from the web using the Rvest library. Graphs are built in D3.</p>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="portfolio-item">
                     <a href="https://www.nbcwashington.com/blogs/first-read-dmv/DC-Is-Planting-Thousands-of-Trees-But-Inequity-Remains-490853291.html" target="_blank">
                       <img class="img-portfolio img-fluid" src="img/map.jpg">
-                    </a><span class='storyheadline'>DC Is Planting Thousands of Trees, But Inequity Remains</span></br><p class="explainer">Historically D.C. provided more maintenance to affluent parts of the city, but that's slowly changing. <br/> <strong>My take: </strong> I analyzed the D.C. Tree Inventory with R to see where D.C. trees are planted. Then, I mocked up graphics of my findings and worked with the NBC graphics team to build visuals using Carto and DataWrapper.</p>
+                    </a><span class="storyheadline">DC Is Planting Thousands of Trees, But Inequity Remains</span></br><p class="explainer">Historically D.C. provided more maintenance to affluent parts of the city, but that's slowly changing. <br/> <strong>My take: </strong> I analyzed the D.C. Tree Inventory with R to see where D.C. trees are planted. Then, I mocked up graphics of my findings and worked with the NBC graphics team to build visuals using Carto and DataWrapper.</p>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="portfolio-item">
                     <a href="https://cnsmaryland.org/2018/12/12/with-new-plan-on-pause-ellicott-city-business-owner-feels-stuck/" target="_blank">
                       <img class="img-portfolio img-fluid" src="img/ellicott.jpg">
-                    </a> <span class='storyheadline'> With new plan on pause, Ellicott City business owner feels stuck</span></br><p class="explainer">A plan to buy and demolish 10 buildings on Main Street was put on hold, and that’s frustrated some business owners. <br/><strong>My take: </strong>
+                    </a> <span class="storyheadline"> With new plan on pause, Ellicott City business owner feels stuck</span></br><p class="explainer">A plan to buy and demolish 10 buildings on Main Street was put on hold, and that’s frustrated some business owners. <br/><strong>My take: </strong>
                     I used an R library developed by the USGS to analyze data collected at area stream gauges. I also built two graphics: a GIF I created using QGIS and Photoshop, and another that I built using C3. I took all the photos too.</p>
                   </div>
                 </div>
@@ -204,28 +189,28 @@
                   <div class="portfolio-item">
                     <a href="http://www.newsobserver.com/news/local/counties/wake-county/article87612697.html" target="_blank">
                       <img class="img-portfolio img-fluid" src="img/water.jpeg">
-                    </a> <span class='storyheadline'> Their water is contaminated, and Wake residents want help </span></br> <p class="explainer">The story looks at fouled wells in a Wake area surrounded by city, but without municipal services. <br/> <strong>My take: </strong> The citizen initiative first popped up in county commission meetings. I researched area history in both city and N&O archives. I examined county and EPA records, and interviewed residents.</p>
+                    </a> <span class="storyheadline"> Their water is contaminated, and Wake residents want help </span></br> <p class="explainer">The story looks at fouled wells in a Wake area surrounded by city, but without municipal services. <br/> <strong>My take: </strong> The citizen initiative first popped up in county commission meetings. I researched area history in both city and N&O archives. I examined county and EPA records, and interviewed residents.</p>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="portfolio-item">
                     <a href="http://www.newsobserver.com/news/business/real-estate-news/article155849349.html" target="_blank">
                       <img class="img-portfolio img-fluid" src="img/crane.jpg">
-                    </a> <span class='storyheadline'> 2 years and counting: Crane marks spot of  project in limbo </span></br><p class="explainer">An investigation into why a 7-story apartment building never got built. </br><strong> My take: </strong> After driving by the crane many times, I finally decided to figure out why it hardly moved. Doing that required me to untangle a web of court documents, file an information request and interview neighbors.</p>
+                    </a> <span class="storyheadline"> 2 years and counting: Crane marks spot of  project in limbo </span></br><p class="explainer">An investigation into why a 7-story apartment building never got built. </br><strong> My take: </strong> After driving by the crane many times, I finally decided to figure out why it hardly moved. Doing that required me to untangle a web of court documents, file an information request and interview neighbors.</p>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="portfolio-item">
                     <a href="http://billingsgazette.com/news/local/empty-federal-building-a-big-white-elephant-sitting-downtown/article_88ec1883-7e1d-5664-857d-8887cda7fa48.html" target="_blank">
                       <img class="img-portfolio img-fluid" src="img/Kono.jpg">
-                    </a><span class='storyheadline'>Empty federal building a 'big white elephant sitting downtown'</span></br>  <p class="explainer">The James F. Battin Federal Building was sold by the GSA to Washington-based Colorado Tire Corp. Years later, it's still empty. <br/> <strong>My take: </strong> I searched court records in several states, state and nonprofit databases, and looked through federal filings to track down the company and some of its mysterious activities.</p>
+                    </a><span class="storyheadline">Empty federal building a 'big white elephant sitting downtown'</span></br>  <p class="explainer">The James F. Battin Federal Building was sold by the GSA to Washington-based Colorado Tire Corp. Years later, it's still empty. <br/> <strong>My take: </strong> I searched court records in several states, state and nonprofit databases, and looked through federal filings to track down the company and some of its mysterious activities.</p>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="portfolio-item">
                     <a href="http://billingsgazette.com/news/state-and-regional/montana/increasing-rents-edge-sidney-seniors-from-housing/article_197994fd-40fc-56c7-b432-376e5d5346da.html" target="_blank">
                       <img class="img-portfolio img-fluid" src="img/Sidney_homes.jpg">
-                    </a><span class='storyheadline'>Senior Citizens in the oil patch can't afford rent </span></br><p class="explainer">Some senior citizens living in the oil-boom town of Sidney were paying more in rent than people in New York City.<br/> <strong>My take: </strong> While reporting on other stories, I met people commuting several hours for work in the oil patch because they couldn't find housing. I used U.S. Census data and interviews to tell readers about the area's high rents.</p>
+                    </a><span class="storyheadline">Senior Citizens in the oil patch can't afford rent </span></br><p class="explainer">Some senior citizens living in the oil-boom town of Sidney were paying more in rent than people in New York City.<br/> <strong>My take: </strong> While reporting on other stories, I met people commuting several hours for work in the oil patch because they couldn't find housing. I used U.S. Census data and interviews to tell readers about the area's high rents.</p>
                   </div>
                 </div>
             <!-- /.row (nested) -->
@@ -244,84 +229,90 @@
     <!-- Callout -->
 
    <section id="team" class="team">
-
+    <div class="container">
      <div class="row">
-       <div class="col-lg-6 highchartgraph">
-        <div class="secthead">Skills </div>
-         <div id="skillschart"></div>
-       </div>
-        <div class="col-lg-6 educationbox">
+       <div class="col-md-1"></div>
+         <div class="col-md-5">
+           <div class="secthead">Skills </div>
+           <div id="skillschart"></div>
+         </div>
+         <div class="col-md-5">
           <div class="secthead">Education </div>
-            <div id="educationchart"></div>
+          <div id="educationchart"></div>
           </div>
+        <div class="col-md-1"></div>
       </div>
 
-
-        <div class="col-xs-12 experience">
         <div class="secthead">Experience</div>
-        <div class="col-xs-9 jobbox">
-          <div class="col-xs-9 jobtitle"> Congressional Reporter </div>
-          <div class="col-xs-9 employer">Roll Call, Washington | Jan. 2019 - present</div>
-          <div class="col-xs-9 duties">Write CQ Senate newsletter, news stories and features for one of the most trusted sources on Capitol Hill; Interview members of Congress; Analyze data; Promoted from online editor. </div>
+        <div class="row">
+          <div class="col-md-10" class="jobbox">
+          <div class="jobtitle"> Congressional Reporter </div>
+          <div class="employer">Roll Call, Washington | Jan. 2019 - present</div>
+          <div class="duties">Write CQ Senate newsletter, news stories and features for one of the most trusted sources on Capitol Hill; Interview members of Congress; Analyze data; Promoted from online editor. </div>
         </div> <!--end of jobbox-->
-        <div class="col-xs-9 jobbox">
-          <div class="col-xs-9 jobtitle"> Adjunct Instructor </div>
-          <div class="col-xs-9 employer">University of Maryland, College Park, Maryland | Aug. 2021 - present</div>
-          <div class="col-xs-9 duties">I teach a media graphics course focused on design fundamentals and hands-on design and production of various forms of visual communication, including infographics and websites.</div>
+        <div class="col-md-10" class="jobbox">
+          <div class="jobtitle"> Adjunct Instructor </div>
+          <div class="employer">University of Maryland, College Park, Maryland | Aug. 2021 - present</div>
+          <div class="duties">I teach a media graphics course focused on design fundamentals and hands-on design and production of various forms of visual communication, including infographics and websites.</div>
         </div> <!--end of jobbox-->
-        <div class="col-xs-9 jobbox">
-          <div class="col-xs-9 jobtitle">Digital Editor and Reporter (part-time) </div>
-          <div class="col-xs-9 employer">WTOP News, Washington | May 2018 - Jan. 2019</div>
-          <div class="col-xs-9 duties"> Developed and wrote local news; Edited and compiled articles from reporters; Built multimedia content; Selected wire copy while managing the WTOP website. </div>
+        <div class="col-md-10" class="jobbox">
+          <div class="jobtitle">Digital Editor and Reporter (part-time) </div>
+          <div class="employer">WTOP News, Washington | May 2018 - Jan. 2019</div>
+          <div class="duties"> Developed and wrote local news; Edited and compiled articles from reporters; Built multimedia content; Selected wire copy while managing the WTOP website. </div>
         </div> <!--end of jobbox-->
-        <div class="col-xs-9 jobbox">
-          <div class="col-xs-9 jobtitle">Reporter</div>
-          <div class="col-xs-9 employer">Capital News Service, Washington | Aug. 2018 – Dec. 2018 </div>
-          <div class="col-xs-9 duties">Covered Maryland’s congressional delegation; Used SQL, R, QGIS and others to write data-driven stories on Maryland issues. </div>
+        <div class="col-md-10" class="jobbox">
+          <div class="jobtitle">Reporter</div>
+          <div class="employer">Capital News Service, Washington | Aug. 2018 – Dec. 2018 </div>
+          <div class="duties">Covered Maryland’s congressional delegation; Used SQL, R, QGIS and others to write data-driven stories on Maryland issues. </div>
         </div> <!--end of jobbox-->
-        <div class="col-xs-9 jobbox">
-          <div class="col-xs-9 jobtitle">Intern </div>
-          <div class="col-xs-9 employer">NBC Washington, Washington | June 2018 - August 2018</div>
-          <div class="col-xs-9 duties"> Conduct interviews and write news for NBCWashington.com and the NBC Washington app; Cut and upload videos from broadcasts, build online photo galleries and take photos; Provide support to the digital team. </div>
+        <div class="col-md-10" class="jobbox">
+          <div class="jobtitle">Intern </div>
+          <div class="employer">NBC Washington, Washington | June 2018 - August 2018</div>
+          <div class="duties"> Conduct interviews and write news for NBCWashington.com and the NBC Washington app; Cut and upload videos from broadcasts, build online photo galleries and take photos; Provide support to the digital team. </div>
         </div> <!--end of jobbox-->
-         <div class="col-xs-9 jobbox">
-           <div class="col-xs-9 jobtitle">Graduate Assistant  </div>
-           <div class="col-xs-9 employer"> University of Maryland School of Public Health Dept. of Communication, College Park, Maryland | July 2017 - Dec. 2018</div>
-           <div class="col-xs-9 duties"> As Department of Communications’ graduate assistant, helped the team write press releases and web stories; Managed the website; Collected photos and edited video. </div>
+         <div class="col-md-10" class="jobbox">
+           <div class="jobtitle">Graduate Assistant  </div>
+           <div class="employer"> University of Maryland School of Public Health — Communications, College Park, Maryland | July 2017 - Dec. 2018</div>
+           <div class="duties"> As Department of Communications’ graduate assistant, helped the team write press releases and web stories; Managed the website; Collected photos and edited video. </div>
          </div> <!--end of jobbox-->
-         <div class="col-xs-9 jobbox">
-           <div class="col-xs-9 jobtitle">General Assignment ‘Real Time’ Reporter</div>
-            <div class="col-xs-9 employer">The News & Observer, Raleigh, North Carolina | Mar 2016 - June 2017</div>
-            <div class="col-xs-9 duties">Used social media to write stories for North Carolina’s Pulitzer Prize-winning newspaper; Took photos, video; Covered the 2016 election cycle; Promoted from North Raleigh reporter. </div>
+         <div class="col-md-10" class="jobbox">
+           <div class="jobtitle">General Assignment ‘Real Time’ Reporter</div>
+            <div class="employer">The News & Observer, Raleigh, North Carolina | Mar 2016 - June 2017</div>
+            <div class="duties">Used social media to write stories for North Carolina’s Pulitzer Prize-winning newspaper; Took photos, video; Covered the 2016 election cycle; Promoted from North Raleigh reporter. </div>
          </div> <!--end of jobbox-->
-         <div class="col-xs-9 jobbox">
-           <div class="col-xs-12 jobtitle">Cops and Courts Reporter</div>
-           <div class="col-xs-12 employer">Lynchburg News & Advance, Lynchburg, Virginia | May 2015 – March 2016</div>
-           <div class="col-xs-12 duties"> Monitored and covered criminal, civil and federal courts in five counties and in Lynchburg; Identified and wrote stories about crime trends; Promoted from Bedford County reporter. </div>
+         <div class="col-md-10" class="jobbox">
+           <div class="jobtitle">Cops and Courts Reporter</div>
+           <div class="employer">Lynchburg News & Advance, Lynchburg, Virginia | May 2015 – March 2016</div>
+           <div class="duties"> Monitored and covered criminal, civil and federal courts in five counties and in Lynchburg; Identified and wrote stories about crime trends; Promoted from Bedford County reporter. </div>
          </div> <!--end of jobbox-->
-         <div class="col-xs-12 jobbox">
-           <div class="col-xs-12 jobtitle">General Assignment Reporter</div>
-           <div class="col-xs-12 employer">Billings Gazette Communications, Billings, Montana | Sept. 2013 - May 2015</div>
-           <div class="col-xs-12 duties">Covered Montana State University in Billings; Assisted with courts and metro coverage and breaking news; Took photographs and video. </div>
+         <div class="col-md-10" class="jobbox">
+           <div class="jobtitle">General Assignment Reporter</div>
+           <div class="employer">Billings Gazette Communications, Billings, Montana | Sept. 2013 - May 2015</div>
+           <div class="duties">Covered Montana State University in Billings; Assisted with courts and metro coverage and breaking news; Took photographs and video. </div>
          </div> <!--end of jobbox-->
-         <div class="col-xs-12 jobbox">
-           <div class="col-xs-12 jobtitle">AmeriCorps, Billings, Mont. &  Fairbanks, Alaska </div>
-           <div class="col-xs-12 employer">Self Help Law Center, Jan. 2013 - Sept. 2013; Youth Development Coordinator, Jan. 2012 - Dec. 2012</div>
-           <div class="col-xs-12 duties"> Managed free legal program; Trained volunteers; Wrote grants; Built teaching garden.</div>
+         <div class="col-md-10" class="jobbox">
+           <div class="jobtitle">AmeriCorps, Billings, Mont. &  Fairbanks, Alaska </div>
+           <div class="employer">Self Help Law Center, Jan. 2013 - Sept. 2013; Youth Development Coordinator, Jan. 2012 - Dec. 2012</div>
+           <div class="duties"> Managed free legal program; Trained volunteers; Wrote grants; Built teaching garden.</div>
          </div> <!--end of jobbox-->
+       </div>
            <div class="secthead">Internships</div>
-           <div class="col-xs-12 jobbox">
-             <div class="col-xs-12 jobtitle">NBC Washington,  Washington, D.C. </div>
-             <div class="col-xs-12 employer">Digital Intern, Summer 2018</div>
+           <div class="row">
+           <div class="col-md-10" class="jobbox">
+             <div class="jobtitle">NBC Washington,  Washington, D.C. </div>
+             <div class="employer">Digital Intern, Summer 2018</div>
            </div>
-           <div class="col-xs-12 jobbox">
-             <div class="col-xs-12 jobtitle">WUNC North Carolina Public Radio, Chapel Hill, North Carolina </div>
-             <div class="col-xs-12 employer">The Story with Dick Gordon Intern, Summer 2011; News Intern, Summer 2011</div>
+           <div class="col-md-10" class="jobbox">
+             <div class="jobtitle">WUNC North Carolina Public Radio, Chapel Hill, North Carolina </div>
+             <div class="employer">The Story with Dick Gordon Intern, Summer 2011; News Intern, Summer 2011</div>
            </div> <!--end of jobbox-->`
-       </div> <!--end of experience -->
+         </div>
+</div><!-- close container -->
+
   </section>
 
-
+<!-- close content wrapper div-->
+</div>
     <!-- Contact -->
 
     <!-- Footer -->
@@ -370,219 +361,13 @@
             <p class="text-muted"> &copy; Chris Cioffi 2021</p>
           </div>
         </div>
-      </div>
       <a id="to-top" href="#top" class="btn btn-dark btn-lg js-scroll-trigger">
         <i class="fa fa-chevron-up fa-fw fa-1x"></i>
       </a>
+    </section>
     </footer>
 
 
-
-    <!--unused  Portfolio Modals -->
-
-    <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Threads</li>
-                    <li>Category: Illustration</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Southwest</li>
-                    <li>Category: Website Design</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://code.highcharts.com/highcharts.js"></script>
@@ -600,7 +385,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
-
+  </div>
   </body>
 
   <script>
