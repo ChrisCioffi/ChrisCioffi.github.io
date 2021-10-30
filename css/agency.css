@@ -11,6 +11,10 @@ body {
 p {
   line-height: 1.75; }
 
+.explainer {
+  font-size: 1em;
+}
+
 a {
   color: #fed136; }
   a.active, a:active, a:focus, a:hover {
@@ -44,7 +48,7 @@ section {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding-bottom: 50px;
+  padding-bottom: 5px;
 
 }
 .secthead {
@@ -63,7 +67,7 @@ section {
 }
 .storyheadline {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 800;
   text-align: left!important;
 }
   #skillschart {
@@ -82,20 +86,20 @@ section {
   background-color: 	#E8E8E8;
   font-size: 1em;
   }
-  .jobtitle {
+.jobtitle {
     font-weight: bold;
-    font-size: 3em;
+    font-size: 2em;
     font-family: Garamond, times, serif;
     margin-bottom: 0px;
     }
-  .employer {
-    font-size: 2em;
+.employer {
+    font-size: 1.5em;
     margin-bottom: 10px;
     font-family: "Roboto", arial, sans-serif;
     }
 
-  .duties{
-    font-size: 1.5em;
+.duties{
+    font-size: 1.25em;
     font-family: Garamond, times, serif;
     line-height: 1.25em;
     }
@@ -195,8 +199,7 @@ body {
     text-transform: uppercase; }
   #mainNav .navbar-brand {
     color: #fed136;
-    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
-    font-size: 3em}
+    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;}
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #fec503; }
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -331,7 +334,7 @@ header.masthead {
         }
 
       .duties{
-        font-size: .8em;
+        font-size: 1em;
         font-family: Garamond, times, serif;
         line-height: 1.25em;
         }
@@ -342,7 +345,11 @@ header.masthead {
     }
 
 
-@media (max-width: 767px) {
+@media (max-width: 769px) {
+
+  .navbar-collapse {
+    background-color: black;
+  }
 
   .jobtitle {
     font-weight: bold;
@@ -357,7 +364,7 @@ header.masthead {
     }
 
   .duties{
-    font-size: .8em;
+    font-size: 1em;
     font-family: Garamond, times, serif;
     line-height: 1.25em;
     }
